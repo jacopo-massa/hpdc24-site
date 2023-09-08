@@ -21,3 +21,7 @@ group :jekyll_plugins do
   gem "tzinfo"
   gem "jekyll-minifier"
 end
+
+gem "racc", "~> 1.7"
+
+gem "webrick", "~> 1.8"

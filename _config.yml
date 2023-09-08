@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://iscls.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "127.0.0.1" # the base hostname & protocol for your site, e.g. http://example.com
 css: ./assets/main.css
 
 show_last_updated: True
@@ -55,7 +55,7 @@ exclude:
   - .github/
   - .gitignore
 
-timezone: India/Kolkata
+timezone: Europe/Berlin
 google_analytics: ""
 
 plugins:
