@@ -1,21 +1,21 @@
-full_name: PROVA TITOLO CONFERENZA
-short_name: ISCLS
+full_name: International Symposium on High-Performance Parallel and Distributed Computing
+short_name: HPDC
 description: > # this means to ignore newlines until "baseurl:"
-  ISCLS is a forum for original and unpublished research on various
-  aspects of Computational Linguistics and Digital Humanities related to
-  Sanskrit (Classical and Vedic), Prakrit, Pali, Buddhist Hybrid Sanskrit, etc.
+  The ACM International Symposium on High-Performance Parallel and Distributed Computing (HPDC) 
+  is the premier annual conference for presenting the latest research on the design, implementation, evaluation, 
+  and the use of parallel and distributed systems for high-end computing.
 
-email: iscls@outlook.com
+email: example@example.com
 
-iteration: 7th
-full_title: 7th International Sanskrit Computational Linguistics Symposium
-short_title: 7th ISCLS 2024
+iteration: 33nd
+full_title: 33nd International Symposium on High-Performance Parallel and Distributed Computing
+short_title: 33nd ACM HPDC 2024
 
 year: 2024
 date: February 15-17, 2024
 
-location: Auroville, Puducherry
-country: India
+location: Rome
+country: Italy
 
 logo_path: "" # ./assets/images/logo.jpg
 slideshow:
@@ -96,11 +96,11 @@ deadlines:
   - date: 2024-01-08
     text: Camera-ready due
     pass_due: False
-# sponsors:
-#   - name: ACM
-#     logo_path: ./assets/images/sponsors/acm-logo.png
-#   - name: IEEE
-#     logo_path: ./assets/images/sponsors/ieee-logo.gif
+sponsors:
+  - name: ACM
+    logo_path: ./assets/images/sponsors/acm-logo.png
+  - name: IEEE
+    logo_path: ./assets/images/sponsors/ieee-logo.gif
 social_media:
   facebook_link:
   twitter_link:
