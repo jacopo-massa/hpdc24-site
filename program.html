@@ -6,9 +6,9 @@ slide_id: 4
 
 
 <div class="row mt-xs-0 mt-sm-0 my-2">
-    <div class="col conference-text">
+    <div class="col conference-text text-muted">
         {% if site.data.program.online.live %}
-        <h6 class="text-info">Online</h6>
+        <h5 class="text-info">Online</h5>
         <p>
             The conference will be streamed live{% if site.data.program.online.record %} and recorded for each day{% endif %}.
             <br>
@@ -31,7 +31,8 @@ slide_id: 4
             {% endif %}
         </p>
         {% endif %}
-        <h6 class="text-info">Schedule</h6>
+        <br>
+        <h5>Schedule</h5>
         {% if site.data.program.schedule != nil %}
         {% for day in site.data.schedule %}
         <div>

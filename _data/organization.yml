@@ -1,93 +1,215 @@
-- title: Program Committee Chair
+- title: General Chairs
   column: 1
   members:
-  - name: Arnab Bhattacharya
-    org: IIT Kanpur
+  - name: Patrizio Dazzi
+    org: University of Pisa
     post: ""
-    homepage: https://cse.iitk.ac.in/users/arnabb/
-- title: Organising Chair
+  - name: Gabriele Mencagli
+    org: University of Pisa
+    post: ""
+
+- title: Program Chair
   column: 1
   members:
-  - name: Martin Gluckman
-    org: Sanskrit Research Institute
+  - name: TBA
+    org: 
+    post: ""
+    homepage: 
+
+- title: Local Arrangments Chair
+  column: 1
+  members:
+  - name: Emanuele Carlini
+    org: National Research Council of Italy
     post: ""
     homepage: ""
-- title: Steering Committee
+
+- title: Workshop and Tutorial Chairs
   column: 1
   members:
-  - name: Amba Kulkarni
-    org: University of Hyderabad, Hyderabad, India
-    homepage: https://sanskrit.uohyd.ac.in/faculty/amba/
-  - name: Arnab Bhattacharya
-    org: IIT Kanpur, Kanpur, India
-    homepage: https://cse.iitk.ac.in/users/arnabb/
-  - name: Brendan Gillon
-    org: McGill University, Montreal, Canada
-    homepage: https://www.mcgill.ca/linguistics/brendan-gillon
-  - name: Gérard Huet
-    # org: Institut de France (Académie des Sciences), France
-    org: INRIA, Paris, France
-    homepage: http://pauillac.inria.fr/~huet/
-  # - name: Girish Nath Jha
-  #   org: JNU, Delhi, India
-  #   homepage: https://jnu.ac.in/content/girishjha
-  - name: Malhar Kulkarni
-    org: IIT Bombay, Mumbai, India
-    homepage: https://www.hss.iitb.ac.in/en/faculty-profile/malhar-kulkarni
-  - name: Pawan Goyal
-    org: IIT Kharagpur, Kharagpur, India
-    homepage: https://cse.iitkgp.ac.in/~pawang/
-  - name: Peter Scharf
-    org: Sanskrit Library, USA
-    homepage: https://www.sanskritlibrary.org/cv/profile.html
+  - name: Matteo Mordacchini
+    org: National Research Council of Italy
+    post: ""
+    homepage: ""
+  - name: Yue Cheng
+    org: University of Virginia, USA
+    post: ""
+    homepage: ""
+
+- title: PhD Symposium Chairs
+  column: 1
+  members:
+  - name: Marco Danelutto
+    org: University of Pisa
+    post: ""
+    homepage: ""
+  - name: Valeria Cardellini
+    org: University of Roma Tor Vergata
+    post: ""
+    homepage: ""
+
+- title: Liaisons with EU Projects Chairs
+  column: 1
+  members:
+  - name: Konstantinos Tserpes
+    org: Harkopio University of Athens
+    post: ""
+    homepage: ""
+  - name: Ana Juan Ferrer
+    org: European Commission
+    post: ""
+    homepage: ""
+
+- title: Poster Chairs
+  column: 1
+  members:
+  - name: Massimo Coppola
+    org: National Research Council of Italy
+    post: ""
+    homepage: ""
+  - name: Janki Bhimani
+    org: Florida University, USA
+    post: ""
+    homepage: ""
+
+- title: Publication Chairs
+  column: 1
+  members:
+  - name: Antonis Makris
+    org: Harkopio University of Athens
+    post: ""
+    homepage: ""
+  - name: Rafael ferreira da Silva
+    org: Oak Ridge National Laboratory, TN, USA
+    post: ""
+    homepage: ""
+
+- title: Publicity Chairs
+  column: 1
+  members:
+  - name: Dalvan Griebler
+    org: PUCRS, Brazil
+    post: ""
+    homepage: ""
+  - name: Maria Fazio
+    org: University of Messina, Italy
+    post: ""
+    homepage: ""
+  - name: Minsu Jeon
+    org: KAIST, South Korea
+    post: ""
+    homepage: ""
+  - name: Stefan Nastic
+    org: TUWIEN, Austria
+    post: ""
+    homepage: ""
+  - name: Ali Anwar
+    org: IBM Research (Almaden Research Center, CA, USA)
+    post: ""
+    homepage: ""
+
+- title: Industrial Panel and Sponsorship Chairs
+  column: 1
+  members:
+  - name: Massimo Davini
+    org: University of Pisa
+    post: ""
+    homepage: ""
+  - name: Raffaele Montella
+    org: University Parthenope of Naples
+    post: ""
+    homepage: ""
+
+- title: Registration and Travel Grant Chairs
+  column: 1
+  members:
+  - name: Luca Ferrucci
+    org: University of Pisa
+    post: ""
+    homepage: ""
+  - name: Hanna Kavalionak
+    org: National Research Council of Italy
+    post: ""
+    homepage: ""
+
+- title: Social Media Chairs
+  column: 1
+  members:
+  - name: Stefano Forti
+    org: University of Pisa
+    post: ""
+    homepage: ""
+  - name: Lishan Yang
+    org: George Mason University, USA
+    post: ""
+    homepage: ""
+
+- title: Web chair
+  column: 1
+  members:
+  - name: Jacopo Massa
+    org: University of Pisa
+    homepage: 
+
+- title: Steering Committee
+  column: 2
+  members:
+  - name: Jon Weissman (co-chair)
+    org: University of Minnesota, USA
+    homepage: #https://sanskrit.uohyd.ac.in/faculty/amba/
+  - name: Devesh Tiwari (co-chair)		
+    org: Northeastern University, USA
+    homepage: #https://sanskrit.uohyd.ac.in/faculty/amba/  
+  - name: Ali Butt
+    org: Virginia Tech, USA
+    homepage: #https://sanskrit.uohyd.ac.in/faculty/amba/
+  - name: Abhishek Chandra
+    org: University of Minnesota, USA
+    homepage: #https://sanskrit.uohyd.ac.in/faculty/amba/
+  - name: Peter Dinda
+    org: Northwestern University, USA
+    homepage: #https://sanskrit.uohyd.ac.in/faculty/amba/
+  - name: Salim Hariri
+    org: University of Arizona, USA
+    homepage: #https://sanskrit.uohyd.ac.in/faculty/amba/
+  - name: Dean Hildebrand
+    org: Google Inc., USA
+    homepage: #https://sanskrit.uohyd.ac.in/faculty/amba/
+  - name: David Irwin
+    org: UMass Amherst, USA
+    homepage: #https://sanskrit.uohyd.ac.in/faculty/amba/
+  - name: Jack Lange
+    org: University of Pittsburgh and Oak Ridge National Laboratory USA
+    homepage: #https://sanskrit.uohyd.ac.in/faculty/amba/
+  - name: Arthur "Barney" Maccabe
+    org: Oak Ridge National Lab, USA
+    homepage: #https://sanskrit.uohyd.ac.in/faculty/amba/
+  - name: Kathryn Mohror
+    org: Lawrence Berkeley National Lab, USA
+    homepage: #https://sanskrit.uohyd.ac.in/faculty/amba/
+  - name: Manish Parashar
+    org: Rutgers University, USA
+    homepage: #https://sanskrit.uohyd.ac.in/faculty/amba/
+  - name: Lavanya Ramakrishnan
+    org: Lawrence Berkeley National Lab, USA
+    homepage: #https://sanskrit.uohyd.ac.in/faculty/amba/
+  - name: Evgenia Smirni
+    org: William and Mary, USA
+    homepage: #https://sanskrit.uohyd.ac.in/faculty/amba/
+  - name: Michela Taufer
+    org: University of Delaware, USA
+    homepage: #https://sanskrit.uohyd.ac.in/faculty/amba/
+  - name: Douglas Thain
+    org: University of Notre Dame, France
+    homepage: #https://sanskrit.uohyd.ac.in/faculty/amba/
+
+
+
+
 - title: Technical Program Committe
   column: 2
   members:
-  - name: Amba Kulkarni
-    org: University of Hyderabad, Hyderabad, India
-    homepage: https://sanskrit.uohyd.ac.in/faculty/amba/
-  # - name: Andrew Ollett
-  #   org: Harvard University, Cambridge, MA
-  #   homepage: ""
-  - name: Arjuna S R
-    org: Manipal Academy of Higher Education, Bengaluru, India
-    homepage: "https://manipal.edu/mu/campuses/mahe-bengaluru/academics/institution-list/dlhs/faculty-members/arjuna-sr.html"
-  - name: Arnab Bhattacharya
-    org: IIT Kanpur, Kanpur, India
-    homepage: https://cse.iitk.ac.in/users/arnabb/
-  - name: Brendan Gillon
-    org: McGill University, Montreal, Canada
-    homepage: https://www.mcgill.ca/linguistics/brendan-gillon
-  - name: Ganesh Ramakrishnan
-    org: IIT Bombay, Mumbai, India
-    homepage: https://www.cse.iitb.ac.in/~ganesh/
-  - name: Gérard Huet
-    org: INRIA, Paris, France
-    homepage: http://pauillac.inria.fr/~huet/
-  # - name: Olivier Hellwig
-  #   org: University of Zurich
-  #   homepage: ""
-  - name: Pavan Kumar Satuluri
-    org: Chinmaya Vishwavidyapeeth, Veliyanad, India
-    homepage: https://www.cvv.ac.in/faculties/dr-pavankumar-satuluri
-  - name: Pawan Goyal
-    homepage: https://cse.iitkgp.ac.in/~pawang/
-    org: IIT Kharagpur, Kharagpur, India
-  - name: Peter Scharf
-    org: Sanskrit Library, USA
-    homepage: https://www.sanskritlibrary.org/cv/profile.html
-  - name: Shivani V
-    org: Karnataka Sanskrit University, Karnataka, India
-    homepage: ""
-  - name: Tanuja P Ajotikar
-    org: The Sanskrit Library, USA
-    homepage: https://www.sanskritlibrary.org/cv/profiletanu.html
-  # - name: K Varalakshmi
-  #   org: Osmania University, Hyderabad
-  #   homepage: ""
-- title: Webmaster
-  column: 1
-  members:
-  - name: Hrishikesh Terdalkar
-    org: IIT Kanpur, Kanpur, India
-    homepage: "https://hrishikeshrt.github.io"
+  - name: TBA
+    org: #
+    homepage: #
+

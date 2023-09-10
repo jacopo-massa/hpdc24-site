@@ -3,25 +3,51 @@ title: Venue
 layout: page
 slide_id: 5
 ---
-
+<br>
 <div class="row mt-xs-0 mt-sm-0 my-2">
     <div class="col text-muted">
-
         <p>
             The {{site.data.conference.full_title}} is scheduled on
             {{site.data.conference.date}} and will be held in
             {{site.data.conference.location}},
-            {{site.data.conference.country}}
+            {{site.data.conference.country}}.
+            The main conference will take place at the <strong> Conference Center 
+            "Polo Piagge" of the University of Pisa</strong>, whereas the workshops and the tutorials will
+            be organized at the <strong>Department of Computer Science of the University of Pisa.</strong>
         </p>
+    </div>
+</div>
 
-        <h6 class="text-info">Conference Location</h6>
+<div class="row mt-xs-0 mt-sm-0 my-2">
+    <div class="col text-muted">
+        <h5>Conference Locations</h5>
+    </div>
+</div>
 
+<div class="row mt-xs-0 mt-sm-0 my-2">
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
         <p>
-            {{site.data.venue.address}}
+            {{site.data.venue.conf_address}}
         </p>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+        <p>
+            {{site.data.venue.ws_address}}
+        </p>
+    </div>
+</div>
 
-        <h6 class="text-info">Accommodations</h6>
+<div class="row mt-xs-0 mt-sm-0 my-2">
+    <div class="col text-muted">
+        <h5>City Map</h5>
 
+        <img class="img-fluid" src="{{site.data.venue.direction}}" alt="direction">
+    </div>
+</div>
+
+<div class="row mt-xs-0 mt-sm-0 my-2">
+    <div class="col text-muted">
+        <h5>Accommodations</h5>
         <p>
             {{site.data.venue.accommodation.instructions}}
         </p>
@@ -33,14 +59,14 @@ slide_id: 5
             {% endfor %}
         </ul>
         {% endif %}
-
-        <h6 class="text-info">Directions</h6>
-
+    </div>
+</div>
+<div class="row mt-xs-0 mt-sm-0 my-2">
+    <div class="col text-muted">
+        <h5>Directions</h5>
         <p>
             {{site.data.venue.directions}}
         </p>
-
-        <img class="img-fluid" src="{{site.data.venue.direction}}" alt="direction">
-
     </div>
 </div>
+

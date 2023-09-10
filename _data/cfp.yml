@@ -1,41 +1,23 @@
 description: >
-  Full papers are invited on original and unpublished research on various
-  aspects of Computational Linguistics and Digital Humanities related to
-  Sanskrit (Classical and Vedic), Prakrit, Pali, Buddhist Hybrid Sanskrit, etc.
+  The ACM International Symposium on High-Performance Parallel and Distributed Computing (HPDC) is the premier annual conference for presenting the latest research on the design, implementation, evaluation, and use of parallel and distributed systems for high-performance computing.
+  <br><br> The 33rd HPDC will be held in Pisa, Italy, June 3-7, 2024.
+
 submission: ./submission.html
-areas:
-- category: "Sanskrit Computational Linguistics: with Extensions to Related Ancient Indian Languages (Vedic, Pali, Prakrit)"
-  topics:
-    - Digital lexicons, thesauri and wordnets
-    - Computational phonology and morphology
-    - Syntactic analysis
-    - Prose order normalisation
-    - Parsing
-    - Discourse analysis
-    - Structural semantics
-    - Machine translation
-    - Automatic analysis of Sanskrit corpus
-    - Navya-Nyāya and other technical language processing
-    - Information extraction
-    - Named entity recognition
-- category: "Shāstric Sanskrit Texts and Computation"
-  topics:
-    - Computer modeling and simulation of Paninian and other traditional grammars
-    - Theories of Śābdabodha and Sanskrit computational processing
-- category: "Sanskrit Digital Libraries Management"
-  topics:
-    - Tools for acquisition and maintenance of Sanskrit digital corpus
-    - Library crawlers or search tools in Sanskrit corpus
-    - Incorporation of grammatical information in Sanskrit corpus
-    - Automated tools for evaluation of Sanskrit poetry, e.g., meter recognition/verification, alaṃkāra identification, śleṣa analysis
-    - Software tools for phylogenic studies, intertextuality management, establishment of critical editions, and other philological applications
-    - OCR recognition of romanized Sanskrit as well as ancient Indian scripts
-    - Digital cataloguing of manuscripts
-    - Annotation and editing
-    - Alignment of text with images (including manuscripts)
-    - User interface design
-- category: "Miscellaneous Computer Applications Relevant to Sanskrit"
-  topics:
-    - Software tools for teaching Sanskrit
-    - Sanskrit speech recognition and synthesis
-    - Tools and applications for Sanskrit dissemination
+
+scope: >
+  Submissions are welcomed on high-performance parallel and distributed computing topics including but not limited to: clouds, clusters, grids, big data, massively multicore, and extreme-scale computing systems. Submissions presenting new open-source tools or data are encouraged. Experience reports of operational deployments that present novel insights for future research on HPDC applications and systems are also welcome. In the context of high-performance parallel and distributed computing, the topics of interest include, but are not limited to:
+
+topics:
+- Datacenter, HPC, cloud, serverless, and edge/IoT computing platforms
+- Heterogeneous computing accelerators and non-volatile memory systems
+- File and storage systems, I/O, and data management
+- Operating systems and networks
+- System software and middleware for parallel and distributed systems
+- Programming languages and runtime systems
+- Big data stacks and big data ecosystems
+- Scientific applications, algorithms, and workflows
+- Resource management and scheduling
+- Performance modeling, benchmarking, and engineering
+- Fault tolerance, reliability, and availability
+- Operational guarantees, risk assessment, and management
+- Novel post-Moore computing technologies including neuromorphic, brain-inspired computing, and quantum computing.

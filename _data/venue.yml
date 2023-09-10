@@ -1,13 +1,27 @@
-address: >
-  Sanskrit Research Institute,
-  Auroville, Puducherry,
-  India
 directions: >
   TBA
+direction: ./assets/images/direction.png
+conf_address: >
+  <strong>
+  Main Conference:
+  </strong><br>
+  Polo Piagge,<br>
+  University of Pisa,<br>
+  Via Giacomo Matteotti 11, <br>
+  56124 Pisa, PI, Italy
+
+ws_address: >  
+  <strong>
+  Workshops and Tutorials:
+  </strong><br>
+  Department of Computer Science,<br>
+  University of Pisa,<br>
+  Largo Bruno Pontecorvo 3, <br>
+  56127 Pisa, PI, Italy
+
 accommodation:
   instructions: >
     TBA
   hotels:
     - name: TBA
       address: TBA
-direction: ./assets/images/direction.png

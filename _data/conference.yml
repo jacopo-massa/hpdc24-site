@@ -9,52 +9,54 @@ email: example@example.com
 
 iteration: 33nd
 full_title: 33nd International Symposium on High-Performance Parallel and Distributed Computing
-short_title: 33nd ACM HPDC 2024
+short_title: HPDC 2024
 
 year: 2024
-date: February 15-17, 2024
+date: June 3-7, 2024
 
-location: Rome
+location: Pisa
 country: Italy
 
-logo_path: "" # ./assets/images/logo.jpg
+logo_path: "./assets/images/logo.png" # 
+logosmall_path: "./assets/images/logosmall.png" # 
+
 slideshow:
   - id: 0
-    image_path: ./assets/images/slideshow/0-auroville-beach.jpg
-    description: Auroville Beach
-    photographer_name: ""
+    image_path: ./assets/images/slideshow/Pisa.jpg #./assets/images/slideshow/0-auroville-beach.jpg
+    description: HPDC 2024
+    photographer_name: "Pisa, Italy"
     photographer_link: ""
     active: True
-  - id: 1
-    image_path: ./assets/images/slideshow/1-matrimandir.jpeg
-    description: Matrimandir
-    photographer_name: ""
-    photographer_link: ""
-  - id: 2
-    image_path: ./assets/images/slideshow/2-promenade-beach.webp
-    description: Promenade Beach
-    photographer_name: ""
-    photographer_link: ""
-  - id: 3
-    image_path: ./assets/images/slideshow/3-whitetown.jpg
-    description: White Town
-    photographer_name: ""
-    photographer_link: ""
-  - id: 4
-    image_path: ./assets/images/slideshow/4-manakula-vinayagar-temple.jpg
-    description: Manakula Vinayagar Temple
-    photographer_name: ""
-    photographer_link: ""
-  - id: 5
-    image_path: ./assets/images/slideshow/5-auroville.png
-    description: Auroville
-    photographer_name: ""
-    photographer_link: ""
-  - id: 6
-    image_path: ./assets/images/slideshow/6-mahabalipuram.jpg
-    description: Temple, Mahabalipuram
-    photographer_name: ""
-    photographer_link: ""
+ # - id: 1
+ #   image_path: ./assets/images/slideshow/1-matrimandir.jpeg
+  #   description: Matrimandir
+  #   photographer_name: ""
+  #   photographer_link: ""
+  # - id: 2
+  #   image_path: ./assets/images/slideshow/2-promenade-beach.webp
+  #   description: Promenade Beach
+  #   photographer_name: ""
+  #   photographer_link: ""
+  # - id: 3
+  #   image_path: ./assets/images/slideshow/3-whitetown.jpg
+  #   description: White Town
+  #   photographer_name: ""
+  #   photographer_link: ""
+  # - id: 4
+  #   image_path: ./assets/images/slideshow/4-manakula-vinayagar-temple.jpg
+  #   description: Manakula Vinayagar Temple
+  #   photographer_name: ""
+  #   photographer_link: ""
+  # - id: 5
+  #   image_path: ./assets/images/slideshow/5-auroville.png
+  #   description: Auroville
+  #   photographer_name: ""
+  #   photographer_link: ""
+  # - id: 6
+  #   image_path: ./assets/images/slideshow/6-mahabalipuram.jpg
+  #   description: Temple, Mahabalipuram
+  #   photographer_name: ""
+  #   photographer_link: ""
 navbar:
   - id: 0
     label: Home
@@ -65,61 +67,52 @@ navbar:
     path: /organization.html
     visible: True
   - id: 2
-    label: Call for Papers
+    label: Calls
     path: /cfp.html
     visible: True
+  # - id: 3
+  #   label: Submission
+  #   path: /submission.html
+  #   visible: True
   - id: 3
-    label: Submission
-    path: /submission.html
-    visible: True
-  - id: 4
-    label: Programs
+    label: Program
     path: /program.html
     visible: True
-  - id: 5
+  - id: 4
     label: Venue
     path: /venue.html
     visible: True
-  - id: 6
+  - id: 5
     label: Registration
     path: /registration.html
     visible: True
+
 deadline_timezone: AoE
 deadlines:
-  - date: 2023-09-18
-    # timezone: AoE
-    text: Submission deadline
+  - date: TBD
+    text: Workshops and Tutorial proposals' deadline
     pass_due: False
-  - date: 2023-11-20
-    text: Notification of acceptance
+  - date: TBD
+    text: Notification of acceptance (Workshops and Tutorials)
     pass_due: False
-  - date: 2024-01-08
+  - date: TBD
+    text: Paper Submission deadline
+    pass_due: False
+  - date: TBD
+    text: Notification of acceptance (Papers)
+    pass_due: False
+  - date: TBD
     text: Camera-ready due
     pass_due: False
 sponsors:
   - name: ACM
     logo_path: ./assets/images/sponsors/acm-logo.png
-  - name: IEEE
-    logo_path: ./assets/images/sponsors/ieee-logo.gif
+  #- name: IEEE
+  #  logo_path: ./assets/images/sponsors/ieee-logo.gif
 social_media:
   facebook_link:
   twitter_link:
 previous_iterations:
-  - name: 6th ISCLS
-    year: 2019
-    url: https://iscls.github.io/iscls2019/
-  - name: 5th ISCLS
-    year: 2013
-    url: https://sites.google.com/site/5isclc2013/Home
-  - name: 4th ISCLS
-    year: 2010
-    url: http://sanskrit.jnu.ac.in/conf/4iscls/index.jsp
-  - name: 3rd ISCLS
-    year: 2009
-    url: https://sanskrit.inria.fr/Symposium/Symposium3.html
-  - name: 2nd ISCLS
-    year: 2008
-    url: https://sanskritlibrary.org/symposium2/home.html
-  - name: 1st ISCLS
-    year: 2007
-    url: https://sanskrit.inria.fr/Symposium/
+  - name: HPDC Conference series
+    year: website
+    url: https://www.hpdc.org
