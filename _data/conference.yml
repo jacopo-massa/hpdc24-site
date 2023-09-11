@@ -22,7 +22,7 @@ logosmall_path: "./assets/images/logosmall.png" #
 
 slideshow:
   - id: 0
-    image_path: ./assets/images/slideshow/Pisa.jpg #./assets/images/slideshow/0-auroville-beach.jpg
+    image_path: ./assets/images/slideshow/Pisa-acm.jpg #./assets/images/slideshow/0-auroville-beach.jpg
     description: HPDC 2024
     photographer_name: "Pisa, Italy"
     photographer_link: ""

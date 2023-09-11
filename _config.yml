@@ -14,6 +14,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "127.0.0.1" # the base hostname & protocol for your site, e.g. http://example.com
 css: ./assets/main.css
@@ -36,6 +44,16 @@ jekyll-minifier:
   compress_javascript: true         # Default: true
   compress_json: true               # Default: true
   compress_js_templates: true       # Default: false
+
+
+jekyll_admin:
+  hidden_links:
+    - posts
+    - pages
+    - staticfiles
+    - datafiles
+    - configuration
+  homepage: "datafiles"
 
 # Build settings
 markdown: kramdown
@@ -60,3 +78,4 @@ google_analytics: ""
 
 plugins:
   - jekyll-minifier
+  - jekyll-admin

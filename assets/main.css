@@ -72,7 +72,7 @@ body {
 
 .card {
     margin-top: 0.25rem;
-    margin-bottom: 1.25rem;
+    margin-bottom: 1.0rem;
     border-radius: 5px;
     overflow: hidden;
 }
@@ -91,12 +91,12 @@ body {
 }
 
 .committee {
-    padding: 8px;
+    padding: 3px;
     border-top: 0.05rem solid #e5e5e5;
 }
 
 .committee p {
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .card-header {

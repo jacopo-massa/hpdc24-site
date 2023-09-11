@@ -1,8 +1,10 @@
 ---
 layout: page
 ---
+
 <div class="row">
-    <div class="col text-muted">
+    <div class="col">
+        <br>
         <p class="lead">
             The {{site.data.conference.full_title}} is scheduled on {{site.data.conference.date}} and will be held in
             {{site.data.conference.location}}, {{site.data.conference.country}}.
@@ -19,7 +21,7 @@ layout: page
             {{site.data.conference.description}}
         </p>
 
-        {{content}}
+        {{site.data.homepage.content}}
 
         {% include contact-us.html %}
 

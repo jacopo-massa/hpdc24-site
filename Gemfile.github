@@ -20,6 +20,7 @@ group :jekyll_plugins do
   gem "tzinfo-data"
   gem "tzinfo"
   gem "jekyll-minifier"
+  gem "jekyll-admin"
 end
 
 gem "racc", "~> 1.7"
