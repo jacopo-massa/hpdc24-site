@@ -68,7 +68,7 @@ navbar:
     visible: True
   - id: 2
     label: Calls
-    path: /cfp.html
+    path: /+calls.html
     visible: True
   # - id: 3
   #   label: Submission
