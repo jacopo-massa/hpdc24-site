@@ -46,15 +46,6 @@ jekyll-minifier:
   compress_js_templates: true       # Default: false
 
 
-jekyll_admin:
-  hidden_links:
-    - posts
-    - pages
-    - staticfiles
-    - datafiles
-    - configuration
-  homepage: "datafiles"
-
 # Build settings
 markdown: kramdown
 exclude:
@@ -78,4 +69,3 @@ google_analytics: ""
 
 plugins:
   - jekyll-minifier
-  - jekyll-admin

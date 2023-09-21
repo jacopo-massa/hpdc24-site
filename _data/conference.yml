@@ -3,9 +3,13 @@ short_name: HPDC
 description: > # this means to ignore newlines until "baseurl:"
   The ACM International Symposium on High-Performance Parallel and Distributed Computing (HPDC) 
   is the premier annual conference for presenting the latest research on the design, implementation, evaluation, 
-  and the use of parallel and distributed systems for high-end computing.
+  and the use of parallel and distributed systems for high-end computing.  <br>  <br>
 
-email: example@example.com
+
+  HPDC 2024 is jointly hosted by the University of Pisa and the National Research Council of Italy. 
+  HPDC 2024 will take place in two different locations (additional details can be found [here]({% link /organization.html %}) ):
+
+email: hpdc2024@...
 
 iteration: 33nd
 full_title: 33nd International Symposium on High-Performance Parallel and Distributed Computing
@@ -74,18 +78,18 @@ navbar:
   #   label: Submission
   #   path: /submission.html
   #   visible: True
+  # - id: 4
+  #   label: Program
+  #   path: /program.html
+  #   visible: True
   - id: 3
-    label: Program
-    path: /program.html
-    visible: True
-  - id: 4
     label: Venue
     path: /venue.html
     visible: True
-  - id: 5
-    label: Registration
-    path: /registration.html
-    visible: True
+  # - id: 5
+  #   label: Registration
+  #   path: /registration.html
+  #   visible: True
 
 deadline_timezone: AoE
 deadlines:

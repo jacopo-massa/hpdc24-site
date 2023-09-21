@@ -5,10 +5,13 @@ layout: page
 <div class="row">
     <div class="col">
         <br>
+        <center>
         <p class="lead">
+
             The {{site.data.conference.full_title}} is scheduled on {{site.data.conference.date}} and will be held in
             {{site.data.conference.location}}, {{site.data.conference.country}}.
-        </p>
+
+        </p>        </center>
     </div>
 </div>
 
@@ -21,8 +24,7 @@ layout: page
             {{site.data.conference.description}}
         </p>
 
-        {{site.data.homepage.content}}
-
+        {% include conference_venue.html %}
         {% include contact-us.html %}
 
     </div>
