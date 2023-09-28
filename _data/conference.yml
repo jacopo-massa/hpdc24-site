@@ -31,36 +31,7 @@ slideshow:
     photographer_name: "Pisa, Italy"
     photographer_link: ""
     active: True
- # - id: 1
- #   image_path: ./assets/images/slideshow/1-matrimandir.jpeg
-  #   description: Matrimandir
-  #   photographer_name: ""
-  #   photographer_link: ""
-  # - id: 2
-  #   image_path: ./assets/images/slideshow/2-promenade-beach.webp
-  #   description: Promenade Beach
-  #   photographer_name: ""
-  #   photographer_link: ""
-  # - id: 3
-  #   image_path: ./assets/images/slideshow/3-whitetown.jpg
-  #   description: White Town
-  #   photographer_name: ""
-  #   photographer_link: ""
-  # - id: 4
-  #   image_path: ./assets/images/slideshow/4-manakula-vinayagar-temple.jpg
-  #   description: Manakula Vinayagar Temple
-  #   photographer_name: ""
-  #   photographer_link: ""
-  # - id: 5
-  #   image_path: ./assets/images/slideshow/5-auroville.png
-  #   description: Auroville
-  #   photographer_name: ""
-  #   photographer_link: ""
-  # - id: 6
-  #   image_path: ./assets/images/slideshow/6-mahabalipuram.jpg
-  #   description: Temple, Mahabalipuram
-  #   photographer_name: ""
-  #   photographer_link: ""
+    
 navbar:
   - id: 0
     label: Home
@@ -72,7 +43,7 @@ navbar:
     visible: True
   - id: 2
     label: Calls
-    path: /+calls.html
+    path: /calls.html
     visible: True
   # - id: 3
   #   label: Submission
