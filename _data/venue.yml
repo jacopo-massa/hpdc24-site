@@ -1,5 +1,4 @@
-directions: >
-  TBA
+
 direction: ./assets/images/direction.png
 conf_address: >
   <strong>

@@ -11,33 +11,35 @@ layout: page
             The {{site.data.conference.full_title}} is scheduled on {{site.data.conference.date}} and will be held in
             {{site.data.conference.location}}, {{site.data.conference.country}}.
 
-        </p>        </center>
+        </p>        
+        </center>
     </div>
 </div>
 
-
 <div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 my-2 text-justify conference-text">
-
-        <!--<h5>{{site.data.conference.short_title}}!</h5>-->
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 conference-text">
         <p>
             {{site.data.conference.description}}
         </p>
-
-        {% include conference_venue.html %}
-        {% include contact-us.html %}
-
     </div>
-
-
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 conference-text">
         <!--######### important dates ##########-->
-        {% include card-important-dates.html %}
-        <!--####################################-->
+        <!-- {% include card-important-dates.html %} -->
         <!--######### news #####################-->
         {% include card-news.html %}
         <!--####################################-->
     </div>
 </div>
+
+<div class="row">
+    <div class="col conference-text">
+        <p>
+            {{site.data.conference.sub_description}}
+        </p>
+    </div>
+</div>
+
+
+{% include conference_venue.html %}
 
 {% include sponsors.html %}

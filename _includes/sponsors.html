@@ -1,6 +1,6 @@
 <div class="row sponsor">
     <div class="col">
-        <h5>Sponsors</h5>
+        <h5>Sponsored by:</h5>
         {% if site.data.conference.sponsors == nil %}
         <div class="alert alert-warning rounded text-center mx-3 my-5">
             TBA
@@ -9,6 +9,21 @@
         <div class="row mx-1 my-1">
             {% for sponsor in site.data.conference.sponsors %}
                 <img class="img-fluid mr-auto d-inline-block mb-2 mt-2" src="{{ site.baseurl }}{{ sponsor.logo_path }}" alt="{{ sponsor.name }}">
+            {% endfor %}
+        </div>
+        {% endif %}
+    </div>
+
+    <div class="col">
+        <h5>Organized in cooperation with: </h5>
+        {% if site.data.conference.cooperation_with == nil %}
+        <div class="alert alert-warning rounded text-center mx-3 my-5">
+            TBA
+        </div>
+        {% else %}
+        <div class="row mx-1 my-1">
+            {% for collab in site.data.conference.cooperation_with %}
+                <img class="img-fluid mr-auto d-inline-block mb-2 mt-2" src="{{ site.baseurl }}{{ collab.logo_path }}" alt="{{ collab.name }}">
             {% endfor %}
         </div>
         {% endif %}

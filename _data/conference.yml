@@ -3,16 +3,16 @@ short_name: HPDC
 description: > # this means to ignore newlines until "baseurl:"
   The ACM International Symposium on High-Performance Parallel and Distributed Computing (HPDC) 
   is the premier annual conference for presenting the latest research on the design, implementation, evaluation, 
-  and the use of parallel and distributed systems for high-end computing.  <br>  <br>
+  and the use of parallel and distributed systems for high-end computing.
 
-
+sub_description: >
   HPDC 2024 is jointly hosted by the University of Pisa and the National Research Council of Italy. 
-  HPDC 2024 will take place in two different locations (additional details can be found [here]({% link /organization.html %}) ):
+  HPDC 2024 will take place in two different locations.
 
-email: hpdc2024@...
+email: "patrizio.dazzi@unipi.it, gabriele.mencagli@unipi.it"
 
-iteration: 33nd
-full_title: 33nd International Symposium on High-Performance Parallel and Distributed Computing
+iteration: 33rd
+full_title: 33rd International Symposium on High-Performance Parallel and Distributed Computing
 short_title: HPDC 2024
 
 year: 2024
@@ -61,25 +61,16 @@ navbar:
   #   label: Registration
   #   path: /registration.html
   #   visible: True
-
-deadline_timezone: AoE
-deadlines:
-  - date: TBD
-    text: Workshops and Tutorial proposals' deadline
-    pass_due: False
-  - date: TBD
-    text: Notification of acceptance (Workshops and Tutorials)
-    pass_due: False
-  - date: TBD
-    text: Paper Submission deadline
-    pass_due: False
-  - date: TBD
-    text: Notification of acceptance (Papers)
-    pass_due: False
-  - date: TBD
-    text: Camera-ready due
-    pass_due: False
+cooperation_with:
+  - name: SIGHPC
+    logo_path: ./assets/images/sponsors/sighpc-logo.png
+  - name: UNIPI
+    logo_path: ./assets/images/sponsors/unipi-large.png
+  - name: CNR
+    logo_path: ./assets/images/sponsors/cnr.png
 sponsors:
+  - name: SIGARCH
+    logo_path: ./assets/images/sponsors/sigarch-logo.png
   - name: ACM
     logo_path: ./assets/images/sponsors/acm-logo.png
   #- name: IEEE

@@ -1,0 +1,26 @@
+deadline_timezone: AoE
+deadlines:
+  - date: TBA #23/10/2024
+    text: Workshops and Tutorial proposals' <em> early </em> deadline
+    pass_due: False
+  - date: TBA
+    text: Workshops and Tutorial proposals' <em> late </em> deadline
+    pass_due: False
+  - date: TBA
+    text: Notification of acceptance (Workshops and Tutorials)
+    pass_due: False
+  - date: TBA
+    text: Paper Submission deadline
+    pass_due: False
+  - date: TBA
+    text: Notification of acceptance (Papers)
+    pass_due: False
+  - date: TBA
+    text: Camera-ready due (Papers)
+    pass_due: False
+  - date: TBA
+    text: Poster Submission deadline
+    pass_due: False
+  - date: TBA
+    text: Notification of acceptance (Posters)
+    pass_due: False

@@ -1,10 +1,12 @@
-portal: CMT3 Submission Portal
-url: "https://cmt3.research.microsoft.com/ISCLS2024"
+portal: HotCRP Submission Portal
+url: ""
 
 file_formats:
   - PDF
 languages:
   - English
+
+wks_email: "<a href=\"mailto:matteo.mordacchini@iit.cnr.it\"> matteo.mordacchini@iit.cnr.it </a>, <a href=\"mailto:mrz7dp@virginia.edu\"> mrz7dp@virginia.edu </a>"
 
 review_mode: 1
 # 0: double blind
