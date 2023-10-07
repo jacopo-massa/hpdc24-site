@@ -1,7 +1,7 @@
 full_name: International Symposium on High-Performance Parallel and Distributed Computing
 short_name: HPDC
 description: > # this means to ignore newlines until "baseurl:"
-  The ACM International Symposium on High-Performance Parallel and Distributed Computing (HPDC) 
+  The ACM International Symposium on High-Performance, Parallel and Distributed Computing (HPDC) 
   is the premier annual conference for presenting the latest research on the design, implementation, evaluation, 
   and the use of parallel and distributed systems for high-end computing.
 
