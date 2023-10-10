@@ -24,4 +24,8 @@ group :jekyll_plugins do
   gem "tzinfo-data"
   gem "tzinfo"
   gem "jekyll-minifier"
+  gem "jekyll-twitter-plugin"
+  gem "webrick"
+  gem "jekyll-gist"
 end
+

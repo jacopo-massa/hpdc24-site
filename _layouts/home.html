@@ -20,6 +20,8 @@ layout: page
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 conference-text">
         <p>
             {{site.data.conference.description}}
+            {% include conference_venue.html %}
+            {% include sponsors.html %}
         </p>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 conference-text">
@@ -27,21 +29,13 @@ layout: page
         <!-- {% include card-important-dates.html %} -->
         <!--######### news #####################-->
         {% include card-news.html %}
+        {% include card-social.html %}
         <!--####################################-->
-    </div>
-</div>
 
-<div class="row">
-    <div class="col conference-text">
-        <p>
-            {{site.data.conference.sub_description}}
-        </p>
     </div>
+
+
 </div>
 
 
-{% include conference_venue.html %}
 
-{% include contact-us.html %}
-
-{% include sponsors.html %}

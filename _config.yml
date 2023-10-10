@@ -69,3 +69,4 @@ google_analytics: ""
 
 plugins:
   - jekyll-minifier
+  - jekyll-gist

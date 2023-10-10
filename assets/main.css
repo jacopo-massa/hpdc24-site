@@ -35,6 +35,13 @@ body {
     font-size: 1.5em;
 }
 
+
+div.tweets {
+    height: 420px;
+    overflow: scroll;
+    text-size: 1em;
+}
+
 .alert,
 .card,
 .jumbotron,
