@@ -77,7 +77,7 @@ sponsors:
   #  logo_path: ./assets/images/sponsors/ieee-logo.gif
 social_media:
   facebook_link:
-  twitter_link:
+  twitter_link: https://x.com/ACM_HPDC?s=20
 previous_iterations:
   - name: HPDC Conference series
     year: website
