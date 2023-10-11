@@ -4,15 +4,18 @@
   - name: Patrizio Dazzi
     org: University of Pisa
     post: ""
+    homepage: "http://pages.di.unipi.it/dazzi/"
+
   - name: Gabriele Mencagli
     org: University of Pisa
     post: ""
+    homepage: "http://pages.di.unipi.it/mencagli/"
 
 - title: Program Chair
   column: 1
   members:
   - name: TBA
-    org: 
+    org: ""
     post: ""
     homepage: 
 
@@ -149,7 +152,7 @@
   members:
   - name: Jacopo Massa
     org: University of Pisa
-    homepage: 
+    homepage: "http://pages.di.unipi.it/massa"
 
 - title: Steering Committee
   column: 2

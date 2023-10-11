@@ -15,7 +15,11 @@ slide_id: 1
             {% for member in committee.members %}
             <div class="card-block bg-light committee">
                 <p>
-                    <a href="{{ member.homepage }}"><strong>{{ member.name }}</strong></a>
+                    {% if member.homepage %}
+                    <a target="_blank" href="{{ member.homepage }}"><strong>{{ member.name }}</strong></a>
+                    {% else %}
+                    <strong>{{ member.name }}</strong>
+                    {% endif %}
                 </p>
                 {% if member.post %}
                 <p class="card-subtitle text-muted" style="font-size: 90%;">{{ member.post }}</p>
@@ -46,7 +50,11 @@ slide_id: 1
             {% for member in committee.members %}
             <div class="card-block bg-light committee">
                 <p>
-                    <a href="{{ member.homepage }}"><strong>{{ member.name }}</strong></a>
+                    {% if member.homepage %}
+                    <a target="_blank" href="{{ member.homepage }}"><strong>{{ member.name }}</strong></a>
+                    {% else %}
+                    <strong>{{ member.name }}</strong>
+                    {% endif %}
                 </p>
                 {% if member.post %}
                 <p class="card-subtitle text-muted" style="font-size: 90%;">{{ member.post }}</p>
