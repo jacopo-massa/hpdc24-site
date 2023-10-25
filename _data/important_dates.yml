@@ -1,13 +1,16 @@
 deadline_timezone: AoE
 deadlines:
-  - date: TBA
+  - date: 06/11/2023
     text: Workshops and Tutorial proposals' <em> early </em> deadline
     pass_due: False
-  - date: TBA
+  - date: 13/11/2023
+    text: Notification of acceptance (Workshops and Tutorials) - early submissions
+    pass_due: False
+  - date: 04/12/2023
     text: Workshops and Tutorial proposals' <em> late </em> deadline
     pass_due: False
-  - date: TBA
-    text: Notification of acceptance (Workshops and Tutorials)
+  - date: 11/12/2023
+    text: Notification of acceptance (Workshops and Tutorials) - early submissions
     pass_due: False
   - date: TBA
     text: Paper Submission deadline

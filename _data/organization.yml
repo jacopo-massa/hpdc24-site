@@ -14,10 +14,14 @@
 - title: Program Chair
   column: 1
   members:
-  - name: TBA
-    org: ""
+  - name: Rosa M. Badia
+    org: Barcelona Supercomputing Center, Spain
     post: ""
-    homepage: 
+    homepage: ""
+  - name: David K. Lowenthal
+    org: University of Arizona, USA
+    post: ""
+    homepage: ""
 
 - title: Local Arrangments Chair
   column: 1
@@ -71,7 +75,7 @@
     post: ""
     homepage: ""
   - name: Janki Bhimani
-    org: Florida University, USA
+    org: Florida International University, USA
     post: ""
     homepage: ""
 

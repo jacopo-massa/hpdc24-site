@@ -31,3 +31,17 @@ topics:
 - Fault tolerance, reliability, and availability
 - Operational guarantees, risk assessment, and management
 - Novel post-Moore computing technologies including neuromorphic, brain-inspired computing, and quantum computing.
+
+pages_call:
+  - name: General Info
+    url: "/calls.html"
+#  - name: Papers
+#    url: "/calls-cfp.html"
+  - name: Workshops and Tutorials
+    url: "/calls-wst.html"
+#  - name: European Projects
+#    url: "/calls-EUP.html"
+#  - name: PhD Symposium
+#    url: "/calls-phd.html"
+#  - name: Posters
+#    url: "/calls-phd.html"

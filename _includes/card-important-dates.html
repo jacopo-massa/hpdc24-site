@@ -14,12 +14,12 @@
                             {% if deadline.pass_due %}
                             <del>
                             {% endif %}
-                                <p>{{ deadline.text }}:
+                                <p>
                                 {% if deadline.timezone %}
                                 {{ deadline.date | date: "%B %e, %Y." }} ({{ deadline.timezone }})
                                 {% else %}
                                 <strong>{{ deadline.date | date: "%B %e, %Y." }}</strong>
-                                {% endif %}</p>
+                                {% endif %} {{ deadline.text }}</p>
                             {% if deadline.pass_due %}
                             </del>
                             {% endif %}

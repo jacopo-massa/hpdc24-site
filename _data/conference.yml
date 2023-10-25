@@ -22,7 +22,8 @@ location: Pisa
 country: Italy
 
 logo_path: "./assets/images/logo.png" # 
-logosmall_path: "./assets/images/logosmall.png" # 
+logosmall_path: "./assets/images/logosmall.png" #
+calls: "/calls.html"
 
 slideshow:
   - id: 0
