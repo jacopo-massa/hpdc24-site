@@ -34,14 +34,14 @@ topics:
 
 pages_call:
   - name: General Info
-    url: "/calls.html"
+    url: "./calls.html"
 #  - name: Papers
-#    url: "/calls-cfp.html"
+#    url: "./calls-cfp.html"
   - name: Workshops and Tutorials
-    url: "/calls-wst.html"
+    url: "./calls-wst.html"
 #  - name: European Projects
-#    url: "/calls-EUP.html"
+#    url: "./calls-EUP.html"
 #  - name: PhD Symposium
-#    url: "/calls-phd.html"
+#    url: "./calls-phd.html"
 #  - name: Posters
-#    url: "/calls-phd.html"
+#    url: "./calls-phd.html"
