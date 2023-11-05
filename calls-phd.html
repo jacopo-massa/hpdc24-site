@@ -1,27 +1,46 @@
 ---
-title: Call for Papers
+title: Call for PhD Symposium Papers
 layout: page
 ---
-
-<div class="row mt-2">
+To be announced!
+<br>
+<!--<div class="row mt-2">
     <div class="col text-justify conference-text">
         <p id=papers class="lead">Call for Papers</p>
         <h6>Scope and Topics</h6>
-        {{ site.data.cfp.scope }}
+    </div>
+</div>
 
-        {% if site.data.cfp %}
+<div class="row mt-2">
+    <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 text-justify conference-text">
+       <p id=papers class="lead">Call for Papers</p>
+        <h6>Scope and Topics</h6>
+        {{ site.data.calls.scope }}
+
+        {% if site.data.calls %}
         <p>
             The areas of interest include, but are not limited to:
         </p>
         <ul>
-            {% for topic in site.data.cfp.topics %}
+            {% for topic in site.data.calls.topics %}
             <li>{{topic}}</li>
             {% endfor %}
         </ul>
         {% endif %}
 
+    </div>
+
+    <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 conference-text">
+        {% include card-important-dates.html %}
+        {% include card-calls-back.html %}
+        {% include card-cfp-inner.html %}
+    </div>
+</div>-->
+<!--
+<div class="row mt-2">
+    <div class="text-justify conference-text">
         <br>
-        <h6>Paper Submission Categories</h6>
+        <h6 id="categories">Paper Submission Categories</h6>
         <p> Submissions can be made in one of the following two categories: (1) regular papers, or (2) open-source tools
             or data papers.
             The primary focus of "regular papers" should be to describe new research ideas supported by experimental
@@ -60,9 +79,11 @@ layout: page
             the submission can not
             be changed after the submission deadline.
         </p>
+    </div>
 
+    <div class="text-justify conference-text">
         <br>
-        <h6>Submission Guidelines</h6>
+        <h6 id="guidelines">Submission Guidelines</h6>
         <p>
             Authors are invited to submit technical papers of at most 11 double column pages in PDF format, excluding
             references.
@@ -72,34 +93,35 @@ layout: page
 
             Papers should be formatted in the ACM Proceedings Style and submitted via the HotCRP submission website.
             Papers should use the
-            double column format (in Latex this can be done by using the ‘sigconf’ class as follows
-            \documentclass[sigconf]{acmart})
-            Submitted papers must be original work that has not appeared in and is not under consideration for another
-            conference or journal.
-            The author list must be removed for double-blind review.
+            double column format (in Latex this can be done by using the "sigconf" class as follows:
 
-            We recognize that time-constrained rebuttal periods can be challenging for some members of our HPDC
-            community. Also, uniformly
-            ensuring high quality of the rebuttal component for all papers is difficult due to time constraints.
-            Therefore, there will be NO
-            rebuttal or revision phase, which will shorten the review period and provide feedback to authors quickly.
+        <pre>   \documentclass[sigconf]{acmart}</pre>
+        Submitted papers must be original work that has not appeared in and is not under consideration for another
+        conference or journal.
+        The author list must be removed for double-blind review.
 
-            To promote fair and equitable reviewing, HPDC will use a double-blind review process. Please refer to
-            “Anonymizing Submissions”
-            for detailed guidelines. Research has shown that single-blind reviewing can disadvantage authors from
-            under-represented groups.
-            Guidance for anonymizing submissions is described below.
+        We recognize that time-constrained rebuttal periods can be challenging for some members of our HPDC
+        community. Also, uniformly
+        ensuring high quality of the rebuttal component for all papers is difficult due to time constraints.
+        Therefore, there will be NO
+        rebuttal or revision phase, which will shorten the review period and provide feedback to authors quickly.
 
-            You are requested to submit your research paper using the {{site.data.submission.portal}}:
-            <a target="_blank" href="{{site.data.submission.url}}">{{site.data.submission.url}}</a>.
+        To promote fair and equitable reviewing, HPDC will use a double-blind review process. Please refer to
+        “Anonymizing Submissions”
+        for detailed guidelines. Research has shown that single-blind reviewing can disadvantage authors from
+        under-represented groups.
+        Guidance for anonymizing submissions is described below.
 
-            The submissions must conform to the <a target="_blank" href="{{site.data.cfp.submission}}">Submission Guidelines</a>,
-            and must not exceed {{site.data.submission.pagelimit}} pages including text, figures and references.
-            The submissions should include the title, abstract, and names and affiliations of all authors.
+        You are requested to submit your research paper using the {{site.data.submission.portal}}:
+        <a target="_blank" href={{site.data.submission.url}}">{{site.data.submission.url}}</a>.
+
+        The submissions must conform to the <a target="_blank" href="{{site.data.cfp.submission}}">Submission Guidelines</a>,
+        and must not exceed {{site.data.submission.pagelimit}} pages including text, figures and references.
+        The submissions should include the title, abstract, and names and affiliations of all authors.
         </p>
 
         <br>
-        <h6>Suggested format for Introduction section</h6>
+        <h6 id="intro">Suggested format for Introduction section</h6>
         <p>
             Authors are encouraged (but not required) to structure their introduction section of the paper in the
             following format
@@ -140,7 +162,7 @@ layout: page
         </p>
 
         <br>
-        <h6>Anonymizing Submissions</h6>
+        <h6 id="anonymization">Anonymizing Submissions</h6>
         <p>
             HPDC will continue to use a double-blind review process. Please make a good-faith attempt to anonymize your
             submission.
@@ -172,13 +194,13 @@ layout: page
         </p>
 
         <br>
-        <h6>Confidential Information</h6>
+        <h6 id="confidentiality">Confidential Information</h6>
         <p> Papers containing information that is subject to a non-disclosure agreement (NDA) will not be considered for
             review.
         </p>
 
         <br>
-        <h6>arXiv Submission Policy</h6>
+        <h6 id="arxiv">arXiv Submission Policy</h6>
         <p> A prior version of a paper shared on arXiv does not prohibit authors from submitting to HPDC 2023. arXiv
             papers are not
             peer-reviewed and are not considered as formal publications. Authors are not expected to compare against
@@ -194,11 +216,11 @@ layout: page
 
 
         <br>
-        <h6>Author List After Acceptance</h6>
+        <h6 id="authlist">Author List After Acceptance</h6>
         <p> The author list cannot be changed after acceptance. </p>
 
         <br>
-        <h6>Conflict of Interest Declaratione</h6>
+        <h6 id="conflicts">Conflict of Interest Declaratione</h6>
         <p> At the time of submission, all authors must indicate their conflict of interest with the PC members. A
             conflict of interest may
             be institutional, collaborative, or personal. Please see detailed guidelines about how to accurately declare
@@ -206,7 +228,7 @@ layout: page
             interest on the submission website. </p>
 
         <br>
-        <h6>Ethical Guidelines</h6>
+        <h6 id="ethical">Ethical Guidelines</h6>
         <p> If your research describes a new security-related attack, please consider adding information about
             responsible disclosure.
             Overall, as appropriate and relevant, the paper should follow ethical principles and not alter the
@@ -214,7 +236,7 @@ layout: page
             expectations of the associated human users. </p>
 
         <br>
-        <h6>Inclusivity</h6>
+        <h6 id="inclusivity">Inclusivity</h6>
         <p> HPDC is committed to promoting diversity, equity, and inclusion. Staying at the forefront of high
             performance and distributed
             computing requires the contributions and perspectives of people with diverse backgrounds. The conference
@@ -252,5 +274,5 @@ layout: page
         </ul>
 
         <h6><a href="/calls.html"> Go back to Calls </a></h6>
-    </div>
+    </div>-->
 </div>

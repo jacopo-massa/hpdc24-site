@@ -2,16 +2,16 @@
   column: 1
   members:
   - name: Patrizio Dazzi
-    org: University of Pisa
+    org: University of Pisa, Italy
     post: ""
     homepage: "http://pages.di.unipi.it/dazzi/"
 
   - name: Gabriele Mencagli
-    org: University of Pisa
+    org: University of Pisa, Italy
     post: ""
     homepage: "http://pages.di.unipi.it/mencagli/"
 
-- title: Program Chair
+- title: Program Chairs
   column: 1
   members:
   - name: Rosa M. Badia
@@ -31,7 +31,7 @@
     post: ""
     homepage: ""
 
-- title: Workshop and Tutorial Chairs
+- title: Workshop and Tutorials Chairs
   column: 1
   members:
   - name: Matteo Mordacchini
@@ -47,11 +47,11 @@
   column: 1
   members:
   - name: Marco Danelutto
-    org: University of Pisa
+    org: University of Pisa, Italy
     post: ""
     homepage: ""
   - name: Valeria Cardellini
-    org: University of Roma Tor Vergata
+    org: University of Roma Tor Vergata, Italy
     post: ""
     homepage: ""
 
@@ -59,7 +59,7 @@
   column: 1
   members:
   - name: Konstantinos Tserpes
-    org: Harkopio University of Athens
+    org: Harkopio University of Athens, Greece
     post: ""
     homepage: ""
   - name: Ana Juan Ferrer
@@ -83,7 +83,7 @@
   column: 1
   members:
   - name: Antonis Makris
-    org: Harkopio University of Athens
+    org: Harkopio University of Athens, Greece
     post: ""
     homepage: ""
   - name: Rafael ferreira da Silva
@@ -111,7 +111,7 @@
     post: ""
     homepage: ""
   - name: Ali Anwar
-    org: IBM Research (Almaden Research Center, CA, USA)
+    org: University of Minnesota, USA
     post: ""
     homepage: ""
 
@@ -119,11 +119,11 @@
   column: 1
   members:
   - name: Maurizio Davini
-    org: University of Pisa 
+    org: University of Pisa, Italy
     post: ""
     homepage: ""
   - name: Raffaele Montella
-    org: University Parthenope of Naples
+    org: University Parthenope of Naples, Italy
     post: ""
     homepage: ""
 
@@ -131,7 +131,7 @@
   column: 1
   members:
   - name: Luca Ferrucci
-    org: University of Pisa
+    org: University of Pisa, Italy
     post: ""
     homepage: ""
   - name: Hanna Kavalionak
@@ -143,7 +143,7 @@
   column: 1
   members:
   - name: Stefano Forti
-    org: University of Pisa
+    org: University of Pisa, Italy
     post: ""
     homepage: ""
   - name: Lishan Yang
@@ -155,7 +155,7 @@
   column: 1
   members:
   - name: Jacopo Massa
-    org: University of Pisa
+    org: University of Pisa, Italy
     homepage: "http://pages.di.unipi.it/massa"
 
 - title: Steering Committee

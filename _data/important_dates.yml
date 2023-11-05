@@ -1,23 +1,29 @@
 deadline_timezone: AoE
 deadlines:
   - date: 06/11/2023
-    text: Workshops and Tutorial proposals' <em> early </em> deadline
+    text: Workshops and Tutorials proposals' <em> early </em> deadline
     pass_due: False
   - date: 13/11/2023
     text: Notification of acceptance (Workshops and Tutorials) - early submissions
     pass_due: False
   - date: 04/12/2023
-    text: Workshops and Tutorial proposals' <em> late </em> deadline
+    text: Workshops and Tutorials proposals' <em> late </em> deadline
     pass_due: False
   - date: 11/12/2023
-    text: Notification of acceptance (Workshops and Tutorials) - early submissions
+    text: Notification of acceptance (Workshops and Tutorials) - late submissions
     pass_due: False
-  - date: TBA
-    text: Paper Submission deadline
+  - date: 14/03/2024
+    text: Posters submission deadline
     pass_due: False
-  - date: TBA
-    text: Notification of acceptance (Papers)
+  - date: 28/05/2024
+    text: Posters notification deadline
     pass_due: False
-  - date: TBA
-    text: Camera-ready due
-    pass_due: False
+#  - date: TBA
+#    text: Paper Submission deadline
+#    pass_due: False
+#  - date: TBA
+#    text: Notification of acceptance (Papers)
+#    pass_due: False
+#  - date: TBA
+#    text: Camera-ready due
+#    pass_due: False
