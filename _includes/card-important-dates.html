@@ -10,20 +10,25 @@
             {% if site.data.important_dates.deadlines %}
                 {% for deadline in site.data.important_dates.deadlines %}
 
-                        <li class="list-group-item bg-light text-muted">
-                            {% if deadline.pass_due %}
-                            <del>
-                            {% endif %}
-                                <p>
-                                {% if deadline.timezone %}
-                                {{ deadline.date | date: "%B %e, %Y." }} ({{ deadline.timezone }})
-                                {% else %}
-                                <strong>{{ deadline.date | date: "%B %e, %Y." }}</strong>
-                                {% endif %} {{ deadline.text }}</p>
-                            {% if deadline.pass_due %}
-                            </del>
-                            {% endif %}
-                        </li>
+                        {% if deadline.type == page.mytype or page.mytype == "GEN" %}
+
+                            <li class="list-group-item bg-light text-muted">
+                                {% if deadline.pass_due %}
+                                <del>
+                                {% endif %}
+                                    <p>
+                                    {% if deadline.timezone %}
+                                    {{ deadline.date | date: "%B %e, %Y." }} ({{ deadline.timezone }})
+                                    {% else %}
+                                    <strong>{{ deadline.date | date: "%B %e, %Y." }}</strong>
+                                    {% endif %} {{ deadline.text }}</p>
+                                {% if deadline.pass_due %}
+                                </del>
+                                {% endif %}
+                            </li>
+
+                        {% endif %}
+
                 {% endfor %}
             {% else %}
                 <li class="list-group-item bg-light text-muted">TBA</li>

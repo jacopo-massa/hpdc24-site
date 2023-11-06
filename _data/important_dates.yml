@@ -3,21 +3,27 @@ deadlines:
   - date: 06/11/2023
     text: Workshops and Tutorials proposals' <em> early </em> deadline
     pass_due: False
+    type: WST
   - date: 13/11/2023
     text: Notification of acceptance (Workshops and Tutorials) - early submissions
     pass_due: False
+    type: WST
   - date: 04/12/2023
     text: Workshops and Tutorials proposals' <em> late </em> deadline
     pass_due: False
+    type: WST
   - date: 11/12/2023
     text: Notification of acceptance (Workshops and Tutorials) - late submissions
     pass_due: False
+    type: WST
   - date: 14/03/2024
     text: Posters submission deadline
     pass_due: False
-  - date: 28/05/2024
-    text: Posters notification deadline
+    type: POS
+  - date: 28/03/2024
+    text: Notification of acceptance (Posters)
     pass_due: False
+    type: POS
 #  - date: TBA
 #    text: Paper Submission deadline
 #    pass_due: False
