@@ -1,4 +1,8 @@
 _site
 .jekyll-metadata
+.jekyll-cache
+.tweet-cache
+.idea
 Gemfile.lock
 *.DS_Store
+
