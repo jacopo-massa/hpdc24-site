@@ -56,6 +56,7 @@ exclude:
   - Makefile
   - README.md
   - INSTALL.md
+  - COMMAND.md
   - TODO.md
   - CREDITS.md
   - LICENSE
