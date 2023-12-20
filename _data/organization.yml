@@ -127,7 +127,7 @@
     post: ""
     homepage: ""
 
-- title: Registration and Travel Grant Chairs
+- title: Registration Chairs
   column: 1
   members:
   - name: Luca Ferrucci
@@ -136,6 +136,18 @@
     homepage: ""
   - name: Hanna Kavalionak
     org: National Research Council of Italy
+    post: ""
+    homepage: ""
+
+- title: Travel Grant Chairs
+  column: 1
+  members:
+  - name: Azad Ariful
+    org:  Indiana University Bloomington, USA
+    post: ""
+    homepage: ""
+  - name: Li Dong
+    org: University of California Merced, USA
     post: ""
     homepage: ""
 
