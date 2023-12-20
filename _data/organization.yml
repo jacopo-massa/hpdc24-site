@@ -1,234 +1,470 @@
 - title: General Chairs
   column: 1
   members:
-  - name: Patrizio Dazzi
-    org: University of Pisa, Italy
-    post: ""
-    homepage: "http://pages.di.unipi.it/dazzi/"
+    - name: Patrizio Dazzi
+      org: University of Pisa, Italy
+      post: ""
+      homepage: "http://pages.di.unipi.it/dazzi/"
 
-  - name: Gabriele Mencagli
-    org: University of Pisa, Italy
-    post: ""
-    homepage: "http://pages.di.unipi.it/mencagli/"
+    - name: Gabriele Mencagli
+      org: University of Pisa, Italy
+      post: ""
+      homepage: "http://pages.di.unipi.it/mencagli/"
 
 - title: Program Chairs
   column: 1
   members:
-  - name: Rosa M. Badia
-    org: Barcelona Supercomputing Center, Spain
-    post: ""
-    homepage: ""
-  - name: David K. Lowenthal
-    org: University of Arizona, USA
-    post: ""
-    homepage: ""
+    - name: Rosa M. Badia
+      org: Barcelona Supercomputing Center, Spain
+      post: ""
+      homepage: ""
+    - name: David K. Lowenthal
+      org: University of Arizona, USA
+      post: ""
+      homepage: ""
 
 - title: Local Arrangments Chair
   column: 1
   members:
-  - name: Emanuele Carlini
-    org: National Research Council of Italy
-    post: ""
-    homepage: ""
+    - name: Emanuele Carlini
+      org: National Research Council of Italy
+      post: ""
+      homepage: ""
 
 - title: Workshop and Tutorials Chairs
   column: 1
   members:
-  - name: Matteo Mordacchini
-    org: National Research Council of Italy
-    post: ""
-    homepage: ""
-  - name: Yue Cheng
-    org: University of Virginia, USA
-    post: ""
-    homepage: ""
+    - name: Matteo Mordacchini
+      org: National Research Council of Italy
+      post: ""
+      homepage: ""
+    - name: Yue Cheng
+      org: University of Virginia, USA
+      post: ""
+      homepage: ""
 
 - title: PhD Symposium Chairs
   column: 1
   members:
-  - name: Marco Danelutto
-    org: University of Pisa, Italy
-    post: ""
-    homepage: ""
-  - name: Valeria Cardellini
-    org: University of Roma Tor Vergata, Italy
-    post: ""
-    homepage: ""
+    - name: Marco Danelutto
+      org: University of Pisa, Italy
+      post: ""
+      homepage: ""
+    - name: Valeria Cardellini
+      org: University of Roma Tor Vergata, Italy
+      post: ""
+      homepage: ""
 
 - title: Liaisons with EU Projects Chairs
   column: 1
   members:
-  - name: Konstantinos Tserpes
-    org: Harkopio University of Athens, Greece
-    post: ""
-    homepage: ""
-  - name: Ana Juan Ferrer
-    org: European Commission
-    post: ""
-    homepage: ""
+    - name: Konstantinos Tserpes
+      org: Harkopio University of Athens, Greece
+      post: ""
+      homepage: ""
+    - name: Ana Juan Ferrer
+      org: European Commission
+      post: ""
+      homepage: ""
 
 - title: Poster Chairs
   column: 1
   members:
-  - name: Massimo Coppola
-    org: National Research Council of Italy
-    post: ""
-    homepage: ""
-  - name: Janki Bhimani
-    org: Florida International University, USA
-    post: ""
-    homepage: ""
+    - name: Massimo Coppola
+      org: National Research Council of Italy
+      post: ""
+      homepage: ""
+    - name: Janki Bhimani
+      org: Florida International University, USA
+      post: ""
+      homepage: ""
 
 - title: Publication Chairs
   column: 1
   members:
-  - name: Antonis Makris
-    org: Harkopio University of Athens, Greece
-    post: ""
-    homepage: ""
-  - name: Rafael ferreira da Silva
-    org: Oak Ridge National Laboratory, TN, USA
-    post: ""
-    homepage: ""
+    - name: Antonis Makris
+      org: Harkopio University of Athens, Greece
+      post: ""
+      homepage: ""
+    - name: Rafael ferreira da Silva
+      org: Oak Ridge National Laboratory, TN, USA
+      post: ""
+      homepage: ""
 
 - title: Publicity Chairs
   column: 1
   members:
-  - name: Dalvan Griebler
-    org: PUCRS, Brazil
-    post: ""
-    homepage: ""
-  - name: Maria Fazio
-    org: University of Messina, Italy
-    post: ""
-    homepage: ""
-  - name: Minsu Jeon
-    org: KAIST, South Korea
-    post: ""
-    homepage: ""
-  - name: Stefan Nastic
-    org: TUWIEN, Austria
-    post: ""
-    homepage: ""
-  - name: Ali Anwar
-    org: University of Minnesota, USA
-    post: ""
-    homepage: ""
+    - name: Dalvan Griebler
+      org: PUCRS, Brazil
+      post: ""
+      homepage: ""
+    - name: Maria Fazio
+      org: University of Messina, Italy
+      post: ""
+      homepage: ""
+    - name: Minsu Jeon
+      org: KAIST, South Korea
+      post: ""
+      homepage: ""
+    - name: Stefan Nastic
+      org: TUWIEN, Austria
+      post: ""
+      homepage: ""
+    - name: Ali Anwar
+      org: University of Minnesota, USA
+      post: ""
+      homepage: ""
 
 - title: Industrial Panel and Sponsorship Chairs
   column: 1
   members:
-  - name: Maurizio Davini
-    org: University of Pisa, Italy
-    post: ""
-    homepage: ""
-  - name: Raffaele Montella
-    org: University Parthenope of Naples, Italy
-    post: ""
-    homepage: ""
+    - name: Maurizio Davini
+      org: University of Pisa, Italy
+      post: ""
+      homepage: ""
+    - name: Raffaele Montella
+      org: University Parthenope of Naples, Italy
+      post: ""
+      homepage: ""
 
 - title: Registration Chairs
   column: 1
   members:
-  - name: Luca Ferrucci
-    org: University of Pisa, Italy
-    post: ""
-    homepage: ""
-  - name: Hanna Kavalionak
-    org: National Research Council of Italy
-    post: ""
-    homepage: ""
+    - name: Luca Ferrucci
+      org: University of Pisa, Italy
+      post: ""
+      homepage: ""
+    - name: Hanna Kavalionak
+      org: National Research Council of Italy
+      post: ""
+      homepage: ""
 
 - title: Travel Grant Chairs
   column: 1
   members:
-  - name: Azad Ariful
-    org:  Indiana University Bloomington, USA
-    post: ""
-    homepage: ""
-  - name: Li Dong
-    org: University of California Merced, USA
-    post: ""
-    homepage: ""
+    - name: Azad Ariful
+      org: Indiana University Bloomington, USA
+      post: ""
+      homepage: ""
+    - name: Li Dong
+      org: University of California Merced, USA
+      post: ""
+      homepage: ""
 
 - title: Social Media Chairs
   column: 1
   members:
-  - name: Stefano Forti
-    org: University of Pisa, Italy
-    post: ""
-    homepage: ""
-  - name: Lishan Yang
-    org: George Mason University, USA
-    post: ""
-    homepage: ""
+    - name: Stefano Forti
+      org: University of Pisa, Italy
+      post: ""
+      homepage: ""
+    - name: Lishan Yang
+      org: George Mason University, USA
+      post: ""
+      homepage: ""
 
 - title: Web chair
   column: 1
   members:
-  - name: Jacopo Massa
-    org: University of Pisa, Italy
-    homepage: "http://pages.di.unipi.it/massa"
+    - name: Jacopo Massa
+      org: University of Pisa, Italy
+      homepage: "http://pages.di.unipi.it/massa"
 
 - title: Steering Committee
   column: 2
   members:
-  - name: Jon Weissman (co-chair)
-    org: University of Minnesota, USA
-    homepage: #https://sanskrit.uohyd.ac.in/faculty/amba/
-  - name: Devesh Tiwari (co-chair)		
-    org: Northeastern University, USA
-    homepage: #https://sanskrit.uohyd.ac.in/faculty/amba/  
-  - name: Ali Butt
-    org: Virginia Tech, USA
-    homepage: #https://sanskrit.uohyd.ac.in/faculty/amba/
-  - name: Abhishek Chandra
-    org: University of Minnesota, USA
-    homepage: #https://sanskrit.uohyd.ac.in/faculty/amba/
-  - name: Peter Dinda
-    org: Northwestern University, USA
-    homepage: #https://sanskrit.uohyd.ac.in/faculty/amba/
-  - name: Salim Hariri
-    org: University of Arizona, USA
-    homepage: #https://sanskrit.uohyd.ac.in/faculty/amba/
-  - name: Dean Hildebrand
-    org: Google Inc., USA
-    homepage: #https://sanskrit.uohyd.ac.in/faculty/amba/
-  - name: David Irwin
-    org: UMass Amherst, USA
-    homepage: #https://sanskrit.uohyd.ac.in/faculty/amba/
-  - name: Jack Lange
-    org: University of Pittsburgh and Oak Ridge National Laboratory USA
-    homepage: #https://sanskrit.uohyd.ac.in/faculty/amba/
-  - name: Arthur "Barney" Maccabe
-    org: Oak Ridge National Lab, USA
-    homepage: #https://sanskrit.uohyd.ac.in/faculty/amba/
-  - name: Kathryn Mohror
-    org: Lawrence Berkeley National Lab, USA
-    homepage: #https://sanskrit.uohyd.ac.in/faculty/amba/
-  - name: Manish Parashar
-    org: Rutgers University, USA
-    homepage: #https://sanskrit.uohyd.ac.in/faculty/amba/
-  - name: Lavanya Ramakrishnan
-    org: Lawrence Berkeley National Lab, USA
-    homepage: #https://sanskrit.uohyd.ac.in/faculty/amba/
-  - name: Evgenia Smirni
-    org: William and Mary, USA
-    homepage: #https://sanskrit.uohyd.ac.in/faculty/amba/
-  - name: Michela Taufer
-    org: University of Delaware, USA
-    homepage: #https://sanskrit.uohyd.ac.in/faculty/amba/
-  - name: Douglas Thain
-    org: University of Notre Dame, France
-    homepage: #https://sanskrit.uohyd.ac.in/faculty/amba/
-
-
-
+    - name: Jon Weissman (co-chair)
+      org: University of Minnesota, USA
+      homepage: #
+    - name: Devesh Tiwari (co-chair)
+      org: Northeastern University, USA
+      homepage: #
+    - name: Ali Butt
+      org: Virginia Tech, USA
+      homepage: #
+    - name: Abhishek Chandra
+      org: University of Minnesota, USA
+      homepage: #
+    - name: Peter Dinda
+      org: Northwestern University, USA
+      homepage: #
+    - name: Salim Hariri
+      org: University of Arizona, USA
+      homepage: #
+    - name: Dean Hildebrand
+      org: Google Inc., USA
+      homepage: #
+    - name: David Irwin
+      org: UMass Amherst, USA
+      homepage: #
+    - name: Jack Lange
+      org: University of Pittsburgh and Oak Ridge National Laboratory USA
+      homepage: #
+    - name: Arthur "Barney" Maccabe
+      org: Oak Ridge National Lab, USA
+      homepage: #
+    - name: Kathryn Mohror
+      org: Lawrence Berkeley National Lab, USA
+      homepage: #
+    - name: Manish Parashar
+      org: Rutgers University, USA
+      homepage: #
+    - name: Lavanya Ramakrishnan
+      org: Lawrence Berkeley National Lab, USA
+      homepage: #
+    - name: Evgenia Smirni
+      org: William and Mary, USA
+      homepage: #
+    - name: Michela Taufer
+      org: University of Delaware, USA
+      homepage: #
+    - name: Douglas Thain
+      org: University of Notre Dame, France
+      homepage: #
 
 - title: Technical Program Committe
   column: 2
   members:
-  - name: TBA
-    org: #
-    homepage: #
+    - name: Alfredo Goldman
+      org: USP, Brazil
+      homepage: #
 
+    - name: Ana-Lucia Varbanescu
+      org: University of Twente, Netherlands
+      homepage: #
+
+    - name: Antonio J. Peña
+      org: Barcelona Supercomputing Center, Spain
+      homepage: #
+
+    - name: Balazs Gerofi
+      org: Intel Corporation, USA
+      homepage: #
+
+    - name: Bogdan Nicolae
+      org: Argonne National Laboratory, USA
+      homepage: #
+
+    - name: Brian Kocoloski
+      org: Information Sciences Institute, USA
+      homepage: #
+
+    - name: Changhee Jung
+      org: Purdue University, USA
+      homepage: #
+
+    - name: Dejan Milojicic
+      org: Hewlett Packard Labs, USA
+      homepage: #
+
+    - name: Devesh Tiwari
+      org: Northeastern University, USA
+      homepage: #
+
+    - name: Douglas Thain
+      org: University of Notre Dame, USA
+      homepage: #
+
+    - name: Franck Cappello
+      org: Argonne National Laboratory, USA
+      homepage: #
+
+    - name: Jack Lange
+      org: Oak Ridge National Lab, USA
+      homepage: #
+
+    - name: Kyle Chard
+      org: Univ. of Chicago/Argonne National Laboratory, USA
+      homepage: #
+
+    - name: Martin Schulz
+      org: Technical University of Munich, Germany
+      homepage: #
+
+    - name: Michela Becchi
+      org: North Carolina State University, USA
+      homepage: #
+
+    - name: Min Si
+      org: Facebook, USA
+      homepage: #
+
+    - name: Ningfang Mi
+      org: Northeastern University, USA
+      homepage: #
+
+    - name: Olivier Beaumont
+      org: Inria, France
+      homepage: #
+
+    - name: Peter Dinda
+      org: Northwestern University, USA
+      homepage: #
+
+    - name: Rafael Ferreira da Silva
+      org: Oak Ridge National Laboratory, USA
+      homepage: #
+
+    - name: Robert Wisniewski
+      org: Samsung, USA
+      homepage: #
+
+    - name: Samer Al-Kiswany
+      org: University of Waterloo, Canada
+      homepage: #
+
+    - name: Scott Levy
+      org: Sandia National Laboratories, USA
+      homepage: #
+
+    - name: Shirley Moore
+      org: University of Texas El Paso, USA
+      homepage: #
+
+    - name: Swaroop Pophale
+      org: Oak Ridge National Laboratory, USA
+      homepage: #
+
+    - name: Tanzima Islam
+      org: Texas State University, USA
+      homepage: #
+
+    - name: Andrew Younge
+      org: Sandia National Laboratories, USA
+      homepage: #
+
+    - name: Kartik Gopalan
+      org: Binghamton University, USA
+      homepage: #
+
+    - name: Nikhil Jain
+      org: NVIDIA, USA
+      homepage: #
+
+    - name: Nathan Tallent
+      org: Pacific Northwest National Laboratory, USA
+      homepage: #
+
+    - name: Abhinav Bhatele
+      org: University of Maryland, USA
+      homepage: #
+
+    - name: Dimitris Nikolopoulos
+      org: Virginia Tech, USA
+      homepage: #
+
+    - name: Patrick Bridges
+      org: University of New Mexico, USA
+      homepage: #
+
+    - name: Kathryn Mohror
+      org: Lawrence Livermore, USA
+      homepage: #
+
+    - name: Hartwig Anzt
+      org: University of Tennessee, USA
+      homepage: #
+
+    - name: Frederic Vivien
+      org: Inria, France
+      homepage: #
+
+    - name: David Abramson
+      org: Queensland University, Australia
+      homepage: #
+
+    - name: Radu Prodan
+      org: University of Klagenfurt, Austria
+      homepage: #
+
+    - name: Gabriel Antoniu
+      org: Inria, France
+      homepage: #
+
+    - name: Rio Yokota
+      org: Tokyo Institute of Technology, Japan
+      homepage: #
+
+    - name: Ignacio Laguna
+      org: Lawrence Livermore National Laboratory, USA
+      homepage: #
+
+    - name: Esteban Meneses
+      org: Technical University Costa Rica, Costa Rica
+      homepage: #
+
+    - name: Costas Bekas
+      org: Citadel Securities, USA
+      homepage: #
+
+    - name: Karen Devine
+      org: (Retired)
+      homepage: #
+
+    - name: Hao Wang
+      org: Louisiana State University, USA
+      homepage: #
+
+    - name: Tekin Bicer
+      org: Oak Ridge National Laboratory, USA
+      homepage: #
+
+    - name: Paolo Trunfio
+      org: University of Calabria, Italy
+      homepage: #
+
+    - name: Raffaele Montella
+      org: University of Naples Parthenope, Italy
+      homepage: #
+
+    - name: Maria Carla Calzarossa
+      org: University di Pavia, Italy
+      homepage: #
+
+    - name: Aleksandar Ilic
+      org: University of Lisbon, Portugal
+      homepage: #
+
+    - name: Zhiling Lan
+      org: University of Illinois at Chicago, USA
+      homepage: #
+
+    - name: Kirk Cameron
+      org: Virginia Tech Innovation Campus, USA
+      homepage: #
+
+    - name: Al Malony
+      org: University of Oregon, USA
+      homepage: #
+
+    - name: Ivy Peng
+      org: KTH Royal Institute of Technology, Sweden
+      homepage: #
+
+    - name: Taylor Groves
+      org: Lightmatter, USA
+      homepage: #
+
+    - name: Wenqian Dong
+      org: Florida International University, USA
+      homepage: #
+
+    - name: Gagan Agarwal
+      org: University of Georgia, USA
+      homepage: #
+
+    - name: Rocío Carratalá-Sáez
+      org: University of Valladolid, Spain
+      homepage: #
+
+    - name: Lúcia Drummond
+      org: Fluminense Federal University, Brazil
+      homepage: #
+
+    - name: Danilo Ardagna
+      org: University of Milan, Italy
+      homepage: #
+
+    - name: Umit Catalyurek
+      org: AWS and Georgia Institute of Technology, USA
+      homepage: #
