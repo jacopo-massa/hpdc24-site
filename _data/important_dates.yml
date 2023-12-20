@@ -14,7 +14,7 @@ deadlines:
     type: WST
   - date: December 11th, 2023
     text: Notification of acceptance (Workshops and Tutorials) - late submissions
-    pass_due: False
+    pass_due: True
     type: WST
   - date: January 18th, 2024
     text: Abstract submission deadline (Main Track)
