@@ -1,1 +1,1 @@
-rclone sync _site/ HPDC2024:/htdocs/hpdc/2024
+rclone sync -v _site/ HPDC2024:/htdocs/hpdc/2024

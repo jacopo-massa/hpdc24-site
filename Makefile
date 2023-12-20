@@ -10,4 +10,4 @@ build:
 	export JEKYLL_ENV="production" && bundle exec jekyll build
 
 publish: build
-	rsync -avzc --delete _site/ ${INSTALL_PATH}
+	rclone sync -v _site/ HPDC2024:/htdocs/hpdc/2024

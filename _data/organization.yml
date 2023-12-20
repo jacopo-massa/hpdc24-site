@@ -3,12 +3,10 @@
   members:
     - name: Patrizio Dazzi
       org: University of Pisa, Italy
-      post: ""
       homepage: "http://pages.di.unipi.it/dazzi/"
 
     - name: Gabriele Mencagli
       org: University of Pisa, Italy
-      post: ""
       homepage: "http://pages.di.unipi.it/mencagli/"
 
 - title: Program Chairs
@@ -16,67 +14,56 @@
   members:
     - name: Rosa M. Badia
       org: Barcelona Supercomputing Center, Spain
-      post: ""
-      homepage: ""
+      homepage: "https://www.bsc.es/badia-rosa-m"
     - name: David K. Lowenthal
       org: University of Arizona, USA
-      post: ""
-      homepage: ""
+      homepage: "https://dkl.cs.arizona.edu"
 
 - title: Local Arrangments Chair
   column: 1
   members:
     - name: Emanuele Carlini
       org: National Research Council of Italy
-      post: ""
-      homepage: ""
+      homepage: "https://www.isti.cnr.it/en/about/people-detail/75/Emanuele_Carlini"
 
 - title: Workshop and Tutorials Chairs
   column: 1
   members:
     - name: Matteo Mordacchini
       org: National Research Council of Italy
-      post: ""
-      homepage: ""
+      homepage: "https://www.iit.cnr.it/matteo.mordacchini/"
     - name: Yue Cheng
       org: University of Virginia, USA
-      post: ""
-      homepage: ""
+      homepage: "https://engineering.virginia.edu/faculty/yue-cheng"
 
 - title: PhD Symposium Chairs
   column: 1
   members:
     - name: Marco Danelutto
       org: University of Pisa, Italy
-      post: ""
-      homepage: ""
+      homepage: "http://calvados.di.unipi.it/paragroup/danelutto/"
     - name: Valeria Cardellini
       org: University of Roma Tor Vergata, Italy
-      post: ""
-      homepage: ""
+      homepage: "http://www.ce.uniroma2.it/~valeria/"
 
 - title: Liaisons with EU Projects Chairs
   column: 1
   members:
     - name: Konstantinos Tserpes
       org: Harkopio University of Athens, Greece
-      post: ""
-      homepage: ""
+      homepage: "https://www.mead.upatras.gr/en/didaskontes/tserpes/"
     - name: Ana Juan Ferrer
       org: European Commission
-      post: ""
-      homepage: ""
+      homepage: "https://be.linkedin.com/in/anajuan"
 
 - title: Poster Chairs
   column: 1
   members:
     - name: Massimo Coppola
       org: National Research Council of Italy
-      post: ""
       homepage: ""
     - name: Janki Bhimani
       org: Florida International University, USA
-      post: ""
       homepage: ""
 
 - title: Publication Chairs
@@ -84,11 +71,9 @@
   members:
     - name: Antonis Makris
       org: Harkopio University of Athens, Greece
-      post: ""
       homepage: ""
     - name: Rafael ferreira da Silva
       org: Oak Ridge National Laboratory, TN, USA
-      post: ""
       homepage: ""
 
 - title: Publicity Chairs
@@ -96,23 +81,18 @@
   members:
     - name: Dalvan Griebler
       org: PUCRS, Brazil
-      post: ""
       homepage: ""
     - name: Maria Fazio
       org: University of Messina, Italy
-      post: ""
       homepage: ""
     - name: Minsu Jeon
       org: KAIST, South Korea
-      post: ""
       homepage: ""
     - name: Stefan Nastic
       org: TUWIEN, Austria
-      post: ""
       homepage: ""
     - name: Ali Anwar
       org: University of Minnesota, USA
-      post: ""
       homepage: ""
 
 - title: Industrial Panel and Sponsorship Chairs
@@ -120,11 +100,9 @@
   members:
     - name: Maurizio Davini
       org: University of Pisa, Italy
-      post: ""
       homepage: ""
     - name: Raffaele Montella
       org: University Parthenope of Naples, Italy
-      post: ""
       homepage: ""
 
 - title: Registration Chairs
@@ -132,11 +110,9 @@
   members:
     - name: Luca Ferrucci
       org: University of Pisa, Italy
-      post: ""
       homepage: ""
     - name: Hanna Kavalionak
       org: National Research Council of Italy
-      post: ""
       homepage: ""
 
 - title: Travel Grant Chairs
@@ -144,11 +120,9 @@
   members:
     - name: Azad Ariful
       org: Indiana University Bloomington, USA
-      post: ""
       homepage: ""
     - name: Li Dong
       org: University of California Merced, USA
-      post: ""
       homepage: ""
 
 - title: Social Media Chairs
@@ -156,11 +130,9 @@
   members:
     - name: Stefano Forti
       org: University of Pisa, Italy
-      post: ""
       homepage: ""
     - name: Lishan Yang
       org: George Mason University, USA
-      post: ""
       homepage: ""
 
 - title: Web chair
