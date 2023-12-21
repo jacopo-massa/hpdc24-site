@@ -10,8 +10,7 @@ layout: page
 
             The {{site.data.conference.full_title}} is scheduled on {{site.data.conference.date}} and will be held in
             {{site.data.conference.location}}, {{site.data.conference.country}}.
-
-        </p>        
+        </p>
         </center>
     </div>
 </div>
@@ -20,6 +19,11 @@ layout: page
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 conference-text">
         <p>
             {{site.data.conference.description}}
+            <br>            <br>
+            <center><button name="button" class= "btn btn-danger btn-lg shadowedbutton" onclick="parent.open('https://hpdc24.hotcrp.com/')">Submit a paper to HPDC 2024</button></center>
+            <br>            <br>
+
+
             {% include conference_venue.html %}
             {% include sponsors.html %}
         </p>
