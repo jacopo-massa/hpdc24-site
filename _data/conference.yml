@@ -46,10 +46,10 @@ navbar:
     label: Calls
     path: /calls.html
     visible: True
-  # - id: 3
-  #   label: Submission
-  #   path: /submission.html
-  #   visible: True
+  - id: 3
+    label: Workshops and Tutorials
+    path: /ws_and_t.html
+    visible: True
   # - id: 4
   #   label: Program
   #   path: /program.html
