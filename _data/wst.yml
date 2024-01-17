@@ -1,0 +1,76 @@
+workshops:
+  - acronym: AI4Sys
+    title: Workshop on AI For Systems
+    url:
+
+  - acronym: AITA
+    title: Workshop on AI Training Acceleration
+    url:
+
+  - acronym: PECS
+    title: Workshop on Performance and Energy Efficiency in Concurrent and Distributed Systems
+    url: 'https://pecs-workshop.github.io/' 
+
+  - acronym: FlexScience
+    title: Workshop on AI and Scientific Computing at Scale using Flexible Computing Infrastructures
+    url:
+
+  - acronym: FRAME
+    title: Workshop on Flexible Resource and Application Management on the Edge
+    url: 'https://www.accordion-project.eu/Frame2024/' 
+
+  - acronym: HPQCI
+    title: Workshop on High Performance and Quantum Computing Integration
+    url:
+
+  - acronym: PERMAVOST
+    title: Workshop on Performance Engineering, Modelling, Analysis, and Visualization Strategy
+    url: 'https://permavost.github.io/' 
+
+  - acronym: SNTA
+    title: Workshop on Systems and Network Telemetry and Analytics
+    url: 'https://sntaworkshop.github.io/2024/' 
+
+  - acronym: SEATED
+    title: Workshop on Serverless at the Edge
+    url: 'https://edgeless-project.eu/seated/' 
+
+  - acronym: QUASAR
+    title: Workshop on Quantum Search and Information Retrieval
+    url: 'https://www.dmi.unict.it/quasar/' 
+
+tutorials:
+  - title: Variational Quantum Algorithms for Resource Management in Cloud/Edge Architectures
+    speakers:
+      - name: Carlo Mastroianni
+        affiliation: ICAR-CNR, Italy
+      - name: Andrea Vinci
+        affiliation: ICAR-CNR, Italy
+    description: >
+      This tutorial offers a practical introduction to the fascinating world of quantum computation and its application to optimization and machine learning problems, among which supervised/unsupervised and deterministic/probabilistic models, and generative models. The participants will gain hands-on experience in developing hybrid “Variational Quantum Algorithms”, which combine classical and quantum computation, and in running them both on simulators and real quantum hardware provided by leading ICT companies. As a concrete use-case, of specific interest for the HPDC community, the tutorial will discuss the optimal assignment and scheduling of resources on the different nodes and layers of a Cloud/Edge architecture, a problem that is known to have NP-hard complexity. The tutorial will show how Variational Quantum Algorithms can become a viable alternative to classical algorithms to solve the resource assignment problem. The participants will be driven, stepby-step, to the reformulation of the problem in terms of an Ising problem, which is then solved through two variational quantum algorithms, i.e., Quantum Approximate Optimization Algorithm (QAOA) and Variational Quantum Eigensolver (VQE), by exploiting the libraries of IBM Qiskit and Xanadu Pennylane. Finally, the tutorial will discuss the perspectives on the use of quantum computation for this and other scenarios, and the possible avenues for future academic research and industrial developments. The tutorial is thought for computer engineers and application developers who are curious about the concrete adoption of quantum computation in real-life scenarios and/or are interested in new strategies for the management of Cloud/Edge architecture.
+
+  - title: A Practical Introduction to Quantum Computing and Networking
+    speakers:
+      - name: Claudio Cicconetti
+        affiliation: IIT-CNR, Italy
+    description:
+
+  - title: "Network Management and Orchestration with Data Engineering: A Practical Guide"
+    speakers:
+      - name: Engin Zeydan
+        affiliation: CTTC, Spain
+      - name: Josep Mangues-Bafalluy
+        affiliation: CTTC, Spain
+      - name: Jorge Baranda
+        affiliation: CTTC, Spain
+    description: >
+      The tutorial will cover an in-depth study of convergence of data engineering in network management and orchestration domain. The first part will be background information on data engineering and second part will be on application of those technologies to network management problems. In the second part, there will be a step-by-step demonstration of one of the demos during the second part of the tutorial. The participants do not need to have any prerequisite components. Application of data engineering concepts in the management and orchestration of telecommunication networks is an emerging topic and will be most important in the coming years as well. The attendees to this tutorial will have the chance to learn more about data engineering for networking and its applications from the perspective of telecommunication operators.
+
+  - title: Programming Tools for High Performance Data Analysis
+    speakers:
+      - name: Domenico Talia 
+        affiliation: University of Calabria, Italy
+      - name: Paolo Trunfio
+        affiliation: University of Calabria, Italy
+    description: >
+      The goal of this tutorial is to present and compare the features of some of the most popular Big Data programming frameworks for HPC systems, such as Hadoop, Spark, Storm, Airflow, MPI, Hive, Pig and UPC++, by highlighting their models, features, advantages, and disadvantages in developing different classes of programs, such as batch, streaming, graph-based, and query-based applications. The tutorial will also discuss the main factors that can influence the choice of the most appropriate framework to process and analyze big data. These include the characteristics of input data, the class of application, the infrastructure scale, and many other factors that can determines, to some extent, the decisions of developers, including designer skills, tool community size, data privacy issues, security requirements, available budget, integrability, and interoperability.

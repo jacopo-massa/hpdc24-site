@@ -48,7 +48,7 @@ navbar:
     visible: True
   - id: 3
     label: Workshops and Tutorials
-    path: /ws_and_t.html
+    path: /workshops.html
     visible: True
   # - id: 4
   #   label: Program

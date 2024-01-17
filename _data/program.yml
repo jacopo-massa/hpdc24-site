@@ -1,5 +1,5 @@
 online:
-  live: false
+  live: true
   record: false
   url: https://www.youtube.com/@SanskritResearchInstitute/streams
   streams:

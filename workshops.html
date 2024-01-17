@@ -1,0 +1,77 @@
+---
+title: Workshops and Tutorials
+layout: page
+slide_id: 3
+---
+<br>
+<div class="row mt-xs-0 mt-sm-0 my-2">
+    <div>
+        <h6>Accepted Workshops</h6>
+		{% if site.data.wst.workshops != nil %}
+			<p class="conference-text text-muted">
+				We are proud to announce that a large collection of workshops and tutorials will be co-located with HPDC 2024. They will be scheduled
+				on 3rd and 4th June 2024, at the Department of Computer Science of the University of Pisa, Italy ("Polo Fibonacci"). Workshop co-chairs have accepted
+				<b>{{site.data.wst.workshops | size}}</b> workshops and <b>{{site.data.wst.tutorials | size}}</b> tutorials covering research topics strictly related to the HPDC conference series.
+			</p>
+			<p class="conference-text text-muted">
+				The table below report the <b>{{site.data.wst.workshops | size}}</b> accepted workshops that will be co-located with HPDC 2024:
+				
+			</p>
+			<div class="conference-text text-muted">
+				<table class="table table-bordered table-striped table-hover table-sm">
+					<tr>
+						<th>Link</th>
+						<th>Title</th>
+					</tr>
+					{% for workshop in site.data.wst.workshops %}
+					<tr>
+						<td><a target="_blank" href="{{workshop.url}}">{{workshop.acronym}}</a></td>
+						<td>{{workshop.title}}</td>
+					</tr>
+					{% endfor %}
+				</table>
+			</div>
+		{% else %}
+			<div class="alert alert-warning rounded text-center mx-3 my-5">
+            	TBA.
+        	</div>
+		{% endif %}
+    </div>
+	<br>
+	<div>
+		<h6>Accepted Tutorials</h6>
+		{% if site.data.wst.tutorials != nil %}
+		<p class="conference-text text-muted">
+			Furthermore, we are very happy to announce that HPDC 2024 will host <b>{{site.data.wst.tutorials | size}}</b> tutorials, still scheduled on 3rd and 4th June 2024.
+		</p>
+		<div class="conference-text">
+			<table class="table table-bordered table-striped table-hover table-sm">
+				{% for tutorial in site.data.wst.tutorials %}
+				<tr>
+					<td class="w-25">
+						<p><b>{{tutorial.title}}</b></p>
+						<p>
+							{% for speaker in tutorial.speakers %}
+							{% if forloop.first %}<b>Speakers:</b> {% else %}, {% endif %}
+							<i>{{speaker.name}} ({{speaker.affiliation}})</i>
+							{% endfor %}
+						</p>
+					</td>
+					<td class="w-75 align-middle">
+						{% if tutorial.description %}
+						<p>{{tutorial.description}}</p>
+						{% else %}
+						<p>TBA.</p>
+						{% endif %}
+					</td>
+				</tr>	
+				{% endfor %}
+			</table>
+		</div>
+		{% else %}
+			<div class="alert alert-warning rounded text-center mx-3 my-5">
+            	TBA.
+        	</div>
+		{% endif %}
+	</div>
+</div>
