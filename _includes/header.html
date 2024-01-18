@@ -5,72 +5,71 @@
 
             <nav class="nav navbar-dark bg-dark navbar-expand-lg">
                 {% if site.data.conference.previous_iterations %}
-                    <!--<a class="navbar-brand" href="#">
+                <!--<a class="navbar-brand" href="#">
                         <img src="{{ site.data.conference.logo_path }}" alt="{{ slide.description }}">
                     </a>-->
 
-                    <a class="navbar-brand ml-4 dropdown-toggle" href="#"
-                       title="Previous Iterations of {{site.data.conference.short_name}}" role="button"
-                       data-toggle="dropdown" aria-expanded="false">
-                        <!--{{site.data.conference.short_name}}-->
-                        <img src="{{ site.data.conference.logosmall_path }}" alt="{{ slide.description }}">
+                <a class="navbar-brand ml-4 dropdown-toggle" href="#"
+                    title="Previous Iterations of {{site.data.conference.short_name}}" role="button"
+                    data-toggle="dropdown" aria-expanded="false">
+                    <!--{{site.data.conference.short_name}}-->
+                    <img src="{{ site.data.conference.logosmall_path }}" alt="{{ slide.description }}">
 
+                </a>
+                <div class="dropdown-menu">
+                    <span class="dropdown-item"></span>
+                    {% for previous in site.data.conference.previous_iterations %}
+                    <a class="dropdown-item text-secondary" href="{{previous.url}}" target="_blank" rel="noopener">
+                        {{previous.name}} {{previous.year}}
                     </a>
-                    <div class="dropdown-menu">
-                        <span class="dropdown-item"></span>
-                        {% for previous in site.data.conference.previous_iterations %}
-                            <a class="dropdown-item text-secondary" href="{{previous.url}}" target="_blank" rel="noopener">
-                                {{previous.name}} {{previous.year}}
-                            </a>
-                        {% endfor %}
-                    </div>
+                    {% endfor %}
+                </div>
                 {% else %}
-                    <a class="navbar-brand ml-4" href="#">{{site.data.conference.short_name}}</a>
+                <a class="navbar-brand ml-4" href="#">{{site.data.conference.short_name}}</a>
                 {% endif %}
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-with-toggle"
-                        aria-controls="navbar-with-toggle" aria-expanded="false" aria-label="Toggle navigation">
+                    aria-controls="navbar-with-toggle" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbar-with-toggle">
                     <ul class="navbar-nav ml-3 my-2 my-lg-0 navbar-nav-scroll" style="max-height: 200px;">
                         {% for nav in site.data.conference.navbar %}
-                            {% if nav.visible %}
-                                {% if nav.path == site.data.conference.calls %}
-                                    <li class="nav-item">
-                                        <a class="nav-link m-1 dropdown-toggle" href=".{{ nav.path }}"
-                                           title="Previous Iterations of {{site.data.conference.short_name}}" role="button"
-                                           data-toggle="dropdown" aria-expanded="false">
-                                            <strong>{{ nav.label | escape }}</strong>
-                                        </a>
-                                        <div class="dropdown-menu">
-                                            <span class="dropdown-item"></span>
-                                            {% for call in site.data.calls.pages_call %}
-                                            <a class="dropdown-item text-secondary" href="{{call.url}}"
-                                               rel="noopener">
-                                                {{call.name}}
-                                            </a>
-                                            {% endfor %}
-                                        </div>
-                                    </li>
-                                {% else %}
-                                    {% if page.url == nav.path %}
-                                        <li class="nav-item">
-                                            <a class="nav-link m-1" href=".{{ nav.path }}">
-                                                <strong>{{ nav.label | escape }}</strong>
-                                                <span class="sr-only">(current)</span>
-                                            </a>
-                                        </li>
-                                    {% else %}
-                                        <li class="nav-item">
-                                            <a class="nav-link m-1" href=".{{ nav.path }}">
-                                                <strong>{{ nav.label | escape }}</strong>
-                                            </a>
-                                        </li>
-                                    {% endif %}
-                                {% endif %}
-                            {% endif %}
+                        {% if nav.visible %}
+                        {% if nav.path == site.data.conference.calls %}
+                        <li class="nav-item">
+                            <a class="nav-link m-1 dropdown-toggle" href=".{{ nav.path }}"
+                                title="Previous Iterations of {{site.data.conference.short_name}}" role="button"
+                                data-toggle="dropdown" aria-expanded="false">
+                                <strong>{{ nav.label | escape }}</strong>
+                            </a>
+                            <div class="dropdown-menu">
+                                <span class="dropdown-item"></span>
+                                {% for call in site.data.calls.pages_call %}
+                                <a class="dropdown-item text-secondary" href="{{call.url}}" rel="noopener">
+                                    {{call.name}}
+                                </a>
+                                {% endfor %}
+                            </div>
+                        </li>
+                        {% else %}
+                        {% if page.url == nav.path %}
+                        <li class="nav-item">
+                            <a class="nav-link m-1" href=".{{ nav.path }}">
+                                <strong>{{ nav.label | escape }}</strong>
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        {% else %}
+                        <li class="nav-item">
+                            <a class="nav-link m-1" href=".{{ nav.path }}">
+                                <strong>{{ nav.label | escape }}</strong>
+                            </a>
+                        </li>
+                        {% endif %}
+                        {% endif %}
+                        {% endif %}
                         {% endfor %}
                     </ul>
 
@@ -79,7 +78,7 @@
                         {% if site.data.conference.social_media.facebook_link != nil %}
                         <li class="nav-item">
                             <a class="nav-link" target="_blank"
-                               href="{{ site.data.conference.social_media.facebook_link }}">
+                                href="{{ site.data.conference.social_media.facebook_link }}">
                                 <span class="fa-stack">
                                     <i class="fa fa-facebook-square fa-stack-1x"></i>
                                 </span>
@@ -89,9 +88,9 @@
                         {% if site.data.conference.social_media.twitter_link != nil %}
                         <li class="nav-item">
                             <a class="nav-link" target="_blank"
-                               href="{{ site.data.conference.social_media.twitter_link }}">
+                                href="{{ site.data.conference.social_media.twitter_link }}">
                                 <span class="fa-stack">
-                                    <i class="fa fa-twitter-square fa-stack-1x"></i>
+                                    <i class="fa-brands fa-square-x-twitter fa-stack-1x"></i>
                                 </span>
                             </a>
                         </li>

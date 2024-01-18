@@ -11,7 +11,10 @@ slide_id: 1
         {% if committee.title and committee.column == 1 %}
         <div class="card">
             <div class="card-header text-white bg-dark">
-                <i class="fa fa-users mr-2" aria-hidden="true"></i></i><strong>{{committee.title}}</strong></div>
+                <i {% if committee.icon %} class="{{ committee.icon }} mr-2" {% else %} class="fa-solid fa-users mr-2"
+                    {% endif %} aria-hidden="true"></i>
+                <strong>{{ committee.title }}</strong>
+            </div>
             {% if committee.members %}
             {% for member in committee.members %}
             <div class="card-block bg-light committee">
@@ -47,7 +50,7 @@ slide_id: 1
         {% if committee.title and committee.column == 2 %}
         <div class="card">
             <div class="card-header text-white bg-dark">
-                <i class="fa fa-users mr-2" aria-hidden="true"></i><strong>{{committee.title}}</strong>
+                <i class="fa fa-users mr-3" aria-hidden="true"></i><strong>{{committee.title}}</strong>
             </div>
             {% if committee.members %}
             {% for member in committee.members %}

@@ -18,7 +18,7 @@ deadlines:
     type: WST
   - date: January 18th, 2024
     text: Abstract submission deadline (Main Track)
-    pass_due: False
+    pass_due: True
     type: CFP
   - date: January 25th, 2024
     text: Paper submission deadline (Main Track)

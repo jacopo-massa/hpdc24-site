@@ -1,37 +1,39 @@
 <div class="card">
     <div class="card-header text-white bg-dark">
-        <i class="fa fa-calendar-o mr-3" aria-hidden="true"></i><strong>Important Dates</strong>
+        <i class="fa-regular fa-calendar mr-3" aria-hidden="true"></i><strong>Important Dates</strong>
         {% if site.data.important_dates.deadline_timezone %}
-        <span class="float-right"><i class="fa fa-globe"></i><i class="fa fa-clock-o"></i> {{site.data.important_dates.deadline_timezone}}</span>
+        <span class="float-right"><i class="fa fa-globe"></i><i class="fa fa-clock-o"></i>
+            {{site.data.important_dates.deadline_timezone}}</span>
         {% endif %}
     </div>
     <div class="card-block bg-light">
         <ul class="list-group list-group-flush">
             {% if site.data.important_dates.deadlines %}
-                {% for deadline in site.data.important_dates.deadlines %}
+            {% for deadline in site.data.important_dates.deadlines %}
 
-                        {% if deadline.type == page.mytype or page.mytype == "GEN" %}
+            {% if deadline.type == page.mytype or page.mytype == "GEN" %}
 
-                            <li class="list-group-item bg-light text-muted">
-                                {% if deadline.pass_due %}
-                                <del>
-                                {% endif %}
-                                    <p>
-                                    {% if deadline.timezone %}
-                                    {{ deadline.date | date: "%B %e, %Y." }} ({{ deadline.timezone }})
-                                    {% else %}
-                                    <strong>{{ deadline.date | date: "%B %e, %Y." }}</strong>
-                                    {% endif %} {{ deadline.text }}</p>
-                                {% if deadline.pass_due %}
-                                </del>
-                                {% endif %}
-                            </li>
+            <li class="list-group-item bg-light text-muted">
+                {% if deadline.pass_due %}
+                <del>
+                    {% endif %}
+                    <p>
+                        {% if deadline.timezone %}
+                        {{ deadline.date | date: "%B %e, %Y." }} ({{ deadline.timezone }})
+                        {% else %}
+                        <strong>{{ deadline.date | date: "%B %e, %Y." }}</strong>
+                        {% endif %} {{ deadline.text }}
+                    </p>
+                    {% if deadline.pass_due %}
+                </del>
+                {% endif %}
+            </li>
 
-                        {% endif %}
+            {% endif %}
 
-                {% endfor %}
+            {% endfor %}
             {% else %}
-                <li class="list-group-item bg-light text-muted">TBA</li>
+            <li class="list-group-item bg-light text-muted">TBA</li>
             {% endif %}
         </ul>
     </div>

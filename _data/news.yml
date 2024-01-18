@@ -1,16 +1,18 @@
-# - date: 2017-10-14
-#   text: Workshop has been successfully held
 - date: 2023-12-21
   text: The submission site for the main conference track is now open!
+  visible: True
 - date: 2023-12-09
   text: Call for PhD Symposium Papers has been published
+  visible: True
 - date: 2023-11-03
   text: Call for Posters has been published
+  visible: True
 - date: 2023-10-25
   text: Call for Workshops and Tutorials has been published
+  visible: True
 - date: 2023-10-11
   text: Call for Papers (Main Track) has been updated
+  visible: True
 - date: 2023-10-06
   text: Website is online
-#- date: 2023-10-07
-#  text: Calls for Workshops and Tutorials have been published
+  visible: True

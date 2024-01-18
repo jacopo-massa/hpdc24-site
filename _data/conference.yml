@@ -50,10 +50,10 @@ navbar:
     label: Workshops and Tutorials
     path: /workshops.html
     visible: True
-  # - id: 4
-  #   label: Program
-  #   path: /program.html
-  #   visible: True
+  - id: 4
+    label: Program
+    path: /program.html
+    visible: False
   - id: 3
     label: Venue
     path: /venue.html
