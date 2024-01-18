@@ -1,13 +1,13 @@
 direction: ./assets/images/direction.png
 locations:
   - title: Main Conference
-    name: Polo Piagge, University of Pisa
+    name: Polo Piagge,<br>University of Pisa
     address: Via Giacomo Matteotti 11
     address_2: 56124 Pisa, PI, Italy
     lat: 43.7085
     lng: 10.4035
   - title: Workshops and Tutorials
-    name: Department of Computer Science, University of Pisa
+    name: Department of Computer Science,<br>University of Pisa
     address: Largo Bruno Pontecorvo 3
     address_2: 56127 Pisa, PI, Italy
     lat: 43.7155

@@ -24,20 +24,7 @@ slide_id: 5
     </div>
 </div>
 
-<div class="row mt-xs-0 mt-sm-0 my-2">
-    {% assign nlocations = site.data.venue.locations | size %}
-    {% assign ncol = 12 | divided_by: nlocations %}
-    {% for location in site.data.venue.locations %}
-    <div class="col-xs-12 col-sm-12 col-md-{{ncol}} col-lg-{{ncol}} col-xl-{{ncol}}">
-        <h6>{{location.title}}</h6>
-        <p>
-            {{location.name}}<br>
-            {{location.address}}<br>
-            {{location.address_2}}
-        </p>
-    </div>
-    {% endfor %}
-</div>
+{% include conference_venue.html %}
 
 
 <div class=" row mt-xs-0 mt-sm-0 my-2">
