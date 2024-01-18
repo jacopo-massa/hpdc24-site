@@ -19,7 +19,7 @@
       org: University of Arizona, USA
       homepage: "https://dkl.cs.arizona.edu"
 
-- title: Local Arrangments Chair
+- title: Local Arrangements Chair
   column: 1
   members:
     - name: Emanuele Carlini
@@ -136,7 +136,7 @@
       homepage: ""
 
 - title: Web chair
-  icon: "fa-solid fa-globe"
+  icon: "fa-solid fa-globe fa-flip"
   column: 1
   members:
     - name: Jacopo Massa

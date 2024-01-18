@@ -9,7 +9,7 @@ workshops:
 
   - acronym: PECS
     title: Workshop on Performance and Energy Efficiency in Concurrent and Distributed Systems
-    url: 'https://pecs-workshop.github.io/' 
+    url: "https://pecs-workshop.github.io/"
 
   - acronym: FlexScience
     title: Workshop on AI and Scientific Computing at Scale using Flexible Computing Infrastructures
@@ -17,7 +17,7 @@ workshops:
 
   - acronym: FRAME
     title: Workshop on Flexible Resource and Application Management on the Edge
-    url: 'https://www.accordion-project.eu/Frame2024/' 
+    url: "https://www.accordion-project.eu/Frame2024/"
 
   - acronym: HPQCI
     title: Workshop on High Performance and Quantum Computing Integration
@@ -25,19 +25,19 @@ workshops:
 
   - acronym: PERMAVOST
     title: Workshop on Performance Engineering, Modelling, Analysis, and Visualization Strategy
-    url: 'https://permavost.github.io/' 
+    url: "https://permavost.github.io/"
 
   - acronym: SNTA
     title: Workshop on Systems and Network Telemetry and Analytics
-    url: 'https://sntaworkshop.github.io/2024/' 
+    url: "https://sntaworkshop.github.io/2024/"
 
   - acronym: SEATED
     title: Workshop on Serverless at the Edge
-    url: 'https://edgeless-project.eu/seated/' 
+    url: "https://edgeless-project.eu/seated/"
 
   - acronym: QUASAR
     title: Workshop on Quantum Search and Information Retrieval
-    url: 'https://www.dmi.unict.it/quasar/' 
+    url: "https://www.dmi.unict.it/quasar/"
 
 tutorials:
   - title: Variational Quantum Algorithms for Resource Management in Cloud/Edge Architectures
@@ -53,7 +53,8 @@ tutorials:
     speakers:
       - name: Claudio Cicconetti
         affiliation: IIT-CNR, Italy
-    description:
+    description: >
+      Quantum computing addresses the construction and operation of quantum computers to solve more efficiently instances of specific problems that are difficult to tackle with classical computers. Even if we are currently in the so-called Noisy Intermediate Scale Quantum (NISQ), steady signs of progress are being made towards the realization of a fast and reliable quantum computer, materializing the basic building blocks of quantum circuits, i.e., quantum bits and gates. On the other hand, quantum communications cover the transmission of quantum states across distances. Recent advances in this context have led to the novel research area of quantum networking, which is set to define the programming interfaces and protocols for the practical operation of quantum communication and computing infrastructures. The tutorial has the objective of raising awareness about these emerging topics, i.e., quantum computing and quantum networking, in the research community by i) introducing briefly the latest technologies developed in each, then ii) providing hands-on examples of how to use them for simple use cases, and iii) finally sketching the more promising open research challenges.
 
   - title: "Network Management and Orchestration with Data Engineering: A Practical Guide"
     speakers:
@@ -68,7 +69,7 @@ tutorials:
 
   - title: Programming Tools for High Performance Data Analysis
     speakers:
-      - name: Domenico Talia 
+      - name: Domenico Talia
         affiliation: University of Calabria, Italy
       - name: Paolo Trunfio
         affiliation: University of Calabria, Italy
