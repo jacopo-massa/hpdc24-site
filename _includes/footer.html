@@ -1,13 +1,13 @@
 <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-10 offset-xl-1">
         <footer class="pt-3 mt-2 border-top">
-            <div class="text-muted small pull-right pb-3">
-                &copy; {{site.data.conference.full_title}}.
-            </div>
-            <div class="text-muted font-italic font-weight-light small pull-left pb-3">
+            <div class="text-muted font-italic font-weight-light small float-left pb-3">
                 {% if site.show_last_updated %}
                 Last updated: {{ site.time | date: site.last_updated_format }}
                 {% endif %}
+            </div>
+            <div class="text-muted small float-right pb-3">
+                &copy; {{site.data.conference.full_title}}
             </div>
         </footer>
     </div>
