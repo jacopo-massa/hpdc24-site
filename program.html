@@ -3,70 +3,85 @@ title: Program
 layout: page
 slide_id: 4
 ---
-
-
+<br>
 <div class="row mt-xs-0 mt-sm-0 my-2">
     <div class="col conference-text text-muted">
-        {% if site.data.program.online.live %}
-        <h5 class="text-info">Online</h5>
+        {% if site.data.program.online.record %}
         <p>
-            The conference will be streamed live{% if site.data.program.online.record %} and recorded for each day{% endif %}.
+            The conference will be streamed live and recorded for each day.
             <br>
-            The event can be accessed online at: <a href="{{site.data.program.online.url}}">{{site.data.program.online.url}}</a>
-        </p>
-        <p>
-            {% if site.data.program.online.streams %}
-            <table class="table">
-                <tr>
-                    <th>Stream</th>
-                    <th>Link</th>
-                </tr>
-                {% for stream in site.data.program.online.streams %}
-                <tr>
-                    <td>{{stream.title}}</td>
-                    <td><a target="_blank" href="{{stream.url}}">{{stream.url}}</a></td>
-                </tr>
-                {% endfor %}
-            </table>
-            {% endif %}
+            The event can be accessed online at: <a
+                href="{{site.data.program.online.url}}">{{site.data.program.online.url}}</a>
         </p>
         {% endif %}
-        <br>
-        
-        <h5>Schedule</h5>
+        <p>
+            {% if site.data.program.online.streams %}
+        <table class="table">
+            <tr>
+                <th>Stream</th>
+                <th>Link</th>
+            </tr>
+            {% for stream in site.data.program.online.streams %}
+            <tr>
+                <td>{{stream.title}}</td>
+                <td><a target="_blank" href="{{stream.url}}">{{stream.url}}</a></td>
+            </tr>
+            {% endfor %}
+        </table>
+        {% endif %}
+        </p>
+
+        <div id="days" class="alert alert-success rounded text-center mx-3">
+            {% for day in site.data.program.schedule %}
+            <a class="h6 alert-link" href="#day{{forloop.index}}">Day {{ forloop.index }}</a>
+            {% if forloop.last %} {% else %} | {% endif %}
+            {% endfor %}
+        </div>
+
+        <!--<h5>Schedule</h5>-->
         {% if site.data.program.schedule != nil %}
         {% for day in site.data.program.schedule %}
         <div>
-            <h4 class="schedule-table-heading">{{ day.dateReadable }} - Day {{ forloop.index }}</h4>
-            <table class="table table-bordered table-striped table-hover table-responsive table-sm">
+            <div>
+                <h4 id="day{{forloop.index}}" class="schedule-table-heading">
+                    <a class="text-secondary" href="#days">
+                        <i class="fa-solid fa-arrow-up mr-2" aria-hidden="true"></i>
+                    </a>
+                    Day {{ forloop.index}} - {{ day.dateReadable }}
+                </h4>
+            </div>
+            <table class="table table-bordered table-hover table-sm">
                 {% for timeslot in day.timeslots %}
                 <thead>
                     <tr>
-                        <th class="bg-info text-center">
-                            <div>{{timeslot.startTime}}-{{timeslot.endTime}}</div>
+                        <th class="bg-light text-center h6 align-middle">
+                            <div>{{timeslot.startTime}} - {{timeslot.endTime}}</div>
                         </th>
                         {% if timeslot.type == "service" %}
                         <th class="bg-warning text-center">
-                            <p class="text-muted">{{timeslot.title}}</p>
+                            <p class="text-center">{{timeslot.title}}</p>
+                        </th>
+                        {% elsif timeslot.type == "keynote" %}
+                        <th class="bg-info text-center">
+                            <h5 class="text-light">Keynote: <i>{{timeslot.title}}</i></h5>
+                            {% if timeslot.speaker %}
+                            <p>Speaker: <i>{{timeslot.speaker}}</i></p>
+                            {% endif %}
                         </th>
                         {% else %}
-                        <th class="bg-primary text-center">
-                            <h5>{{timeslot.title}}</h5>
-                            {% if timeslot.speaker %}
-                            <h5>{{timeslot.speaker}}</h5>
-                            {% endif %}
+                        <th class="bg-info text-center">
+                            <h5 class="text-light text-center">{{timeslot.title}}</h5>
                             {% if timeslot.chair %}
-                            <h6>Session chair:{{timeslot.chair}}</h6>
+                            <p>Session chair: <i>{{timeslot.chair}}</i></p>
                             {% endif %}
-                        </th>
-                        {% endif %}
+                            {% endif %}
                     </tr>
                 </thead>
                 {% if timeslot.events %}
                 <tbody>
                     {% for event in timeslot.events %}
                     <tr>
-                        <td width="20%">
+                        <td width="20%" style="border: none">
                         </td>
                         <td>
                             <p><b>{{event.title}}</b></p>
@@ -86,8 +101,8 @@ slide_id: 4
         </div>
         {% endif %}
 
-        <div class="conference-text">
+        <!--<div class="conference-text">
             {% include contact-us.html %}
-        </div>
+        </div>-->
     </div>
 </div>
