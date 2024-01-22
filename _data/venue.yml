@@ -1,3 +1,4 @@
+geojson: ./assets/leaflet/venue.geojson
 direction: ./assets/images/direction.png
 locations:
   - title: Main Conference

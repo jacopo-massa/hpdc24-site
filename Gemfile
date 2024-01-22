@@ -26,6 +26,7 @@ group :jekyll_plugins do
   gem "tzinfo"
   gem "jekyll-minifier"
   gem "jekyll-twitter-plugin"
+  gem "jekyll-leaflet"
   gem "webrick"
   gem "jekyll-gist"
 end

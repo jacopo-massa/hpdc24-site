@@ -1,16 +1,3 @@
-<!-- <div class="row mt-xs-0 mt-sm-0 my-2">
-    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-        <p>
-            {{site.data.venue.conf_address}}
-        </p>
-    </div>
-    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-        <p>
-            {{site.data.venue.ws_address}}
-        </p>
-    </div>
-</div>
--->
 <div class="row mt-xs-0 mt-sm-0 my-2">
     {% assign nlocations = site.data.venue.locations | size %}
     {% assign ncol = 12 | divided_by: nlocations %}

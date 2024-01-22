@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#00F",
+        "popupContent": "CNR",
+        "href": "http://www.area.pi.cnr.it"
+      },
+      "geometry": {
+        "coordinates": [
+          10.422720841194973,
+          43.71932613408842
+        ],
+        "type": "Point"
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<b>Dept. of Computer Science</b> <br> Workshops & Tutorials<br>",
+        "href": "https://di.unipi.it/en/"
+      },
+      "geometry": {
+        "coordinates": [
+          10.408242015579305,
+          43.720327602112775
+        ],
+        "type": "Point"
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "popupContent": "Leaning Tower<br>",
+        "href": "https://www.opapisa.it/en/",
+        "marker-color": "#00F"
+      },
+      "geometry": {
+        "coordinates": [
+          10.39658377116362,
+          43.71887273339158
+        ],
+        "type": "Point"
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<b>Conference Center \"Polo Piagge\"</b> <br> Main Conference<br>",
+        "marker-color": "#F00"
+      },
+      "geometry": {
+        "coordinates": [
+          10.411912271164596,
+          43.71038573424664
+        ],
+        "type": "Point"
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "popupContent": "Railway Station<br>",
+        "marker-color": "#00F"
+      },
+      "geometry": {
+        "coordinates": [
+          10.398386542328069,
+          43.70835973346027
+        ],
+        "type": "Point"
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "popupContent": "Airport<br>",
+        "href": "https://www.pisa-airport.com/en/"
+      },
+      "geometry": {
+        "coordinates": [
+          10.399686210131392,
+          43.69826779257582
+        ],
+        "type": "Point"
+      },
+      "id": 5
+    }
+  ]
+}
