@@ -39,6 +39,10 @@ workshops:
     title: Workshop on Quantum Search and Information Retrieval
     url: "https://www.dmi.unict.it/quasar/"
 
+  - acronym: FLEC
+    title: Workshop on Federated Learning for Edge Computing
+    url: "https://flec-workshop.github.io/2024/"
+
 tutorials:
   - title: Variational Quantum Algorithms for Resource Management in Cloud/Edge Architectures
     acronym: Qu4Edge

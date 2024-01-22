@@ -27,7 +27,8 @@ slide_id: 3
 					<th>Link</th>
 					<th>Title</th>
 				</tr>
-				{% for workshop in site.data.wst.workshops %}
+				{% assign sorted_workshops = site.data.wst.workshops | sort: 'acronym' %}
+				{% for workshop in sorted_workshops %}
 				<tr>
 					<td><a target="_blank" href="{{workshop.url}}">{{workshop.acronym}}</a></td>
 					<td>{{workshop.title}}</td>
