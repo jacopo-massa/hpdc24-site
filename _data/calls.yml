@@ -3,26 +3,44 @@ description: >
   presenting the latest research on the design, implementation, evaluation, and use of parallel and distributed systems for high-end
   computing. The 33rd HPDC will take place in Pisa, Italy, June 3-7, 2024.
 
-
 scope: >
   Submissions are welcomed on high-performance parallel and distributed computing (HPDC) topics including but not limited to: clouds,
   clusters, grids, big data, massively multicore, and extreme-scale computing systems. Experience reports of operational deployments
   that provide significantly novel insights for future research on HPDC applications and systems are also welcome.
 
 topics:
-- Datacenter, HPC, cloud, serverless, and edge/IoT computing platforms
-- Heterogeneous computing accelerators and non-volatile memory systems
-- File and storage systems, I/O, and data management
-- Operating systems and networks 
-- System software and middleware for parallel and distributed systems
-- Programming languages and runtime systems
-- Big data stacks and big data ecosystems
-- Scientific applications, algorithms, and workflows
-- Resource management and scheduling
-- Performance modeling, benchmarking, and engineering
-- Fault tolerance, reliability, and availability
-- Operational guarantees, risk assessment, and management
-- Novel post-Moore computing technologies including neuromorphic, brain-inspired computing, and quantum computing
+  - Datacenter, HPC, cloud, serverless, and edge/IoT computing platforms
+  - Heterogeneous computing accelerators and non-volatile memory systems
+  - File and storage systems, I/O, and data management
+  - Operating systems and networks
+  - System software and middleware for parallel and distributed systems
+  - Programming languages and runtime systems
+  - Big data stacks and big data ecosystems
+  - Scientific applications, algorithms, and workflows
+  - Resource management and scheduling
+  - Performance modeling, benchmarking, and engineering
+  - Fault tolerance, reliability, and availability
+  - Operational guarantees, risk assessment, and management
+  - Novel post-Moore computing technologies including neuromorphic, brain-inspired computing, and quantum computing
+
+eu-topics:
+  - Cloud-Edge Continuum
+  - Convergence of Cloud-Edge and HPC Infrastructures
+  - Novel Programming Models and Architectures for Cloud-Edge Continuum and HPC
+  - Efficient Serverless Computing and FaaS
+  - Federated and Distributed AI
+  - AI for Resource Management
+  - AI for Resource Orchestration
+  - Energy-Efficient Resource Orchestration
+  - Hyper-Distributed Applications
+  - Self-Adaptive Computing Systems
+  - Software Systems for Blockchains
+  - RISC-V Based Cloud/Edge Services
+  - Energy-Aware Software Stack for Exascale and Post-Exascale Supercomputers
+  - Metrics to Measure the Efficiency of Supercomputers
+  - Fault Prediction Mechanisms and Tools
+  - Resilient Software for Multiple Processing Architectures
+  - Co-Scheduling of Workloads Sharing Heterogeneous Resources
 
 pages_call:
   - name: General Info

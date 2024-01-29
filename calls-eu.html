@@ -4,9 +4,81 @@ layout: page
 mytype: EUP
 ---
 
-<div class="col mt-2">
-    <br>
-    <div class="alert alert-warning rounded text-center mx-3">
-        <p class="h6">To be announced!</p>
+<br>
+<div class="row mt-2">
+    <div class="col text-justify conference-text">
+        <p id=papers class="lead">Call for EU Projects Work-in-Progress Papers</p>
+        <h6>Overview</h6>
+    </div>
+</div>
+
+
+<div class="row mt-2">
+    <div class="col text-justify conference-text">
+
+        <p> The research community works fervently to address the needs of novel applications by pushing the boundaries
+            in the field of distributed and high-performance computing. Ongoing projects are pooling resources, setting
+            ambitious goals in that direction. This Special Track aims to solicit the ongoing works of European research
+            projects in all fields related to distributed computing and its applications. The goal is to enable the
+            community to establish a checkpoint on their research progress and foster the creative development of their
+            work through the exchange of ideas among them. The Special Track format is particularly tailored to Horizon
+            Europe research projects and the objective is to provide a platform to foster collaboration between those
+            projects that share research interests but also cultural and organizational properties.
+        </p>
+        <h6>Indicative topics</h6>
+
+        {% if site.data.calls %}
+        <ul>
+            {% for topic in site.data.calls.eu-topics %}
+            <li>{{topic}}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    </div>
+    <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 conference-text">
+        {% include card-important-dates.html %}
+        {% include card-calls-back.html %}
+    </div>
+</div>
+
+<div class="row mt-2">
+    <div class="col text-justify conference-text">
+
+        <br>
+        <h6>Workshop Chairs</h6>
+        <p>
+            Ana Juan Ferrer, European Commission, Belgium<br>
+            Konstantinos Tserpes, National Technical University of Athens, Greece
+        </p>
+        <br>
+        <h6>Workshop Technical Program Committee</h6>
+        <p>
+            To be announced
+        </p>
+        <br>
+        <h6>Deadlines</h6>
+        <p>
+
+            Submissions due: March 15, 2024<br>
+            Acceptance notifications: March 29, 2024<br>
+            Camera-Ready version: April 18, 2024<br>
+            Conference dates: June 3-7, 2024<br>
+        </p>
+        <br>
+        <h6 id="submission">Submission Guidelines</h6>
+        <p> Interested parties are invited to submit their paper of maximum 4 pages in PDF format, including references.
+            Papers should be formatted in the ACM Proceedings Style (double column format).
+            Papers will be officially published in ACM portal as work-in-progress papers.
+            <br><br>
+
+            Please submit your work-in-progress paper <a target="_blank"
+                href="https://hpdc24-projects.hotcrp.com">here</a>. You can reach the submission site by clicking on the
+            yellow button below.
+            <br><br>
+            <center><button name="button" class="btn btn btn-warning btn-lg shadowedbutton"
+                    onclick="parent.open('https://hpdc24-projects.hotcrp.com')">Submit a WIP Paper</button></center>
+            <br><br>
+        </p>
+        <h6><a href="./calls.html"> Go back to Calls </a></h6>
     </div>
 </div>
