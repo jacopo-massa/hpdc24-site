@@ -16,13 +16,9 @@ deadlines:
     text: Notification of acceptance (Workshops and Tutorials) - late submissions
     pass_due: true
     type: WST
-  # - date: January 18th, 2024
-  #   text: Abstract submission deadline (Main Track)
-  #   pass_due: false
-  #   type: CFP
   - date: January 25th, 2024
     text: Paper submission deadline (Main Track)
-    pass_due: false
+    pass_due: true
     type: CFP
   - date: February 19th, 2024
     text: Abstract submission deadline (PhD Symposium Papers)
