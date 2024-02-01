@@ -201,243 +201,234 @@
     - name: Alfredo Goldman
       org: USP, Brazil
       homepage: #
-
     - name: Ana-Lucia Varbanescu
       org: University of Twente, Netherlands
       homepage: #
-
     - name: Antonio J. Peña
       org: Barcelona Supercomputing Center, Spain
       homepage: #
-
     - name: Balazs Gerofi
       org: Intel Corporation, USA
       homepage: #
-
     - name: Bogdan Nicolae
       org: Argonne National Laboratory, USA
       homepage: #
-
     - name: Brian Kocoloski
       org: Information Sciences Institute, USA
       homepage: #
-
     - name: Changhee Jung
       org: Purdue University, USA
       homepage: #
-
     - name: Dejan Milojicic
       org: Hewlett Packard Labs, USA
       homepage: #
-
     - name: Devesh Tiwari
       org: Northeastern University, USA
       homepage: #
-
     - name: Douglas Thain
       org: University of Notre Dame, USA
       homepage: #
-
     - name: Franck Cappello
       org: Argonne National Laboratory, USA
       homepage: #
-
     - name: Jack Lange
       org: Oak Ridge National Lab, USA
       homepage: #
-
     - name: Kyle Chard
       org: Univ. of Chicago/Argonne National Laboratory, USA
       homepage: #
-
     - name: Martin Schulz
       org: Technical University of Munich, Germany
       homepage: #
-
     - name: Michela Becchi
       org: North Carolina State University, USA
       homepage: #
-
     - name: Min Si
       org: Facebook, USA
       homepage: #
-
     - name: Ningfang Mi
       org: Northeastern University, USA
       homepage: #
-
     - name: Olivier Beaumont
       org: Inria, France
       homepage: #
-
     - name: Peter Dinda
       org: Northwestern University, USA
       homepage: #
-
     - name: Rafael Ferreira da Silva
       org: Oak Ridge National Laboratory, USA
       homepage: #
-
     - name: Robert Wisniewski
       org: Samsung, USA
       homepage: #
-
     - name: Samer Al-Kiswany
       org: University of Waterloo, Canada
       homepage: #
-
     - name: Scott Levy
       org: Sandia National Laboratories, USA
       homepage: #
-
     - name: Shirley Moore
       org: University of Texas El Paso, USA
       homepage: #
-
     - name: Swaroop Pophale
       org: Oak Ridge National Laboratory, USA
       homepage: #
-
     - name: Tanzima Islam
       org: Texas State University, USA
       homepage: #
-
     - name: Andrew Younge
       org: Sandia National Laboratories, USA
       homepage: #
-
     - name: Kartik Gopalan
       org: Binghamton University, USA
       homepage: #
-
     - name: Nikhil Jain
       org: NVIDIA, USA
       homepage: #
-
     - name: Nathan Tallent
       org: Pacific Northwest National Laboratory, USA
       homepage: #
-
     - name: Abhinav Bhatele
       org: University of Maryland, USA
       homepage: #
-
     - name: Dimitris Nikolopoulos
       org: Virginia Tech, USA
       homepage: #
-
     - name: Patrick Bridges
       org: University of New Mexico, USA
       homepage: #
-
     - name: Kathryn Mohror
-      org: Lawrence Livermore, USA
+      org: Lawrence Livermore National Laboratory, USA
       homepage: #
-
     - name: Hartwig Anzt
       org: University of Tennessee, USA
       homepage: #
-
     - name: Frederic Vivien
       org: Inria, France
       homepage: #
-
     - name: David Abramson
       org: Queensland University, Australia
       homepage: #
-
     - name: Radu Prodan
       org: University of Klagenfurt, Austria
       homepage: #
-
     - name: Gabriel Antoniu
       org: Inria, France
       homepage: #
-
     - name: Rio Yokota
       org: Tokyo Institute of Technology, Japan
       homepage: #
-
     - name: Ignacio Laguna
       org: Lawrence Livermore National Laboratory, USA
       homepage: #
-
     - name: Esteban Meneses
       org: Technical University Costa Rica, Costa Rica
       homepage: #
-
     - name: Costas Bekas
       org: Citadel Securities, USA
       homepage: #
-
     - name: Karen Devine
-      org: (Retired)
+      org: (Retired),
       homepage: #
-
     - name: Hao Wang
-      org: Louisiana State University, USA
+      org: Louisana State University, USA
       homepage: #
-
     - name: Tekin Bicer
-      org: Argonne National Laboratory, USA
+      org: Oak Ridge National Laboratory, USA
       homepage: #
-
     - name: Paolo Trunfio
       org: University of Calabria, Italy
       homepage: #
-
     - name: Raffaele Montella
       org: University of Naples Parthenope, Italy
       homepage: #
-
     - name: Maria Carla Calzarossa
       org: University di Pavia, Italy
       homepage: #
-
     - name: Aleksandar Ilic
       org: University of Lisbon, Portugal
       homepage: #
-
     - name: Zhiling Lan
-      org: University of Illinois at Chicago, USA
+      org: University of Illiinois at Chicago, USA
       homepage: #
-
     - name: Kirk Cameron
       org: Virginia Tech Innovation Campus, USA
       homepage: #
-
     - name: Al Malony
       org: University of Oregon, USA
       homepage: #
-
     - name: Ivy Peng
       org: KTH Royal Institute of Technology, Sweden
       homepage: #
-
     - name: Taylor Groves
       org: Lightmatter, USA
       homepage: #
-
     - name: Wenqian Dong
       org: Florida International University, USA
       homepage: #
-
     - name: Gagan Agarwal
       org: University of Georgia, USA
       homepage: #
-
     - name: Rocío Carratalá-Sáez
       org: University of Valladolid, Spain
       homepage: #
-
     - name: Lúcia Drummond
       org: Fluminense Federal University, Brazil
       homepage: #
-
     - name: Danilo Ardagna
       org: University of Milan, Italy
       homepage: #
-
     - name: Umit Catalyurek
       org: AWS and Georgia Institute of Technology, USA
+      homepage: #
+    - name: Silvina Caíno-Lores
+      org: Inria, France
+      homepage: #
+    - name: Jean Luca Bez
+      org: Lawrence Livermore National Laboratory, USA
+      homepage: #
+    - name: Ivona Brandic
+      org: Vienna University of Technology, Austria
+      homepage: #
+    - name: Renato Figueiredo
+      org: University of Florida, USA
+      homepage: #
+    - name: Jay Lofstead
+      org: Sandia National Laboratories, USA
+      homepage: #
+    - name: Kyle Hale
+      org: Ill. Inst Technology, USA
+      homepage: #
+    - name: Frank Mueller
+      org: NCSU, USA
+      homepage: #
+    - name: Dong Li
+      org: UC Merced, USA
+      homepage: #
+    - name: Rong Ge
+      org: Clemson, USA
+      homepage: #
+    - name: Matthias Mueller
+      org: Aachen Univ., Germany
+      homepage: #
+    - name: Pedro Valero
+      org: Oak Ridge National Lab, USA
+      homepage: #
+    - name: Dingwen Tao
+      org: Indiana University, USA
+      homepage: #
+    - name: Weikuan Yu
+      org: Florida State University, USA
+      homepage: #
+    - name: Yue Cheng
+      org: George Mason University, USA
+      homepage: #
+    - name: Aniruddha Marathe
+      org: Lawrence Livermore National Laboratory, USA
+      homepage: #
+    - name: Ozgur Kilic
+      org: Brookhaven National Laboratory, USA
+      homepage: #
+    - name: Antonino Tumeo
+      org: Pacific Northwest National Laboratory, USA
       homepage: #
