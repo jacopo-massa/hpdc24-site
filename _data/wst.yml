@@ -5,7 +5,7 @@ workshops:
 
   - acronym: AITA
     title: Workshop on AI Training Acceleration
-    url:
+    url: "https://aita2024.github.io/"
 
   - acronym: PECS
     title: Workshop on Performance and Energy Efficiency in Concurrent and Distributed Systems
