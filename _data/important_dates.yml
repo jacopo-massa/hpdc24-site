@@ -20,10 +20,10 @@ deadlines:
     text: Paper submission deadline (Main Track)
     pass_due: true
     type: CFP
-  - date: February 19th, 2024
-    text: Abstract submission deadline (PhD Symposium Papers)
-    pass_due: false
-    type: PHD
+  # - date: February 19th, 2024
+  #   text: Abstract submission deadline (PhD Symposium Papers)
+  #   pass_due: true
+  #   type: PHD
   - date: March 1st, 2024
     text: Paper submission deadline (PhD Symposium Papers)
     pass_due: false
