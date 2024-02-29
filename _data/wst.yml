@@ -21,7 +21,7 @@ workshops:
 
   - acronym: HPQCI
     title: Workshop on High Performance and Quantum Computing Integration
-    url:
+    url: "https://hpqci.github.io/cfp.html"
 
   - acronym: PERMAVOST
     title: Workshop on Performance Engineering, Modelling, Analysis, and Visualization Strategy
