@@ -26,7 +26,7 @@ deadlines:
   #   type: PHD
   - date: March 1st, 2024
     text: Paper submission deadline (PhD Symposium Papers)
-    pass_due: false
+    pass_due: true
     type: PHD
   - date: March 15th, 2024
     text: Paper submission deadline (EU-Projects)
