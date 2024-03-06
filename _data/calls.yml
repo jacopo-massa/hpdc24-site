@@ -55,3 +55,5 @@ pages_call:
     url: "./calls-phd.html"
   - name: Posters
     url: "./calls-posters.html"
+  - name: Award Nominations
+    url: "./calls-awards.html"

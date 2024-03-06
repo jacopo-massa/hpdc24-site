@@ -68,3 +68,6 @@ deadlines:
     text: Camera-ready version (EU-Projects)
     pass_due: false
     type: EUP
+  - date: April 8th, 2024
+    text: Nomination deadline
+    type: CFN
