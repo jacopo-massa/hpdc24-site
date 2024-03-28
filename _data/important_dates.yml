@@ -40,7 +40,7 @@ deadlines:
     text: Notification of acceptance (Main Track)
     pass_due: false
     type: CFP
-  - date: March 25th, 2024
+  - date: April 8th, 2024
     text: Notification of acceptance (PhD Symposium Papers)
     pass_due: false
     type: PHD
