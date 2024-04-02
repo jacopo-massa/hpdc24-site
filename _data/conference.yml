@@ -54,14 +54,14 @@ navbar:
     label: Program
     path: /program.html
     visible: False
-  - id: 3
+  - id: 5
+    label: Registration
+    path: /registration.html
+    visible: True
+  - id: 6
     label: Venue
     path: /venue.html
     visible: True
-  # - id: 5
-  #   label: Registration
-  #   path: /registration.html
-  #   visible: True
 cooperation_with:
   - name: SIGHPC
     logo_path: ./assets/images/sponsors/sighpc-logo.png

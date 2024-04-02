@@ -20,11 +20,14 @@ slide_id: 6
                 </a>
             </p>
             {% endif %}
+            <br>
             <h5>Visa</h5>
+            {% if site.data.registration.visa %}
             <p>
-                If you are an international traveller and need a visa to enter
-                {{site.data.conference.country}}, please contact us after your paper is accepted.
+                {{site.data.registration.visa}}
             </p>
+            {% endif %}
+            <br>
             {% include contact-us.html %}
         </div>
     </div>
