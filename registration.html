@@ -28,7 +28,14 @@ slide_id: 6
             </p>
             {% endif %}
             <br>
-            {% include contact-us.html %}
+            <h5>Contact</h5>
+            <p class="text-left">
+                If you have any problems or questions, please contact us via e-mail at:
+                <a href="mailto:{{ site.data.registration.email }}">
+                    <i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i>
+                    {{ site.data.registration.email }}
+                </a>
+            </p>
         </div>
     </div>
 </div>
