@@ -30,27 +30,27 @@ deadlines:
     type: PHD
   - date: March 15th, 2024
     text: Paper submission deadline (EU-Projects)
-    pass_due: false
+    pass_due: true
     type: EUP
   - date: March 21th, 2024
     text: Posters submission deadline
-    pass_due: false
+    pass_due: true
     type: POS
   - date: March 25th, 2024
     text: Notification of acceptance (Main Track)
-    pass_due: false
+    pass_due: true
     type: CFP
   - date: April 8th, 2024
     text: Notification of acceptance (PhD Symposium Papers)
-    pass_due: false
+    pass_due: true
     type: PHD
   - date: April 04th, 2024
     text: Notification of acceptance (Posters)
-    pass_due: false
+    pass_due: true
     type: POS
   - date: March 29th, 2024
     text: Notification of acceptance (EU-Projects)
-    pass_due: false
+    pass_due: true
     type: EUP
   - date: April 18th, 2024
     text: Camera-ready version (Main Track)
