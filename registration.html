@@ -5,7 +5,7 @@ slide_id: 6
 ---
 
 <div class="row mt-xs-0 mt-sm-0 mt-md-1 mt-lg-2 mt-xl-3 mb-xs-2 mb-sm-2">
-    <div class="col text-justify conference-text text-muted">
+    <div class="col text-justify conference">
         <div>
             <h5>Registration</h5>
             {% if site.data.registration.about %}
@@ -15,12 +15,90 @@ slide_id: 6
             {% endif %}
             {% if site.data.registration.url %}
             <p>
-                <a href="{{site.data.registration.url}}">
-                    {{site.data.registration.url}}
-                </a>
+                <center>
+                    <button name="button" class="btn btn-success btn-lg shadowedbutton"
+                        onclick="parent.open('{{site.data.registration.url}}')">HPDC Registration Site</button>
+                </center>
             </p>
             {% endif %}
+
+            <h5>What's included</h5>
+            <ul>
+                <li><strong>Full registration (ACM member/ non member):</strong> The registrants can attend the main
+                    conference and all satellite events (i.e., workshops, tutorials, posters session, and the PhD
+                    symposium). This registration type includes reception, all social events, social dinner, welcome
+                    cocktail, breakfast, lunch, and breaks. During the registration process, the registrant can add up
+                    to 4 additional tickets for his/her guests for the social events.</li>
+                <li><strong>Full STUDENT registration (ACM member/ non member):</strong> The registrants can attend the
+                    main conference and all satellite events (i.e., workshops, tutorials, poster session, and the PhD
+                    symposium). This registration type includes reception, all social events, social dinner, welcome
+                    cocktail, breakfast, lunch, and breaks. During the registration process, the registrant
+                    <strong>CANNOT</strong> add any additional tickets for his/her guests for the social events.
+                </li>
+                <li><strong>Workshops, Tutorials and Posters, WTP (ACM member/ non member):</strong> The registrant can
+                    attend ONLY workshops, tutorials, and the Posters session. This registration type includes
+                    reception, breakfast, lunch, and breaks in the days of the WTP events (3 and 4 June), plus the
+                    participation in the welcome cocktail on 4th June (with the Posters session). This registration type
+                    <strong>DOES NOT</strong> include entrance to the social events and the social dinner. During the
+                    registration process, the registrant <strong>CANNOT</strong> add any tickets for himself or his/her
+                    guests for the social events.
+                </li>
+            </ul>
             <br>
+
+            <h5>Early Registration Deadline</h5>
+            <p>The early registration deadline <u><b>is May 3th, 2024.</b></u></p>
+            <br>
+
+            <h5>Full Registration Prices</h5>
+            <table class="table table-bordered table-striped table-hover table-sm">
+                <tr>
+                    <th>Status</th>
+                    <th>Early</th>
+                    <th>Late</th>
+                </tr>
+                {% for r in site.data.registration.full %}
+                <tr>
+                    <td>{{r.status}}</td>
+                    <td>{{r.early}} €</td>
+                    <td>{{r.late}} €</td>
+                </tr>
+                {% endfor %}
+            </table>
+            <br>
+
+            <h5>Workshops, Tutorials and Posters (WTP) Registration Prices</h5>
+            <table class="table table-bordered table-striped table-hover table-sm">
+                <tr>
+                    <th>Status</th>
+                    <th>Early</th>
+                    <th>Late</th>
+                </tr>
+                {% for registration in site.data.registration.wtp %}
+                <tr>
+                    <td>{{registration.status}}</td>
+                    <td>{{registration.early}} €</td>
+                    <td>{{registration.late}} €</td>
+                </tr>
+                {% endfor %}
+            </table>
+            <br>
+
+            <h5>Required type of the registration based on the accepted paper</h5>
+            <table class="table table-bordered table-striped table-hover table-sm">
+                <tr>
+                    <th>Accepted paper type</th>
+                    <th>Minimum required registration</th>
+                </tr>
+                {% for registration in site.data.registration.required_type %}
+                <tr>
+                    <td>{{registration.paper_type}}</td>
+                    <td>{{registration.required}}</td>
+                </tr>
+                {% endfor %}
+            </table>
+            <br>
+
             <h5>Visa</h5>
             {% if site.data.registration.visa %}
             <p>

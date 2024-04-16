@@ -1,9 +1,40 @@
-about: |
-  The registration site is under construction and will be available as soon as possible.
+about: Please click on the button below to start the registration process.
 
 visa: |
   It will be possible to request the VISA Support letter during the registration process, 
   after the corresponding payment will be completed.
 
 email: "luca.ferrucci@unipi.it, hanna.kavalionak@isti.cnr.it"
-url: ""
+url: "https://cvent.me/NexqYB"
+
+full:
+  - status: "Student Member"
+    early: "500"
+    late: "550"
+  - status: "Student Non-Member"
+    early: "550"
+    late: "600"
+  - status: "Member"
+    early: "800"
+    late: "900"
+  - status: "Non-Member"
+    early: "900"
+    late: "980"
+
+wtp:
+  - status: "Member"
+    early: "450"
+    late: "500"
+  - status: "Non-Member"
+    early: "500"
+    late: "550"
+
+required_type:
+  - paper_type: "HPDC main track paper"
+    required: "FULL conference NON-student registration"
+  - paper_type: "HPDC EU-track paper"
+    required: "FULL conference NON-student registration"
+  - paper_type: "PhD Symposium paper"
+    required: "FULL conference STUDENT registration"
+  - paper_type: "Workshops, tutorials and posters papers"
+    required: "WTP registration"
