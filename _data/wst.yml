@@ -1,7 +1,7 @@
 workshops:
-  # - acronym: AI4Sys
-  #   title: Workshop on AI For Systems
-  #   url: "https://sites.google.com/view/ai4sys"
+  - acronym: AI4Sys
+    title: Workshop on AI For Systems
+    url: "https://sites.google.com/view/ai4sys"
 
   # - acronym: AITA
   #   title: Workshop on AI Training Acceleration
