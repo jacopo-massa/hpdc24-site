@@ -31,9 +31,13 @@ wtp:
 
 required_type:
   - paper_type: "HPDC main track paper"
-    required: "FULL conference NON-student registration"
+    required: |
+      FULL conference NON-student registration.
+      <p class='text-danger font-weight-bold'>even ACM student members have to register as NON-student.</p>
   - paper_type: "HPDC EU-track paper"
-    required: "FULL conference NON-student registration"
+    required: |
+      FULL conference NON-student registration
+      <p class='text-danger font-weight-bold'>even ACM student members have to register as NON-student.</p>
   - paper_type: "PhD Symposium paper"
     required: "FULL conference STUDENT registration"
   - paper_type: "Workshops, tutorials and posters papers"
