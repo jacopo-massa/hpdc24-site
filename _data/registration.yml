@@ -7,6 +7,10 @@ visa: |
 email: "luca.ferrucci@unipi.it, hanna.kavalionak@isti.cnr.it"
 url: "https://cvent.me/NexqYB"
 
+deadline:
+  early: "May 3rd, 2024"
+  late: "May 27th, 2024"
+
 full:
   - status: "Student Member"
     early: "500"
