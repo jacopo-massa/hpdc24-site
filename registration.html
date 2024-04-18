@@ -14,12 +14,7 @@ slide_id: 6
             </p>
             {% endif %}
             {% if site.data.registration.url %}
-            <p>
-                <center>
-                    <button name="button" class="btn btn-success btn-lg shadowedbutton"
-                        onclick="parent.open('{{site.data.registration.url}}')">HPDC Registration Site</button>
-                </center>
-            </p>
+
             {% endif %}
 
             <h5>What's included</h5>
@@ -119,6 +114,15 @@ slide_id: 6
                     <i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i>
                     {{ site.data.registration.email }}
                 </a>
+            </p>
+            <br>
+            <h5>Registration site</h5>
+            Please click the button below to start the registration process:
+            <p>
+                <center>
+                    <button name="button" class="btn btn-success btn-lg shadowedbutton"
+                        onclick="parent.open('{{site.data.registration.url}}')">HPDC Registration Site</button>
+                </center>
             </p>
         </div>
     </div>
