@@ -7,7 +7,7 @@ slide_id: 6
 <div class="row mt-xs-0 mt-sm-0 mt-md-1 mt-lg-2 mt-xl-3 mb-xs-2 mb-sm-2">
     <div class="col text-justify conference">
         <div>
-            <h5>Registration</h5>
+            <h4>Registration</h4>
             {% if site.data.registration.about %}
             <p>
                 {{site.data.registration.about}}
@@ -17,7 +17,7 @@ slide_id: 6
 
             {% endif %}
 
-            <h5>What's included</h5>
+            <h4>What's included</h4>
             <ul>
                 <li><strong>Full registration (ACM member/ non member):</strong> The registrants can attend the main
                     conference and all satellite events (i.e., workshops, tutorials, posters session, and the PhD
@@ -41,17 +41,19 @@ slide_id: 6
             </ul>
             <br>
 
-            <h5>Registration Deadlines</h5>
+            <h4>Registration Deadlines</h4>
             <p> Early: <b>{{site.data.registration.deadline.early}}</b>.<br>
                 Late: <b>{{site.data.registration.deadline.late}}</b>.<br>
             <p><b class="text-warning">Important:</b>
                 <b><i>We do not offer on-site registration.
                         All attendees must register online before the deadline.</i></b>
             </p>
-            <br>
             </p>
+            <br>
+            <h4>Registration Prices</h4>
+            <p><u class="text-info"><b>All prices in the tables below are 22% VAT included.</b></u></p>
 
-            <h5>Full Registration Prices</h5>
+            <h5>Full Registration</h5>
             <table class="table table-bordered table-striped table-hover table-sm">
                 <tr>
                     <th>Status</th>
@@ -68,7 +70,7 @@ slide_id: 6
             </table>
             <br>
 
-            <h5>Workshops, Tutorials and Posters (WTP) Registration Prices</h5>
+            <h5>Workshops, Tutorials and Posters (WTP) Registration</h5>
             <table class="table table-bordered table-striped table-hover table-sm">
                 <tr>
                     <th>Status</th>
@@ -85,7 +87,7 @@ slide_id: 6
             </table>
             <br>
 
-            <h5>Required type of the registration based on the accepted paper</h5>
+            <h4>Required type of the registration based on the accepted paper</h4>
             <table class="table table-bordered table-striped table-hover table-sm">
                 <tr>
                     <th>Accepted paper type</th>
@@ -100,14 +102,14 @@ slide_id: 6
             </table>
             <br>
 
-            <h5>Visa</h5>
+            <h4>Visa</h4>
             {% if site.data.registration.visa %}
             <p>
                 {{site.data.registration.visa}}
             </p>
             {% endif %}
             <br>
-            <h5>Contact</h5>
+            <h4>Contact</h4>
             <p class="text-left">
                 If you have any problems or questions, please contact us via e-mail at:
                 <a href="mailto:{{ site.data.registration.email }}">
@@ -116,7 +118,7 @@ slide_id: 6
                 </a>
             </p>
             <br>
-            <h5>Registration site</h5>
+            <h4>Registration site</h4>
             Please click the button below to start the registration process:
             <p>
                 <center>
