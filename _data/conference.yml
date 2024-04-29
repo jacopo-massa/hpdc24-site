@@ -59,6 +59,10 @@ navbar:
     path: /registration.html
     visible: True
   - id: 6
+    label: Travel Grant
+    path: /travel-grant.html
+    visible: True
+  - id: 7
     label: Venue
     path: /venue.html
     visible: True

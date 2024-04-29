@@ -1,0 +1,45 @@
+---
+title: Travel Grant
+layout: page
+slide_id: 7
+---
+
+<div class="row mt-xs-0 mt-sm-0 mt-md-1 mt-lg-2 mt-xl-3 mb-xs-2 mb-sm-2">
+    <div class="col text-justify conference">
+        <div>
+            <h5>Travel Grant</h5>
+            {% if site.data.travel_grant.about %}
+            <p>
+                {{site.data.travel_grant.about}}
+            </p>
+            {% endif %}
+            <br>
+            <h5>Travel Grant Chairs</h5>
+            <p>
+                Ariful Azad, Indiana University Bloomington, USA<br>
+                Dong Li, University of California Merced, USA<br>
+            </p>
+            <br>
+            <h5>Application Deadline</h5>
+            <p>{{ site.data.travel_grant.deadline }}</p>
+            <br>
+            <h5>Contact</h5>
+            <p class="text-left">
+                If you have any problems or questions, please contact us via e-mail at:
+                <a href="mailto:{{ site.data.registration.email }}">
+                    <i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i>
+                    {{ site.data.travel_grant.email }}
+                </a>
+            </p>
+            <br>
+            <h5>Application form</h5>
+            Please click the button below to start the application process:
+            <p>
+                <center>
+                    <button name="button" class="btn btn-success btn-lg shadowedbutton"
+                        onclick="parent.open('{{site.data.travel_grant.url}}')">Travel grant application form</button>
+                </center>
+            </p>
+        </div>
+    </div>
+</div>
