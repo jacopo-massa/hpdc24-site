@@ -80,8 +80,8 @@ sponsors:
     logo_path: ./assets/images/sponsors/acm-logo.png
   - name: Vast Data
     logo_path: ./assets/images/sponsors/vastdata-logo.png
-  #- name: IEEE
-  #  logo_path: ./assets/images/sponsors/ieee-logo.gif
+  - name: Cornelis Networks
+    logo_path: ./assets/images/sponsors/cornelis-logo.png
 social_media:
   facebook_link:
   twitter_link: https://x.com/ACM_HPDC?s=20

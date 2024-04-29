@@ -10,4 +10,4 @@ build:
 	export JEKYLL_ENV="production" && bundle exec jekyll build
 
 publish: build
-	rclone sync -v _site/ HPDC2024:/htdocs/hpdc/2024
+	rclone sync -v _site/ HPDC2024:/htdocs/hpdc/2024 --exclude "hpdc_privacy_policy.pdf"
