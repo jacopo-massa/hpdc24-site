@@ -31,6 +31,19 @@ slide_id: 4
         {% endif %}
         </p>
 
+        <div id="days" class="alert alert-info rounded mx-3">
+            <p class="h6">
+                June 3rd and June 4th are reserved for Workshops and Tutorials. <br>
+                Detailed schedules and information on workshops and tutorials can be found on their
+                <a href="./workshops" target="_blank" class="alert-link">respective pages</a>.
+            </p>
+            <hr>
+            <p class="h6">
+                The Poster Session will take place on June 4th during the <b>welcome cocktail</b>.
+            </p>
+        </div>
+
+
         <div id="days" class="alert alert-success rounded text-center mx-3">
             {% for day in site.data.program.schedule %}
             <a class="h6 alert-link" href="#day{{forloop.index}}">Day {{ forloop.index }}</a>
@@ -38,13 +51,13 @@ slide_id: 4
             {% endfor %}
         </div>
 
-        <!--<h5>Schedule</h5>-->
         {% if site.data.program.schedule != nil %}
         {% for day in site.data.program.schedule %}
+        <hr>
         <div>
             <div>
                 <h4 id="day{{forloop.index}}" class="schedule-table-heading">
-                    <a class="text-secondary" href="#days">
+                    <a class="text-secondary" href="#">
                         <i class="fa-solid fa-arrow-up mr-2" aria-hidden="true"></i>
                     </a>
                     Day {{ forloop.index}} - {{ day.dateReadable }}
@@ -59,10 +72,10 @@ slide_id: 4
                         </th>
                         {% if timeslot.type == "service" %}
                         <th class="bg-warning text-center">
-                            <p class="text-center">{{timeslot.title}}</p>
+                            <h6 class="text-center">{{timeslot.title}}</h6>
                         </th>
                         {% elsif timeslot.type == "keynote" %}
-                        <th class="bg-info text-center">
+                        <th class="bg-success text-center">
                             <h5 class="text-light">Keynote: <i>{{timeslot.title}}</i></h5>
                             {% if timeslot.speaker %}
                             <p>Speaker: <i>{{timeslot.speaker}}</i></p>
@@ -85,7 +98,9 @@ slide_id: 4
                         </td>
                         <td>
                             <p><b>{{event.title}}</b></p>
+                            {% if event.speakers %}
                             <p><i>{{event.speakers}}</i></p>
+                            {% endif %}
                         </td>
                     </tr>
                     {% endfor %}
@@ -100,9 +115,5 @@ slide_id: 4
             TBA
         </div>
         {% endif %}
-
-        <!--<div class="conference-text">
-            {% include contact-us.html %}
-        </div>-->
     </div>
 </div>

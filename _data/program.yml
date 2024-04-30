@@ -4,52 +4,225 @@ online:
   url:
 
 schedule:
-  - date: "2024-06-03"
-    dateReadable: June 3
-    timeslots:
-      - startTime: "8:50"
-        endTime: "9:00"
-        title: "Open remarks"
-        chair: Chair
-      - startTime: "9:00"
-        endTime: "10:00"
-        title: Keynote title
-        speaker: Keynote Speaker
-        chair: "Chair"
-        type: keynote
-      - startTime: "10:00"
-        endTime: "10:30"
-        title: "Coffee break"
-        type: service
-      - startTime: "10:30"
-        endTime: "12:00"
-        title: Sessione title
-        chair: Session chair
-        type: presentation
-        events:
-          - title: Presentation 1
-            speakers: Auth1 (Aff1), Auth2 (Aff2)
-          - title: Presentation 2
-            speakers: Auth1 (Aff1), Auth2 (Aff2)
-          - title: Presentation 3
-            speakers: Auth1 (Aff1), Auth2 (Aff2)
-      - startTime: "12:00"
-        endTime: "13:30"
-        title: "Lunch"
-        type: service
+  # - date: "2024-06-03"
+  #   dateReadable: June 3
+  #   timeslots:
+  #     - startTime: ""
+  #       endTime: ""
+  #       title: "Workshops & Tutorials"
+  #       chair: ""
 
-  - date: "2024-06-04"
-    dateReadable: June 4
-    timeslots:
+  # - date: "2024-06-04"
+  #   dateReadable: June 4
+  #   timeslots:
 
   - date: "2024-06-05"
     dateReadable: June 5
     timeslots:
+      - startTime: "8:30 AM"
+        endTime: "9:00 AM"
+        title: "Registration"
+        type: service
+
+      - startTime: "9:00 AM"
+        endTime: "9:50 AM"
+        title: "Welcome"
+        type: service
+
+      - startTime: "9:50 AM"
+        endTime: "10:50 AM"
+        title: Keynote 1
+        speaker: TBA
+        type: keynote
+
+      - startTime: "10:50 AM"
+        endTime: "11:20 AM"
+        title: "Coffee Break"
+        type: service
+
+      - startTime: "11:20 AM"
+        endTime: "1:00 PM"
+        title: Compression and AI
+        type: presentation
+        chair:
+        events:
+          - title: "CereSZ: Enabling and Scaling Error-bounded Lossy Compression on Cerebras CS-2"
+            speakers:
+          - title: "A Portable, Fast, DCT-based Compressor for AI Accelerators"
+            speakers:
+          - title: "ADTopk: All-Dimension Top-k Compression for High-Performance Data-Parallel DNN Training"
+            speakers:
+          - title: "A Unified System Optimizations for GNN Kernels"
+
+      - startTime: "1:00 PM"
+        endTime: "2:00 PM"
+        title: "Lunch"
+        type: service
+
+      - startTime: "2:00 PM"
+        endTime: "3:15 PM"
+        title: Resilience
+        type: presentation
+        chair:
+        events:
+          - title: "DataStates-LLM: Lazy Asynchronous Checkpointing for Large Language Models"
+            speakers:
+          - title: "FPBOXer: Efficient Input-Generation for Targeting Floating-Point Exceptions in GPU Programs"
+            speakers:
+          - title: "RL-based Adaptive Mitigation of Uncorrected DRAM Errors in the Field"
+            speakers:
+
+      - startTime: "3:15 PM"
+        endTime: "3:45 PM"
+        title: "Coffee Break"
+        type: service
+
+      - startTime: "3:45 PM"
+        endTime: "5:00 PM"
+        title: "Industrial Panel"
 
   - date: "2024-06-06"
     dateReadable: June 6
     timeslots:
+      - startTime: "8:30 AM"
+        endTime: "9:00 AM"
+        title: "Registration"
+        type: service
+
+      - startTime: "9:00 AM"
+        endTime: "10:00 AM"
+        title: Keynote 2
+        speaker: TBA
+        type: keynote
+
+      - startTime: "10:00 AM"
+        endTime: "11:15 AM"
+        title: "Serverless Computing"
+        type: presentation
+        chair:
+        events:
+          - title: "Faast: An Efficient Serverless Framework Made Snapshot-based Function Response Fast (Paper Type: Regular)"
+            speakers:
+          - title: "FaaSKeeper: Learning from Building Serverless Services with ZooKeeper as an Example"
+            speakers:
+          - title: "FaaSRail: Employing Real Workloads to Generate Representative Load for Serverless Research"
+            speakers:
+
+      - startTime: "11:15 AM"
+        endTime: "11:45 AM"
+        title: "Coffee Break"
+        type: service
+
+      - startTime: "11:45 AM"
+        endTime: "1:00 PM"
+        title: "Software Systems & Workflows"
+        type: presentation
+        chair:
+        events:
+          - title: "IDT: Intelligent Data Placement for Multi-Tiered Main Memory with Reinforcement Learning"
+            speakers:
+          - title: "DLHT: Memory-aware Closed-addressing with Fast Deletes and Non-blocking Resizes"
+            speakers:
+          - title: "Accelerating Function-Centric Applications by Discovering, Distributing, and Retaining Reusable Context in Workflow Systems"
+            speakers:
+
+      - startTime: "1:00 PM"
+        endTime: "2:00 PM"
+        title: "Lunch"
+        type: service
+
+      - startTime: "2:00 PM"
+        endTime: "3:40 PM"
+        title: "PhD Symposium"
+
+      - startTime: "3:40 PM"
+        endTime: "4:10 PM"
+        title: "Coffee Break"
+        type: service
+
+      - startTime: "4:10 PM"
+        endTime: "5:25 PM"
+        title: "Performance modeling & LLMs"
+        type: presentation
+        chair:
+        events:
+          - title: "ETS: Deep Learning Training Iteration Time Prediction based on Execution Trace Sliding Window"
+            speakers:
+          - title: "Evaluating the Performance of Large Language Models on Parallel Code Generation"
+            speakers:
+          - title: "FASOP: Fast yet Accurate Automated Search for Optimal Parallelization of Transformers on Heterogeneous GPU Clusters"
+            speakers:
 
   - date: "2024-06-07"
     dateReadable: June 7
     timeslots:
+      - startTime: "8:30 AM"
+        endTime: "9:00 AM"
+        title: "Registration"
+        type: service
+
+      - startTime: "9:00 AM"
+        endTime: "10:00 AM"
+        title: Keynote 3
+        speaker: TBA
+        type: keynote
+
+      - startTime: "10:00 AM"
+        endTime: "11:15 AM"
+        title: "Accelerators & Scientific applications "
+        type: presentation
+        chair:
+        events:
+          - title: "Extending Sparse Patterns to Improve Inverse Preconditioning on GPU Architectures"
+            speakers:
+          - title: "SIMCoV-GPU: Accelerating an Agent Based Model for Exascale"
+            speakers:
+          - title: "HAM-SpMSpV: an Optimized Parallel Algorithm for Masked Sparse Matrix-Sparse Vector Multiplications on multi-core CPUs"
+            speakers:
+
+      - startTime: "11:15 AM"
+        endTime: "11:45 AM"
+        title: "Coffee Break"
+        type: service
+
+      - startTime: "11:45 AM"
+        endTime: "1:00 PM"
+        title: "Resource Management"
+        type: presentation
+        chair:
+        events:
+          - title: "Loki: A System for Serving ML Inference Pipelines with Hardware and Accuracy Scaling"
+            speakers:
+          - title: "ESG: Pipeline-Conscious Efficient Scheduling of DNN Workflows on Serverless Platforms with Shareable GPUs"
+            speakers:
+          - title: "ElasticRoom: Multi-Tenant DNN Inference Engine via Co-design with Resource-constrained Compilation and Strong Priority Scheduling"
+            speakers:
+
+      - startTime: "1:00 PM"
+        endTime: "2:00 PM"
+        title: "Lunch"
+        type: service
+
+      - startTime: "2:00 PM"
+        endTime: "3:40 PM"
+        title: "Security"
+        type: presentation
+        chair:
+        events:
+          - title: "Near-Optimal Wafer-Scale Reduce"
+            speakers:
+          - title: "Efficient all-to-all Collective Communication Schedules for Direct-connect Topologies"
+            speakers:
+          - title: "ScaleDFS: Accelerating Decentralized and Private File Sharing via Scaling Directed Acyclic Graph Processing"
+            speakers:
+          - title: "EvoStore: Towards Scalable Storage of Evolving Learning Models"
+            speakers:
+
+      - startTime: "3:40 PM"
+        endTime: "4:10 PM"
+        title: "Coffee Break"
+        type: service
+
+      - startTime: "4:10 PM"
+        endTime: "5:00 PM"
+        title: "Closing"
