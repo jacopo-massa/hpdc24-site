@@ -81,13 +81,18 @@ slide_id: 4
                             <p>Speaker: <i>{{timeslot.speaker}}</i></p>
                             {% endif %}
                         </th>
+                        {% elsif timeslot.type == "social" %}
+                        <th class="bg-primary text-center">
+                            <h6 class="text-light">{{timeslot.title}}</h6>
+                        </th>
                         {% else %}
                         <th class="bg-info text-center">
                             <h5 class="text-light text-center">{{timeslot.title}}</h5>
                             {% if timeslot.chair %}
                             <p>Session chair: <i>{{timeslot.chair}}</i></p>
                             {% endif %}
-                            {% endif %}
+                        </th>
+                        {% endif %}
                     </tr>
                 </thead>
                 {% if timeslot.events %}

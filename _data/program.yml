@@ -4,18 +4,6 @@ online:
   url:
 
 schedule:
-  # - date: "2024-06-03"
-  #   dateReadable: June 3
-  #   timeslots:
-  #     - startTime: ""
-  #       endTime: ""
-  #       title: "Workshops & Tutorials"
-  #       chair: ""
-
-  # - date: "2024-06-04"
-  #   dateReadable: June 4
-  #   timeslots:
-
   - date: "2024-06-05"
     dateReadable: June 5
     timeslots:
@@ -80,6 +68,11 @@ schedule:
       - startTime: "3:45 PM"
         endTime: "5:00 PM"
         title: "Industrial Panel"
+
+      - startTime: "6:30 PM"
+        endTime: ""
+        title: 'Guided Tour to <i>"Piazza Dei Miracoli"</i>'
+        type: social
 
   - date: "2024-06-06"
     dateReadable: June 6
