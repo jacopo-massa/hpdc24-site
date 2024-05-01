@@ -33,15 +33,11 @@ schedule:
         title: Compression and AI
         type: presentation
         chair:
-        events:
-          - title: "CereSZ: Enabling and Scaling Error-bounded Lossy Compression on Cerebras CS-2"
-            speakers:
-          - title: "A Portable, Fast, DCT-based Compressor for AI Accelerators"
-            speakers:
-          - title: "ADTopk: All-Dimension Top-k Compression for High-Performance Data-Parallel DNN Training"
-            speakers:
-          - title: "A Unified System Optimizations for GNN Kernels"
-
+        submissions:
+          - 450
+          - 116
+          - 118
+          - 42
       - startTime: "1:00 PM"
         endTime: "2:00 PM"
         title: "Lunch"
@@ -52,13 +48,10 @@ schedule:
         title: Resilience
         type: presentation
         chair:
-        events:
-          - title: "DataStates-LLM: Lazy Asynchronous Checkpointing for Large Language Models"
-            speakers:
-          - title: "FPBOXer: Efficient Input-Generation for Targeting Floating-Point Exceptions in GPU Programs"
-            speakers:
-          - title: "RL-based Adaptive Mitigation of Uncorrected DRAM Errors in the Field"
-            speakers:
+        submissions:
+          - 283
+          - 114
+          - 292
 
       - startTime: "3:15 PM"
         endTime: "3:45 PM"
@@ -93,13 +86,10 @@ schedule:
         title: "Serverless Computing"
         type: presentation
         chair:
-        events:
-          - title: "Faast: An Efficient Serverless Framework Made Snapshot-based Function Response Fast (Paper Type: Regular)"
-            speakers:
-          - title: "FaaSKeeper: Learning from Building Serverless Services with ZooKeeper as an Example"
-            speakers:
-          - title: "FaaSRail: Employing Real Workloads to Generate Representative Load for Serverless Research"
-            speakers:
+        submissions:
+          - 179
+          - 115
+          - 273
 
       - startTime: "11:15 AM"
         endTime: "11:45 AM"
@@ -111,13 +101,10 @@ schedule:
         title: "Software Systems & Workflows"
         type: presentation
         chair:
-        events:
-          - title: "IDT: Intelligent Data Placement for Multi-Tiered Main Memory with Reinforcement Learning"
-            speakers:
-          - title: "DLHT: Memory-aware Closed-addressing with Fast Deletes and Non-blocking Resizes"
-            speakers:
-          - title: "Accelerating Function-Centric Applications by Discovering, Distributing, and Retaining Reusable Context in Workflow Systems"
-            speakers:
+        submissions:
+          - 104
+          - 191
+          - 117
 
       - startTime: "1:00 PM"
         endTime: "2:00 PM"
@@ -138,13 +125,10 @@ schedule:
         title: "Performance modeling & LLMs"
         type: presentation
         chair:
-        events:
-          - title: "ETS: Deep Learning Training Iteration Time Prediction based on Execution Trace Sliding Window"
-            speakers:
-          - title: "Evaluating the Performance of Large Language Models on Parallel Code Generation"
-            speakers:
-          - title: "FASOP: Fast yet Accurate Automated Search for Optimal Parallelization of Transformers on Heterogeneous GPU Clusters"
-            speakers:
+        submissions:
+          - 96
+          - 308
+          - 296
 
   - date: "2024-06-07"
     dateReadable: June 7
@@ -165,13 +149,10 @@ schedule:
         title: "Accelerators & Scientific applications "
         type: presentation
         chair:
-        events:
-          - title: "Extending Sparse Patterns to Improve Inverse Preconditioning on GPU Architectures"
-            speakers:
-          - title: "SIMCoV-GPU: Accelerating an Agent Based Model for Exascale"
-            speakers:
-          - title: "HAM-SpMSpV: an Optimized Parallel Algorithm for Masked Sparse Matrix-Sparse Vector Multiplications on multi-core CPUs"
-            speakers:
+        submissions:
+          - 272
+          - 506
+          - 176
 
       - startTime: "11:15 AM"
         endTime: "11:45 AM"
@@ -183,13 +164,10 @@ schedule:
         title: "Resource Management"
         type: presentation
         chair:
-        events:
-          - title: "Loki: A System for Serving ML Inference Pipelines with Hardware and Accuracy Scaling"
-            speakers:
-          - title: "ESG: Pipeline-Conscious Efficient Scheduling of DNN Workflows on Serverless Platforms with Shareable GPUs"
-            speakers:
-          - title: "ElasticRoom: Multi-Tenant DNN Inference Engine via Co-design with Resource-constrained Compilation and Strong Priority Scheduling"
-            speakers:
+        submissions:
+          - 303
+          - 77
+          - 19
 
       - startTime: "1:00 PM"
         endTime: "2:00 PM"
@@ -201,15 +179,11 @@ schedule:
         title: "Communication & Storage"
         type: presentation
         chair:
-        events:
-          - title: "Near-Optimal Wafer-Scale Reduce"
-            speakers:
-          - title: "Efficient all-to-all Collective Communication Schedules for Direct-connect Topologies"
-            speakers:
-          - title: "ScaleDFS: Accelerating Decentralized and Private File Sharing via Scaling Directed Acyclic Graph Processing"
-            speakers:
-          - title: "EvoStore: Towards Scalable Storage of Evolving Learning Models"
-            speakers:
+        submissions:
+          - 516
+          - 71
+          - 417
+          - 122
 
       - startTime: "3:40 PM"
         endTime: "4:10 PM"
