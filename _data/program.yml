@@ -198,7 +198,7 @@ schedule:
 
       - startTime: "2:00 PM"
         endTime: "3:40 PM"
-        title: "Security"
+        title: "Communication & Storage"
         type: presentation
         chair:
         events:
