@@ -32,9 +32,8 @@ ws_address: >
   Largo Bruno Pontecorvo 3, <br>
   56127 Pisa, PI, Italy
 
-accommodation:
-  - about: >
-      Pisa is a compact city, so most hotels are within walking distance of the main attractions. HPDC 2024 has no specific agreement with local hotels or other accomodation offers, however, in the follow we briefly report a list of accomodation options in Pisa that allow to easily reach the conference venue. For your convenience the very same options are also reported in the interactive map.
+about: >
+  Pisa is a compact city, so most hotels are within walking distance of the main attractions. HPDC 2024 has no specific agreement with local hotels or other accomodation offers, however, in the follow we briefly report a list of accomodation options in Pisa that allow to easily reach the conference venue. For your convenience the very same options are also reported in the interactive map.
 hotels:
   - name: Hotel Verdi
     address: Piazza della Repubblica, 5

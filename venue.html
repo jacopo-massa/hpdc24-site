@@ -88,6 +88,9 @@ slide_id: 5
 
         <div>
             <h5>Where to stay in Pisa</h5>
+            {% if site.data.venue.about %}
+            <p>{{site.data.venue.about}}</p>
+            {% endif %}
             <ul>
                 {% for hotel in site.data.venue.hotels %}
                 <li>
