@@ -109,7 +109,8 @@ slide_id: 4
                                 {% for speaker in submission.speakers %}
                                 {% if forloop.first %}
                                 <i><b>Speakers:</b></i> {% else %}, {% endif %}
-                                <i><a href="{{speaker.email}}">{{speaker.name}}</a> <!--({{speaker.affiliation}})</i>-->
+                                <i><a href="mailto:{{speaker.email}}">{{speaker.name}}</a>
+                                    <!--({{speaker.affiliation}})</i>-->
                                     {% endfor %}
                             </p>
                             {% endif %}
