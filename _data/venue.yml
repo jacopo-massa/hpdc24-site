@@ -1,4 +1,4 @@
-geojson: ./assets/leaflet/venue.geojson
+map: "https://www.google.com/maps/d/viewer?mid=1xbMFdyngT_UqXghOGirBBMFMx_4VgzU&usp=sharing"
 direction: ./assets/images/direction.png
 locations:
   - title: Main Conference
@@ -33,8 +33,51 @@ ws_address: >
   56127 Pisa, PI, Italy
 
 accommodation:
-  instructions: >
-    TBA
-  hotels:
-    - name: TBA
-      address: TBA
+  - about: >
+      Pisa is a compact city, so most hotels are within walking distance of the main attractions. HPDC 2024 has no specific agreement with local hotels or other accomodation offers, however, in the follow we briefly report a list of accomodation options in Pisa that allow to easily reach the conference venue. For your convenience the very same options are also reported in the interactive map.
+hotels:
+  - name: Hotel Verdi
+    address: Piazza della Repubblica, 5
+    url: "https://www.hotelverdipisa.it/"
+
+  - name: Residence Domus - Srl
+    address: Via la Tinta, 11
+    url:
+
+  - name: Hostel - Safestay Pisa Centrale
+    address: Via Filippo Corridoni, 29
+    url: "https://www.safestay.com/venue/safestay-pisa-centrale/"
+
+  - name: Hotel Minerva
+    address: Piazza Giuseppe Toniolo, 20
+    url: "https://www.hotelminervapisa.com/"
+
+  - name: Hotel Leonardo
+    address: Via Tavoleria, 17
+    url: "https://www.hotelleonardopisa.it/"
+
+  - name: Grand Hotel Duomo - Pisa
+    address: Via Santa Maria, 94
+    url: "http://www.grandhotelduomo.it/"
+
+  - name: Residenza d'Epoca Relais I Miracoli
+    address: Via Santa Maria, 187
+    url: "http://www.relaisimiracoli.it/"
+
+  - name: Hotel Villa Kinzica
+    address: Piazza Arcivescovado, 2
+    url: "http://www.hotelvillakinzica.com/"
+
+  - name: B&B Antica Piazza dei Miracoli
+    address: Via Capponi, 1
+    url: "http://www.anticapiazzamiracoli.it/"
+
+resources:
+  - name: "Map of the Public Transportation in Pisa"
+    url: "./assets/images/transportation.pdf"
+  - name: "Link to the Railways"
+    url: "https://www.trenitalia.com/"
+  - name: "Link to the Pisa Airport"
+    url: "https://www.pisa-airport.com/en/"
+  - name: "Link to the Department of Computer Science of the University of Pisa"
+    url: "https://www.di.unipi.it/en/"

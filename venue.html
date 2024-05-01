@@ -3,34 +3,123 @@ title: Venue
 layout: page
 slide_id: 5
 ---
-<br>
-<!--<div class="row mt-xs-0 mt-sm-0 my-2">
-    <div class="col conference-text text-muted">
-        <p>
-            The {{site.data.conference.full_title}} is scheduled on
-            {{site.data.conference.date}} and will be held in
-            {{site.data.conference.location}},
-            {{site.data.conference.country}}.<br>
-            The main conference will take place at the <strong> Conference Center
-                "Polo Piagge" of the University of Pisa</strong>, whereas the workshops and the tutorials will
-            be organized at the <strong>Department of Computer Science of the University of Pisa.</strong>
-        </p>
-    </div>
-</div>-->
-
-<div class=" row mt-xs-0 mt-sm-0 my-2">
+<div class="row mt-xs-0 mt-sm-0 mt-md-1 mt-lg-2 mt-xl-3 mb-xs-2 mb-sm-2">
     <div class="col text-justify conference">
-        <p class="lead">Conference Locations</p>
-    </div>
-</div>
+        <div>
+            <h4>How to Get to Pisa</h4>
+            <p class="conference-text">Getting to Pisa is possible by air, by road and railroad alike.</p>
+        </div>
+        <div>
+            <h5>By Plane</h5>
+            Flying to Pisa is the most efficient option. Galileo Galilei International Airport is conveniently close
+            to
+            the city center. You can easily reach the city via the Pisa Mover, an automated train connecting the
+            airport
+            to the main railway station of the city, Pisa Centrale, or by a short walk (~1 km). Another option is to
+            fly
+            to Amerigo Vespucci International Airport in Florence and catch a train to Pisa from Florence's central
+            railway station, Firenze Santa Maria Novella. Such a station, in Florence, can be reached from the
+            Airoport
+            via a convenient and frequent Tram.
+        </div>
+        <br>
+        <div>
+            <h5>By Train</h5>
+            Pisa is well-connected by rail, not only to Florence but also to many other Tuscan cities like Livorno,
+            Siena, Arezzo, Lucca, Grosseto, and Carrara. You can also access Pisa from major Italian cities like
+            Rome.
+            Trains offer frequent services, making travel between these destinations convenient.
+        </div>
+        <br>
+        <div>
+            <h5>By Car</h5>
+            For those who prefer driving, traveling to Pisa by car is an excellent choice. Tuscany's scenic
+            landscapes
+            and seasides, as well as tourist attractions along the way make the journey enjoyable. However,
+            navigating
+            the motorway routes to Pisa might require some orientation effort.
+        </div>
 
-{% include conference_venue.html %}
+        <br>
+        <hr>
 
+        <div>
+            <h4>How to Get to the Conference Locations</h4>
+            <p class="conference-text">HPDC 2024 and its satellite events take place from June 3rd to June 7th. The
+                first two days are reserved
+                for the satellite events and will take place at the Department of Computer science of the University of
+                Pisa, the last three days are focused on the conference and will take place at “Polo Piagge”. In the
+                following is reported how to get to the two locations.</p>
+        </div>
+        <div>
+            <h5>Department of Computer Science</h5>
+            Located at Largo Bruno Pontecorvo 3, within Pisa's medieval walls, the Department of Computer Science is
+            easily accessible on foot from the city center. Several bus lines also stop nearby. Bus lines 3+, 4 and 11
+            have a stop in front of the department. Not far are also located the stops of lines 2 and 22. The conference
+            sessions for HPDC 2024 are held on the second floor of the building.
+        </div>
+        <br>
+        <div id="piagge">
+            <h5>Polo Piagge Conference Center</h5>
+            Situated within walking distance from the city center, the Polo Piagge Conference Center is easily
+            reachable. Bus lines 1+ and 13 have stops in front of the center. Once inside, the conference room is
+            located on the left.
+        </div>
 
-<div class=" row mt-xs-0 mt-sm-0 my-2">
-    <div class="col conference">
-        <p class="lead">City Map</p>
+        <br>
+        <hr>
 
-        <img class="img-fluid carousel" src="{{site.data.venue.direction}}" alt="direction">
+        <div>
+            <h4>Social Event Locations</h4>
+            <h5>Welcome Cocktail</h5>
+            <p>The welcome cocktail will be hosted at Polo Piagge. Follow the directions provided <a
+                    href="#piagge">above</a> to reach the
+                venue.</p>
+            <h5>Social Dinner</h5>
+            <p>The Social Dinner takes place in an ancient claustrum downtown, near the main promenade, Corso Italia.
+                Refer to the <a href="#map">interactive map</a> for directions.</p>
+            <h5>Piazza dei Miracoli (Miracles’ Square)</h5>
+            <p>This iconic square, home to the Leaning Tower, is located in the north-west part of the city center. From
+                Corso Italia, walk across Ponte di Mezzo to Garibaldi Square, then head towards Piazza dei Cavalieri.
+                Follow via dei Mille until you reach Piazza dei Miracoli. Additional details are given in the
+                <a href="#map">interactive map</a> reported below.
+            </p>
+        </div>
+
+        <div>
+            <h5>Where to stay in Pisa</h5>
+            <ul>
+                {% for hotel in site.data.venue.hotels %}
+                <li>
+                    {% if hotel.url %}
+                    <a href="{{hotel.url}}" target="_blank"><i>{{hotel.name}}</i></a>
+                    {% else %}
+                    <i>{{hotel.name}}</i>
+                    {% endif %}
+                    - {{hotel.address}}
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div>
+            <h5>Useful resources</h5>
+            <ul>
+                {% for resource in site.data.venue.resources %}
+                <li>
+                    <a href="{{resource.url}}" target="_blank"><i>{{resource.name}}</i></a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div id="map">
+            <h4>Interactive Map</h4>
+            <p class="conference-text">The interactive map below provides directions to the conference locations and
+                social event venues. Click on the markers for more information.</p>
+            <iframe class="responsive-iframe"
+                src="https://www.google.com/maps/d/embed?mid=1xbMFdyngT_UqXghOGirBBMFMx_4VgzU&ehbc=2E312F" width="100%"
+                height="480"></iframe>
+        </div>
     </div>
 </div>
