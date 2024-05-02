@@ -48,25 +48,25 @@ navbar:
     visible: True
     dropdown:
       - name: General Info
-        url: "/calls.html"
+        url: "./calls.html"
         visible: True
       - name: Papers
-        url: "/calls-cfp.html"
+        url: "./calls-cfp.html"
         visible: True
       - name: Workshops and Tutorials
-        url: "/calls-wst.html"
+        url: "./calls-wst.html"
         visible: True
       - name: European Projects
-        url: "/calls-eu.html"
+        url: "./calls-eu.html"
         visible: True
       - name: PhD Symposium
-        url: "/calls-phd.html"
+        url: "./calls-phd.html"
         visible: True
       - name: Posters
-        url: "/calls-posters.html"
+        url: "./calls-posters.html"
         visible: True
       - name: Award Nominations
-        url: "/calls-awards.html"
+        url: "./calls-awards.html"
         visible: True
   - id: 3
     label: Workshops and Tutorials
@@ -78,10 +78,10 @@ navbar:
     visible: True
     dropdown:
       - name: Schedule
-        url: "/program.html"
+        url: "./program.html"
         visible: True
       - name: Keynotes
-        url: "/keynotes.html"
+        url: "./keynotes.html"
         visible: True
   - id: 5
     label: Registration
