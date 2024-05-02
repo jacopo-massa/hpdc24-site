@@ -29,6 +29,139 @@ online:
 #     image:
 
 schedule:
+  - type: wst
+    location: Department of Computer Science
+    date: "2024-06-03"
+    dateReadable: June 3
+    timeslots:
+      - startTime: "8:15 AM"
+        endTime: "8:30 AM"
+        title: "Registration"
+        type: service
+
+      - startTime: "8:30 AM"
+        endTime: "10:30 AM"
+        rooms:
+          gerace: free
+          riunioni_est: Ai4Sys
+          riunioni_ovest: FLEC
+          seminari_est: PECS
+          seminari_ovest: PERMAVOST
+
+      - startTime: "10:30 AM"
+        endTime: "11:00 AM"
+        title: "Coffee Break"
+        type: service
+
+      - startTime: "11:00 AM"
+        endTime: "1:00 PM"
+
+        rooms:
+          gerace: free
+          riunioni_est: Ai4Sys
+          riunioni_ovest: FLEC
+          seminari_est: PECS
+          seminari_ovest: PERMAVOST
+
+      - startTime: "1:00 PM"
+        endTime: "2:00 PM"
+        title: "Lunch"
+        type: service
+
+      - startTime: "2:00 PM"
+        endTime: "4:00 PM"
+
+        rooms:
+          gerace: ---
+          riunioni_est: QUASAR
+          riunioni_ovest: HPQCI
+          seminari_est: FlexScience
+          seminari_ovest: SEATED
+
+      - startTime: "4:00 PM"
+        endTime: "4:30 PM"
+        title: "Coffee Break"
+        type: service
+
+      - startTime: "4:30 PM"
+        endTime: "6:30 PM"
+        rooms:
+          gerace: ---
+          riunioni_est: QUASAR
+          riunioni_ovest: HPQCI
+          seminari_est: FlexScience
+          seminari_ovest: SEATED
+
+  - type: wst
+    location: Department of Computer Science
+    date: "2024-06-04"
+    dateReadable: June 4
+    timeslots:
+      - startTime: "8:15 AM"
+        endTime: "8:30 AM"
+        title: "Registration"
+        type: service
+
+      - startTime: "8:30 AM"
+        endTime: "10:30 AM"
+
+        rooms:
+          gerace: FRAME
+          riunioni_est: Tutorial (Zeydan)
+          riunioni_ovest: Tutorial (Cicconetti)
+          seminari_est: SNTA
+          seminari_ovest: free
+
+      - startTime: "10:30 AM"
+        endTime: "11:00 AM"
+        title: "Coffee Break"
+        type: service
+
+      - startTime: "11:00 AM"
+        endTime: "1:00 PM"
+
+        rooms:
+          gerace: FRAME
+          riunioni_est: Tutorial (Zeydan)
+          riunioni_ovest: Tutorial (Cicconetti)
+          seminari_est: SNTA
+          seminari_ovest: free
+
+      - startTime: "1:00 PM"
+        endTime: "2:00 PM"
+        title: "Lunch"
+        type: service
+
+      - startTime: "2:00 PM"
+        endTime: "4:00 PM"
+
+        rooms:
+          gerace: FRAME
+          riunioni_est: Tutorial (Mastroianni)
+          riunioni_ovest: Tutorial (Talia)
+          seminari_est: SNTA
+          seminari_ovest: free
+
+      - startTime: "4:00 PM"
+        endTime: "4:30 PM"
+        title: "Coffee Break"
+        type: service
+
+      - startTime: "4:30 PM"
+        endTime: "6:30 PM"
+
+        rooms:
+          gerace: FRAME
+          riunioni_est: Tutorial (Mastroianni)
+          riunioni_ovest: Tutorial (Talia)
+          seminari_est: SNTA
+          seminari_ovest: free
+
+      - startTime: "7:30 PM"
+        endTime: "9 PM"
+        title: "Welcome Cocktail & Poster Session (Polo Piagge)"
+        type: social
+
   - date: "2024-06-05"
     dateReadable: June 5
     timeslots:

@@ -37,10 +37,10 @@ slide_id: 4
                 Detailed schedules and information on workshops and tutorials can be found on their
                 <a href="./workshops.html" target="_blank" class="alert-link">respective pages</a>.
             </p>
-            <hr>
+            <!-- <hr>
             <p class="h6">
                 The Poster Session will take place on June 4th during the <b>welcome cocktail</b>.
-            </p>
+            </p> -->
         </div>
 
 
@@ -61,13 +61,58 @@ slide_id: 4
                         <i class="fa-solid fa-arrow-up mr-2" aria-hidden="true"></i>
                     </a>
                     Day {{ forloop.index}} - {{ day.dateReadable }}
+                    {% if day.type == "wst" %}
+                    ({{ day.location }})
+                    {% endif %}
                 </h4>
             </div>
             <table class="table table-bordered table-hover table-sm">
+                {% if day.type == "wst" %}
+                <thead>
+                    <tr>
+                        <th class="bg-light text-center h6 align-middle"></th>
+                        <th class="bg-light text-center h6 align-middle">Aula Gerace</th>
+                        <th class="bg-light text-center h6 align-middle">Riunioni Est</th>
+                        <th class="bg-light text-center h6 align-middle">Riunioni Ovest</th>
+                        <th class="bg-light text-center h6 align-middle">Seminari Est</th>
+                        <th class="bg-light text-center h6 align-middle">Seminari Ovest</th>
+                        <th class="bg-light text-center h6 align-middle">Aula Polifunzionale</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for timeslot in day.timeslots %}
+                    <tr>
+                        <td class="bg-light text-center h6 align-middle">
+                            <div>{{timeslot.startTime}} - {{timeslot.endTime}}</div>
+                        </td>
+                        {% if timeslot.type == "service" %}
+                        <td colspan=5 class="bg-warning text-center">
+                            <h6 class="text-center">{{timeslot.title}}</h6>
+                        </td>
+                        {% elsif timeslot.type == "social" %}
+                        <td colspan=5 class="bg-dark text-center">
+                            <h6 class="text-light">{{timeslot.title}}</h6>
+                        </td>
+                        {% else %}
+                        <td class="text-center h6">{{ timeslot.rooms.gerace }} </td>
+                        <td class="text-center h6">{{ timeslot.rooms.riunioni_est }} </td>
+                        <td class="text-center h6">{{ timeslot.rooms.riunioni_ovest }} </td>
+                        <td class="text-center h6">{{ timeslot.rooms.seminari_est }} </td>
+                        <td class="text-center h6">{{ timeslot.rooms.seminari_ovest }} </td>
+                        {% endif %}
+                        {% if forloop.first %}
+                        <td rowspan={{day.timeslots.size}} class="text-center h6 align-middle">
+                            Web, Mails,<br>Calls, Work,<br>Study room
+                        </td>
+                        {% endif %}
+                    </tr>
+                    {% endfor %}
+                </tbody>
+                {% else %}
                 {% for timeslot in day.timeslots %}
                 <thead>
                     <tr>
-                        <th class="bg-light text-center h6 align-middle">
+                        <th class=" bg-light text-center h6 align-middle">
                             <div>{{timeslot.startTime}} - {{timeslot.endTime}}</div>
                         </th>
                         {% if timeslot.type == "service" %}
@@ -120,6 +165,7 @@ slide_id: 4
                 </tbody>
                 {% endif %}
                 {% endfor %}
+                {% endif %}
             </table>
         </div>
         {% endfor %}
