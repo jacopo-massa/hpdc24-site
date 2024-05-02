@@ -3,28 +3,30 @@ online:
   record: false
   url:
 
-keynotes:
-  - title: "Keynote 1"
-    speaker: TBA
-    abstract: "TBA"
-    bio: "TBA"
-    date: "2024-06-05"
-    time: "9:50 AM"
-    image: "./assets/images/keynotes/keynote1.png"
+# keynotes:
+#   - title: "Keynote 1"
+#     speaker: TBA
+#     abstract: "TBA"
+#     bio: "TBA"
+#     date: "2024-06-05"
+#     time: "9:50 AM"
+#     image:
 
-  - title: "Keynote 2"
-    speaker: TBA
-    abstract: "TBA"
-    bio: "TBA"
-    date: "2024-06-06"
-    time: "9:00 AM"
+#   - title: "Keynote 2"
+#     speaker: TBA
+#     abstract: "TBA"
+#     bio: "TBA"
+#     date: "2024-06-06"
+#     time: "9:00 AM"
+#     image:
 
-  - title: "Keynote 3"
-    speaker: TBA
-    abstract: "TBA"
-    bio: "TBA"
-    date: "2024-06-07"
-    time: "9:00 AM"
+#   - title: "Keynote 3"
+#     speaker: TBA
+#     abstract: "TBA"
+#     bio: "TBA"
+#     date: "2024-06-07"
+#     time: "9:00 AM"
+#     image:
 
 schedule:
   - date: "2024-06-05"
