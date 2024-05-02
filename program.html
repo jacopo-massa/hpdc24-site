@@ -37,10 +37,6 @@ slide_id: 4
                 Detailed schedules and information on workshops and tutorials can be found on their
                 <a href="./workshops.html" target="_blank" class="alert-link">respective pages</a>.
             </p>
-            <!-- <hr>
-            <p class="h6">
-                The Poster Session will take place on June 4th during the <b>welcome cocktail</b>.
-            </p> -->
         </div>
 
 
@@ -60,17 +56,14 @@ slide_id: 4
                     <a class="text-secondary" href="#">
                         <i class="fa-solid fa-arrow-up mr-2" aria-hidden="true"></i>
                     </a>
-                    Day {{ forloop.index}} - {{ day.dateReadable }}
-                    {% if day.type == "wst" %}
-                    ({{ day.location }})
-                    {% endif %}
+                    Day {{ forloop.index}} - {{ day.dateReadable }} ({{ day.location }})
                 </h4>
             </div>
             <table class="table table-bordered table-hover table-sm">
                 {% if day.type == "wst" %}
                 <thead>
                     <tr>
-                        <th class="bg-light text-center h6 align-middle"></th>
+                        <th class="w-25"></th>
                         <th class="bg-light text-center h6 align-middle">Aula Gerace</th>
                         <th class="bg-light text-center h6 align-middle">Riunioni Est</th>
                         <th class="bg-light text-center h6 align-middle">Riunioni Ovest</th>
@@ -86,19 +79,19 @@ slide_id: 4
                             <div>{{timeslot.startTime}} - {{timeslot.endTime}}</div>
                         </td>
                         {% if timeslot.type == "service" %}
-                        <td colspan=5 class="bg-warning text-center">
-                            <h6 class="text-center">{{timeslot.title}}</h6>
+                        <td colspan=5 class="table-warning text-center align-middle">
+                            <h6 class="text-center mb-1 mt-1">{{timeslot.title}}</h6>
                         </td>
                         {% elsif timeslot.type == "social" %}
-                        <td colspan=5 class="bg-dark text-center">
+                        <td colspan=5 class="table-dark text-center align-middle">
                             <h6 class="text-light">{{timeslot.title}}</h6>
                         </td>
                         {% else %}
-                        <td class="text-center h6">{{ timeslot.rooms.gerace }} </td>
-                        <td class="text-center h6">{{ timeslot.rooms.riunioni_est }} </td>
-                        <td class="text-center h6">{{ timeslot.rooms.riunioni_ovest }} </td>
-                        <td class="text-center h6">{{ timeslot.rooms.seminari_est }} </td>
-                        <td class="text-center h6">{{ timeslot.rooms.seminari_ovest }} </td>
+                        <td class="text-center align-middle">{{ timeslot.rooms.gerace }} </td>
+                        <td class="text-center align-middle">{{ timeslot.rooms.riunioni_est }} </td>
+                        <td class="text-center align-middle">{{ timeslot.rooms.riunioni_ovest }} </td>
+                        <td class="text-center align-middle">{{ timeslot.rooms.seminari_est }} </td>
+                        <td class="text-center align-middle">{{ timeslot.rooms.seminari_ovest }} </td>
                         {% endif %}
                         {% if forloop.first %}
                         <td rowspan={{day.timeslots.size}} class="text-center h6 align-middle">
@@ -112,27 +105,27 @@ slide_id: 4
                 {% for timeslot in day.timeslots %}
                 <thead>
                     <tr>
-                        <th class=" bg-light text-center h6 align-middle">
+                        <th class="bg-light text-center h6 align-middle">
                             <div>{{timeslot.startTime}} - {{timeslot.endTime}}</div>
                         </th>
                         {% if timeslot.type == "service" %}
-                        <th class="bg-warning text-center">
-                            <h6 class="text-center">{{timeslot.title}}</h6>
+                        <th class="table-warning text-center align-middle">
+                            <h6 class="text-center mt-1 mb-1">{{timeslot.title}}</h6>
                         </th>
                         {% elsif timeslot.type == "keynote" %}
-                        <th class="bg-success text-center">
-                            <h5 class="text-light">Keynote: <i>{{timeslot.title}}</i></h5>
+                        <th class="table-success text-center align-middle">
+                            <h5 class="text-center">Keynote: <i>{{timeslot.title}}</i></h5>
                             {% if timeslot.speaker %}
                             <p>Speaker: <i>{{timeslot.speaker}}</i></p>
                             {% endif %}
                         </th>
                         {% elsif timeslot.type == "social" %}
-                        <th class="bg-dark text-center">
-                            <h6 class="text-light">{{timeslot.title}}</h6>
+                        <th class="table-dark text-center align-middle">
+                            <h6 class="text-light mb-1 mt-1">{{timeslot.title}}</h6>
                         </th>
                         {% else %}
-                        <th class="bg-info text-center">
-                            <h5 class="text-light text-center">{{timeslot.title}}</h5>
+                        <th class="table-info text-center align-middle">
+                            <h5 class="text-center mb-1 mt-1">{{timeslot.title}}</h5>
                             {% if timeslot.chair %}
                             <p>Session chair: <i>{{timeslot.chair}}</i></p>
                             {% endif %}
@@ -153,7 +146,7 @@ slide_id: 4
                             <p>
                                 {% for author in submission.authors %}
                                 {% if forloop.first %}
-                                <i><b>Speakers:</b></i> {% else %}, {% endif %}
+                                <i><b>Authors:</b></i> {% else %}, {% endif %}
                                 <i>{{author.name}}</a>
                                     {% endfor %}
                             </p>

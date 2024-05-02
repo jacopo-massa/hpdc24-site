@@ -42,9 +42,9 @@ schedule:
       - startTime: "8:30 AM"
         endTime: "10:30 AM"
         rooms:
-          gerace: free
+          gerace: ---
           riunioni_est: Ai4Sys
-          riunioni_ovest: FLEC
+          riunioni_ovest: ---
           seminari_est: PECS
           seminari_ovest: PERMAVOST
 
@@ -57,9 +57,9 @@ schedule:
         endTime: "1:00 PM"
 
         rooms:
-          gerace: free
+          gerace: ---
           riunioni_est: Ai4Sys
-          riunioni_ovest: FLEC
+          riunioni_ovest: ---
           seminari_est: PECS
           seminari_ovest: PERMAVOST
 
@@ -107,10 +107,10 @@ schedule:
 
         rooms:
           gerace: FRAME
-          riunioni_est: Tutorial (Zeydan)
-          riunioni_ovest: Tutorial (Cicconetti)
+          riunioni_est: Tutorial 3 <br>(Zeydan, Mangues-Bafalluy, Baranda)
+          riunioni_ovest: Tutorial 2 <br>(Cicconetti)
           seminari_est: SNTA
-          seminari_ovest: free
+          seminari_ovest: ---
 
       - startTime: "10:30 AM"
         endTime: "11:00 AM"
@@ -122,10 +122,10 @@ schedule:
 
         rooms:
           gerace: FRAME
-          riunioni_est: Tutorial (Zeydan)
-          riunioni_ovest: Tutorial (Cicconetti)
+          riunioni_est: Tutorial 3 <br>(Zeydan, Mangues-Bafalluy, Baranda)
+          riunioni_ovest: Tutorial 2 <br>(Cicconetti)
           seminari_est: SNTA
-          seminari_ovest: free
+          seminari_ovest: ---
 
       - startTime: "1:00 PM"
         endTime: "2:00 PM"
@@ -137,10 +137,10 @@ schedule:
 
         rooms:
           gerace: FRAME
-          riunioni_est: Tutorial (Mastroianni)
-          riunioni_ovest: Tutorial (Talia)
+          riunioni_est: Tutorial 1 <br>(Mastroianni, Vinci)
+          riunioni_ovest: Tutorial 4 <br>(Talia, Trunfio)
           seminari_est: SNTA
-          seminari_ovest: free
+          seminari_ovest: ---
 
       - startTime: "4:00 PM"
         endTime: "4:30 PM"
@@ -152,18 +152,19 @@ schedule:
 
         rooms:
           gerace: FRAME
-          riunioni_est: Tutorial (Mastroianni)
-          riunioni_ovest: Tutorial (Talia)
+          riunioni_est: Tutorial 1 <br>(Mastroianni, Vinci)
+          riunioni_ovest: Tutorial 4 <br>(Talia, Trunfio)
           seminari_est: SNTA
-          seminari_ovest: free
+          seminari_ovest: ---
 
       - startTime: "7:30 PM"
         endTime: "9 PM"
-        title: "Welcome Cocktail & Poster Session (Polo Piagge)"
+        title: "Welcome Cocktail & Poster Session (Conference Center 'Polo Piagge')"
         type: social
 
   - date: "2024-06-05"
     dateReadable: June 5
+    location: Conference Center "Polo Piagge"
     timeslots:
       - startTime: "8:30 AM"
         endTime: "9:00 AM"
@@ -227,6 +228,7 @@ schedule:
 
   - date: "2024-06-06"
     dateReadable: June 6
+    location: Conference Center "Polo Piagge"
     timeslots:
       - startTime: "8:30 AM"
         endTime: "9:00 AM"
@@ -289,12 +291,13 @@ schedule:
           - 296
 
       - startTime: "8:30 PM"
-        endTime: ""
-        title: "Conference Dinner"
+        endTime: "11.30 PM"
+        title: "Conference Dinner (Chiostro S.M. del Carmine)"
         type: social
 
   - date: "2024-06-07"
     dateReadable: June 7
+    location: Conference Center "Polo Piagge"
     timeslots:
       - startTime: "8:30 AM"
         endTime: "9:00 AM"
