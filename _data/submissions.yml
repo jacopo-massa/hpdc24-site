@@ -1,7 +1,7 @@
 all:
   - title: "ElasticRoom: Multi-Tenant DNN Inference Engine via Co-design with Resource-constrained Compilation and Strong Priority Scheduling"
     id: 19
-    speakers:
+    authors:
       - name: "Lixian Ma"
         email: "malixian@ict.ac.cn"
         affiliation: "Institute of Computing Technology, CAS"
@@ -23,7 +23,7 @@ all:
 
   - title: "GNNOne: A Unified System Optimizations for GNN Kernels"
     id: 42
-    speakers:
+    authors:
       - name: "Yidong Gong"
         email: "ygong07@wm.edu"
         affiliation: "William & Mary"
@@ -33,7 +33,7 @@ all:
 
   - title: "Efficient all-to-all Collective Communication Schedules for Direct-connect Topologies"
     id: 71
-    speakers:
+    authors:
       - name: "Prithwish Basu"
         email: "prithwish.basu@rtx.com"
         affiliation: "RTX BBN Technologies"
@@ -55,7 +55,7 @@ all:
 
   - title: "ESG: Pipeline-Conscious Efficient Scheduling of DNN Workflows on Serverless Platforms with Shareable GPUs"
     id: 77
-    speakers:
+    authors:
       - name: "Xinning Hui"
         email: "xhui@ncsu.edu"
         affiliation: "North Carolina State University"
@@ -71,7 +71,7 @@ all:
 
   - title: "ETS: Deep Learning Training Iteration Time Prediction based on Execution Trace Sliding Window"
     id: 96
-    speakers:
+    authors:
       - name: "Zichao Yang"
         email: "yangzichao21@otcaix.iscas.ac.cn"
         affiliation: "University of Chinese Academy of Sciences"
@@ -99,7 +99,7 @@ all:
 
   - title: "IDT: Intelligent Data Placement for Multi-tiered Main Memory with Reinforcement Learning"
     id: 104
-    speakers:
+    authors:
       - name: "Juneseo Chang"
         email: "jschang0215@snu.ac.kr"
         affiliation: "Seoul National University"
@@ -118,7 +118,7 @@ all:
 
   - title: "FPBOXer: Efficient Input-Generation for Targeting Floating-Point Exceptions in GPU Programs"
     id: 114
-    speakers:
+    authors:
       - name: "Anh Tran"
         email: "anhb.tran1010@gmail.com"
         affiliation: "University of Utah"
@@ -131,7 +131,7 @@ all:
 
   - title: "FaaSKeeper: Learning from Building Serverless Services with ZooKeeper as an Example"
     id: 115
-    speakers:
+    authors:
       - name: "Marcin Copik"
         email: "marcin.copik@inf.ethz.ch"
         affiliation: "ETH Zurich"
@@ -150,7 +150,7 @@ all:
 
   - title: "A Portable, Fast, DCT-based Compressor for AI Accelerators"
     id: 116
-    speakers:
+    authors:
       - name: "Milan Shah"
         email: "mkshah5@ncsu.edu"
         affiliation: "North Carolina State University, Argonne National Laboratory"
@@ -169,7 +169,7 @@ all:
 
   - title: "Accelerating Function-Centric Applications by Discovering, Distributing, and Retaining Reusable Context in Workflow Systems"
     id: 117
-    speakers:
+    authors:
       - name: "Thanh Son Phung"
         email: "tphung@nd.edu"
         affiliation: "University of Notre Dame"
@@ -188,7 +188,7 @@ all:
 
   - title: "ADTopk: All-Dimension Top-k Compression for High-Performance Data-Parallel DNN Training"
     id: 118
-    speakers:
+    authors:
       - name: "Zhangqiang Ming"
         email: "zqming@hust.edu.cn"
         affiliation: "Huazhong University of Science and Technology"
@@ -210,7 +210,7 @@ all:
 
   - title: "EvoStore: Towards Scalable Storage of Evolving Learning Models"
     id: 122
-    speakers:
+    authors:
       - name: "Robert Underwood"
         email: "runderwood@anl.gov"
         affiliation: "Argonne National Laboratory"
@@ -226,7 +226,7 @@ all:
 
   - title: "HAM-SpMSpV: an Optimized Parallel Algorithm for Masked Sparse Matrix-Sparse Vector Multiplications on multi-core CPUs"
     id: 176
-    speakers:
+    authors:
       - name: "Lei Xu"
         email: "xulei19b@ict.ac.cn"
         affiliation: "Institute of Computing Technology, Chinese Academy of Sciences; University of Chinese Academy of Sciences"
@@ -245,7 +245,7 @@ all:
 
   - title: "Faast: An Efficient Serverless Framework Made Snapshot-based Function Response Fast"
     id: 179
-    speakers:
+    authors:
       - name: "Yongshu Bai"
         email: "baiyongshu@zhejianglab.com"
         affiliation: "Zhejiang Lab"
@@ -258,7 +258,7 @@ all:
 
   - title: "DLHT: A Non-blocking Resizable Hashtable with Fast Deletes and Memory-awareness"
     id: 191
-    speakers:
+    authors:
       - name: "Antonios Katsarakis"
         email: "antonios.katsarakis@huawei.com"
         affiliation: "Huawei Research"
@@ -271,7 +271,7 @@ all:
 
   - title: "Extending Sparse Patterns to Improve Inverse Preconditioning on GPU Architectures"
     id: 272
-    speakers:
+    authors:
       - name: "Sergi Laut"
         email: "sergi.lautturon@bsc.es"
         affiliation: "Barcelona Supercomputing Center"
@@ -283,7 +283,7 @@ all:
 
   - title: "FaaSRail: Employing Real Workloads to Generate Representative Load for Serverless Research"
     id: 273
-    speakers:
+    authors:
       - name: "Christos Katsakioris"
         email: "ckatsak@cslab.ece.ntua.gr"
         affiliation: "National Technical University of Athens"
@@ -305,7 +305,7 @@ all:
 
   - title: "DataStates-LLM: Lazy Asynchronous Checkpointing for Large Language Models"
     id: 283
-    speakers:
+    authors:
       - name: "Avinash Maurya"
         email: "am6429@rit.edu"
         affiliation: "Rochester Institute of Technology"
@@ -324,7 +324,7 @@ all:
 
   - title: "Reinforcement Learning-based Adaptive Mitigation of Uncorrected DRAM Errors in the Field"
     id: 292
-    speakers:
+    authors:
       - name: "Isaac Boixaderas"
         email: "isaac.boixaderas@bsc.es"
         affiliation: "Barcelona Supercomputing Center"
@@ -349,7 +349,7 @@ all:
 
   - title: "FASOP: Fast yet Accurate Automated Search for Optimal Parallelization of Transformers on Heterogeneous GPU Clusters"
     id: 296
-    speakers:
+    authors:
       - name: "Sunyeol Hwang"
         email: "avatarhwang@gmail.com"
         affiliation: "University of Seoul"
@@ -365,7 +365,7 @@ all:
 
   - title: "Loki: A System for Serving ML Inference Pipelines with Hardware and Accuracy Scaling"
     id: 303
-    speakers:
+    authors:
       - name: "Sohaib Ahmad"
         email: "sohaib@cs.umass.edu"
         affiliation: "University of Massachusetts Amherst"
@@ -377,7 +377,7 @@ all:
         affiliation: "University of Massachusetts Amherst"
   - title: "Can Large Language Models Write Parallel Code?"
     id: 308
-    speakers:
+    authors:
       - name: "Daniel Nichols"
         email: "dnicho@umd.edu"
         affiliation: "University of Maryland, College Park"
@@ -396,7 +396,7 @@ all:
 
   - title: "ScaleDFS: Accelerating Decentralized and Private File Sharing via Scaling Directed Acyclic Graph Processing"
     id: 417
-    speakers:
+    authors:
       - name: "Mansub Song"
         email: "akstjqs@snu.ac.kr"
         affiliation: "Seoul National University"
@@ -415,7 +415,7 @@ all:
 
   - title: "CereSZ: Enabling and Scaling Error-bounded Lossy Compression on Cerebras CS-2"
     id: 450
-    speakers:
+    authors:
       - name: "Shihui Song"
         email: "shihui-song@uiowa.edu"
         affiliation: "University of Iowa"
@@ -449,7 +449,7 @@ all:
 
   - title: "SIMCoV-GPU: Accelerating an Agent-Based Model for Exascale"
     id: 506
-    speakers:
+    authors:
       - name: "Kirtus Leyba"
         email: "kleyba@asu.edu"
         affiliation: "Arizona State University"
@@ -468,7 +468,7 @@ all:
 
   - title: "Near-Optimal Wafer-Scale Reduce"
     id: 516
-    speakers:
+    authors:
       - name: "Piotr Luczynski"
         email: "pluczynski@student.ethz.ch"
         affiliation: "ETH Zurich"

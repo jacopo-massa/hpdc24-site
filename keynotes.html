@@ -1,0 +1,38 @@
+---
+title: Keynotes
+layout: page
+slide_id: 9
+---
+
+<div class="row mt-xs-0 mt-sm-0 mt-md-1 mt-lg-2 mt-xl-3 mb-xs-2 mb-sm-2">
+    <div class="col text-justify conference">
+        <div>
+            <h2>Keynote Speakers</h3>
+                {% if site.data.program.keynotes %}
+                <br>
+                {% for keynote in site.data.program.keynotes %}
+                <div class="container">
+                    <div class="row gx-2">
+                        {% if keynote.image %}
+                        <div class="col">
+                            <img src="{{ keynote.image }}" alt="{{ keynote.title }}" width="40%">
+                        </div>
+                        {% endif %}
+                        <div class="col">
+                            <h3>{{ keynote.title }}</h3>
+                            <p class="mb-2"><strong>Speaker:</strong> {{ keynote.speaker }}</p>
+                            <p><strong>Date:</strong> {{ keynote.date }} | <strong>Time:</strong> {{ keynote.time }}</p>
+                            <p><strong>Abstract:</strong><br> {{ keynote.abstract }}</p>
+                            <p><strong>Bio:</strong><br> {{ keynote.bio }}</p>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+                {% else %}
+                <div class="alert alert-warning rounded text-center mx-3 my-5">
+                    TBA
+                </div>
+                {% endif %}
+        </div>
+    </div>
+</div>

@@ -46,14 +46,43 @@ navbar:
     label: Calls
     path: /calls.html
     visible: True
+    dropdown:
+      - name: General Info
+        url: "/calls.html"
+        visible: True
+      - name: Papers
+        url: "/calls-cfp.html"
+        visible: True
+      - name: Workshops and Tutorials
+        url: "/calls-wst.html"
+        visible: True
+      - name: European Projects
+        url: "/calls-eu.html"
+        visible: True
+      - name: PhD Symposium
+        url: "/calls-phd.html"
+        visible: True
+      - name: Posters
+        url: "/calls-posters.html"
+        visible: True
+      - name: Award Nominations
+        url: "/calls-awards.html"
+        visible: True
   - id: 3
     label: Workshops and Tutorials
     path: /workshops.html
     visible: True
   - id: 4
     label: Program
-    path: /program.html
+    path:
     visible: True
+    dropdown:
+      - name: Schedule
+        url: "/program.html"
+        visible: True
+      - name: Keynotes
+        url: "/keynotes.html"
+        visible: True
   - id: 5
     label: Registration
     path: /registration.html
@@ -82,9 +111,16 @@ sponsors:
     logo_path: ./assets/images/sponsors/vastdata-logo.png
   - name: Cornelis Networks
     logo_path: ./assets/images/sponsors/cornelis-logo.png
+
 social_media:
-  facebook_link:
-  twitter_link: https://x.com/ACM_HPDC?s=20
+  - name: facebook
+    visible: False
+    icon:
+    link: fa fa-facebook-square
+  - name: twitter
+    visible: True
+    icon: fa-brands fa-square-x-twitter
+    url: https://x.com/ACM_HPDC?s=20
 previous_iterations:
   - name: HPDC Conference series
     year: website

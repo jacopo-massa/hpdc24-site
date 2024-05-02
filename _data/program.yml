@@ -3,6 +3,29 @@ online:
   record: false
   url:
 
+keynotes:
+  - title: "Keynote 1"
+    speaker: TBA
+    abstract: "TBA"
+    bio: "TBA"
+    date: "2024-06-05"
+    time: "9:50 AM"
+    image: "./assets/images/keynotes/keynote1.png"
+
+  - title: "Keynote 2"
+    speaker: TBA
+    abstract: "TBA"
+    bio: "TBA"
+    date: "2024-06-06"
+    time: "9:00 AM"
+
+  - title: "Keynote 3"
+    speaker: TBA
+    abstract: "TBA"
+    bio: "TBA"
+    date: "2024-06-07"
+    time: "9:00 AM"
+
 schedule:
   - date: "2024-06-05"
     dateReadable: June 5
@@ -129,6 +152,11 @@ schedule:
           - 96
           - 308
           - 296
+
+      - startTime: "8:30 PM"
+        endTime: ""
+        title: "Conference Dinner"
+        type: social
 
   - date: "2024-06-07"
     dateReadable: June 7

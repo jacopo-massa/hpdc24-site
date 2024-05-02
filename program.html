@@ -82,7 +82,7 @@ slide_id: 4
                             {% endif %}
                         </th>
                         {% elsif timeslot.type == "social" %}
-                        <th class="bg-primary text-center">
+                        <th class="bg-dark text-center">
                             <h6 class="text-light">{{timeslot.title}}</h6>
                         </th>
                         {% else %}
@@ -104,13 +104,12 @@ slide_id: 4
                         </td>
                         <td>
                             <p><b>(#{{submission.id}}) {{submission.title}}</b></p>
-                            {% if submission.speakers %}
+                            {% if submission.authors %}
                             <p>
-                                {% for speaker in submission.speakers %}
+                                {% for author in submission.authors %}
                                 {% if forloop.first %}
                                 <i><b>Speakers:</b></i> {% else %}, {% endif %}
-                                <i><a href="mailto:{{speaker.email}}">{{speaker.name}}</a>
-                                    <!--({{speaker.affiliation}})</i>-->
+                                <i>{{author.name}}</a>
                                     {% endfor %}
                             </p>
                             {% endif %}

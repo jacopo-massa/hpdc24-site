@@ -54,20 +54,21 @@ deadlines:
     type: EUP
   - date: April 18th, 2024
     text: Camera-ready version (Main Track)
-    pass_due: false
+    pass_due: true
     type: CFP
   - date: April 18th, 2024
     text: Camera-ready version (PhD Symposium Papers)
-    pass_due: false
+    pass_due: true
     type: PHD
   - date: April 18th, 2024
     text: Camera-ready version (Posters)
-    pass_due: false
+    pass_due: true
     type: POS
   - date: April 18th, 2024
     text: Camera-ready version (EU-Projects)
-    pass_due: false
+    pass_due: true
     type: EUP
   - date: April 8th, 2024
     text: Nomination deadline
     type: CFN
+    pass_due: true
