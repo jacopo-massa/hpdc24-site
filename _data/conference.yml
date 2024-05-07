@@ -111,6 +111,8 @@ sponsors:
     logo_path: ./assets/images/sponsors/vastdata-logo.png
   - name: Cornelis Networks
     logo_path: ./assets/images/sponsors/cornelis-logo.png
+  - name: NEC Laboratories America
+    logo_path: ./assets/images/sponsors/nec-logo.jpg
 
 social_media:
   - name: facebook
