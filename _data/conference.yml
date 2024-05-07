@@ -105,14 +105,19 @@ cooperation_with:
 sponsors:
   - name: SIGARCH
     logo_path: ./assets/images/sponsors/sigarch-logo.png
+    level: "gold"
   - name: ACM
     logo_path: ./assets/images/sponsors/acm-logo.png
+    level: "gold"
   - name: Vast Data
     logo_path: ./assets/images/sponsors/vastdata-logo.png
+    level: "gold"
   - name: Cornelis Networks
     logo_path: ./assets/images/sponsors/cornelis-logo.png
+    level: "gold"
   - name: NEC Laboratories America
     logo_path: ./assets/images/sponsors/nec-logo.png
+    level: "silver"
 
 social_media:
   - name: facebook

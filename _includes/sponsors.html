@@ -8,7 +8,13 @@
         {% else %}
         <div class="row mx-1 my-1">
             {% for sponsor in site.data.conference.sponsors %}
-                <img class="img-fluid mr-auto d-inline-block mb-2 mt-2" src="{{ site.baseurl }}{{ sponsor.logo_path }}" alt="{{ sponsor.name }}">
+            {% if sponsor.level == "gold" %}
+            <img class="img-fluid mr-auto d-inline-block mb-2 mt-2" src="{{ site.baseurl }}{{ sponsor.logo_path }}"
+                alt="{{ sponsor.name }}">
+            {% else %}
+            <img class="img-fluid mr-auto d-inline-block mb-2 mt-2" width="25%" height="auto"
+                src="{{ site.baseurl }}{{ sponsor.logo_path }}" alt="{{ sponsor.name }}">
+            {% endif %}
             {% endfor %}
         </div>
         {% endif %}
@@ -23,10 +29,10 @@
         {% else %}
         <div class="row mx-1 my-1">
             {% for collab in site.data.conference.cooperation_with %}
-                <img class="img-fluid mr-auto d-inline-block mb-2 mt-2" src="{{ site.baseurl }}{{ collab.logo_path }}" alt="{{ collab.name }}">
+            <img class="img-fluid mr-auto d-inline-block mb-2 mt-2" src="{{ site.baseurl }}{{ collab.logo_path }}"
+                alt="{{ collab.name }}">
             {% endfor %}
         </div>
         {% endif %}
     </div>
 </div>
-
