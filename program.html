@@ -39,12 +39,21 @@ slide_id: 4
             </p>
         </div>
 
-
-        <div id="days" class="alert alert-success rounded text-center mx-3">
-            {% for day in site.data.program.schedule %}
-            <a class="h6 alert-link" href="#day{{forloop.index}}">Day {{ forloop.index }}</a>
-            {% if forloop.last %} {% else %} | {% endif %}
-            {% endfor %}
+        <div class="row">
+            <div class="col-6">
+                <div id="days" class="alert alert-success rounded text-center mx-3">
+                    {% for day in site.data.program.schedule %}
+                    <a class="h6 alert-link" href="#day{{forloop.index}}">Day {{ forloop.index }}</a>
+                    {% if forloop.last %} {% else %} | {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="col-6">
+                <div id="days" class="alert alert-info rounded text-center mx-3">
+                    <a class="h6 alert-link" href="./assets/images/maps/dept.pdf" target="_blank">Map of the
+                        Department</a>
+                </div>
+            </div>
         </div>
 
         {% if site.data.program.schedule != nil %}
