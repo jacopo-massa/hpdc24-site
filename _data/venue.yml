@@ -73,7 +73,9 @@ hotels:
 
 resources:
   - name: "Map of the Public Transportation in Pisa"
-    url: "./assets/images/transportation.pdf"
+    url: "./assets/images/maps/transportation.pdf"
+  - name: "Map of the Department of Computer Science of the University of Pisa"
+    url: "./assets/images/maps/dept.pdf"
   - name: "Link to the Railways"
     url: "https://www.trenitalia.com/"
   - name: "Link to the Pisa Airport"
