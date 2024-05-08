@@ -74,6 +74,8 @@ hotels:
 resources:
   - name: "Map of the Public Transportation in Pisa"
     url: "./assets/images/maps/transportation.pdf"
+  - name: "Simplified Map of Conference Locations"
+    url: "./assets/images/maps/simple.png"
   - name: "Map of the Department of Computer Science of the University of Pisa"
     url: "./assets/images/maps/dept.pdf"
   - name: "Link to the Railways"
