@@ -1,38 +1,21 @@
-<div class="row sponsor">
-    <div class="col">
-        <h5>Sponsored by:</h5>
-        {% if site.data.conference.sponsors == nil %}
-        <div class="alert alert-warning rounded text-center mx-3 my-5">
-            TBA
-        </div>
-        {% else %}
-        <div class="row mx-1 my-1">
-            {% for sponsor in site.data.conference.sponsors %}
-            {% if sponsor.level == "gold" %}
-            <img class="img-fluid mr-auto d-inline-block mb-2 mt-2" src="{{ site.baseurl }}{{ sponsor.logo_path }}"
-                alt="{{ sponsor.name }}">
-            {% else %}
-            <img class="img-fluid mr-auto d-inline-block mb-2 mt-2" width="25%" height="auto"
-                src="{{ site.baseurl }}{{ sponsor.logo_path }}" alt="{{ sponsor.name }}">
-            {% endif %}
-            {% endfor %}
-        </div>
-        {% endif %}
-    </div>
+<div class="">
+    {% if site.data.conference.sponsors == nil %}
+    {% include tba.html %}
+    {% else %}
+    {% for category in site.data.conference.sponsors %}
+    {% if forloop.index != 1 %}
+    <br><br>
+    {% endif %}
+    <p class="h6">{{ category.display }}</p>
+    {% if category.list %}
+    {% for sponsor in category.list %}
+    <img class="img-fluid mr-auto d-inline-block mb-2 mt-2 pr-3" src="{{ sponsor.logo }}" alt="{{ sponsor.name }}"
+        width="20%">
+    {% endfor %}
+    {% else %}
+    {% include tba.html %}
+    {% endif %}
+    {% endfor %}
+    {% endif %}
 
-    <div class="col">
-        <h5>Organized in cooperation with: </h5>
-        {% if site.data.conference.cooperation_with == nil %}
-        <div class="alert alert-warning rounded text-center mx-3 my-5">
-            TBA
-        </div>
-        {% else %}
-        <div class="row mx-1 my-1">
-            {% for collab in site.data.conference.cooperation_with %}
-            <img class="img-fluid mr-auto d-inline-block mb-2 mt-2" src="{{ site.baseurl }}{{ collab.logo_path }}"
-                alt="{{ collab.name }}">
-            {% endfor %}
-        </div>
-        {% endif %}
-    </div>
 </div>

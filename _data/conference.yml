@@ -21,7 +21,7 @@ date: June 3-7, 2024
 location: Pisa
 country: Italy
 
-logo_path: "./assets/images/logo.png" #
+logo: "./assets/images/logo.png" #
 logosmall_path: "./assets/images/logosmall.png" #
 calls: "/calls.html"
 
@@ -95,29 +95,36 @@ navbar:
     label: Venue
     path: /venue.html
     visible: True
-cooperation_with:
-  - name: SIGHPC
-    logo_path: ./assets/images/sponsors/sighpc-logo.png
-  - name: UNIPI
-    logo_path: ./assets/images/sponsors/unipi-large.png
-  - name: CNR
-    logo_path: ./assets/images/sponsors/cnr.png
+
 sponsors:
-  - name: SIGARCH
-    logo_path: ./assets/images/sponsors/sigarch-logo.png
-    level: "gold"
-  - name: ACM
-    logo_path: ./assets/images/sponsors/acm-logo.png
-    level: "gold"
-  - name: Vast Data
-    logo_path: ./assets/images/sponsors/vastdata-logo.png
-    level: "gold"
-  - name: Cornelis Networks
-    logo_path: ./assets/images/sponsors/cornelis-logo.png
-    level: "gold"
-  - name: NEC Laboratories America
-    logo_path: ./assets/images/sponsors/nec-logo.png
-    level: "silver"
+  - name: by
+    display: "Sponsored by:"
+    list:
+      - name: SIGARCH
+        logo: ./assets/images/sponsors/sigarch-logo.png
+      - name: ACM
+        logo: ./assets/images/sponsors/acm-logo.png
+  - name: gold
+    display: "Gold Sponsors:"
+    list:
+      - name: Vast Data
+        logo: ./assets/images/sponsors/vastdata-logo.png
+      - name: Cornelis Networks
+        logo: ./assets/images/sponsors/cornelis-logo.png
+  - name: silver
+    display: "Silver Sponsors:"
+    list:
+      - name: NEC Laboratories America
+        logo: ./assets/images/sponsors/nec-logo.png
+  - name: cooperation
+    display: "In cooperation with:"
+    list:
+      - name: UNIPI
+        logo: ./assets/images/sponsors/unipi-large.png
+      - name: CNR
+        logo: ./assets/images/sponsors/cnr.png
+      - name: SIGHPC
+        logo: ./assets/images/sponsors/sighpc-logo.png
 
 social_media:
   - name: facebook
