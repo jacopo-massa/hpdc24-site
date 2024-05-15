@@ -124,9 +124,14 @@ slide_id: 4
                         {% elsif timeslot.type == "keynote" %}
                         <th class="table-success text-center align-middle">
                             <h5 class="text-center">Keynote: <i>{{timeslot.title}}</i></h5>
-                            {% if timeslot.speaker %}
-                            <p>Speaker: <i>{{timeslot.speaker}}</i></p>
-                            {% endif %}
+                            <p>
+                                {% if timeslot.speaker %}
+                                Speaker: <i>{{timeslot.speaker}}</i>
+                                {% endif %}
+                                {% if timeslot.chair %}
+                                <br>Session chair: <i>{{timeslot.chair}}</i>
+                                {% endif %}
+                            </p>
                         </th>
                         {% elsif timeslot.type == "social" %}
                         <th class="table-dark text-center align-middle">

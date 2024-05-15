@@ -179,6 +179,7 @@ schedule:
       - startTime: "9:50 AM"
         endTime: "10:50 AM"
         title: Keynote 1
+        chair: "Rosa M. Badia"
         speaker: TBA
         type: keynote
 
@@ -191,7 +192,7 @@ schedule:
         endTime: "1:00 PM"
         title: Compression and AI
         type: presentation
-        chair:
+        chair: "Domenico Talia"
         submissions:
           - 450
           - 116
@@ -206,7 +207,7 @@ schedule:
         endTime: "3:15 PM"
         title: Resilience
         type: presentation
-        chair:
+        chair: "Changhee Jung"
         submissions:
           - 283
           - 114
@@ -239,13 +240,14 @@ schedule:
         endTime: "10:00 AM"
         title: Keynote 2
         speaker: TBA
+        chair: Patrizio Dazzi
         type: keynote
 
       - startTime: "10:00 AM"
         endTime: "11:15 AM"
         title: "Serverless Computing"
         type: presentation
-        chair:
+        chair: "En Shao"
         submissions:
           - 179
           - 115
@@ -260,7 +262,7 @@ schedule:
         endTime: "1:00 PM"
         title: "Software Systems & Workflows"
         type: presentation
-        chair:
+        chair: "Massimo Coppola"
         submissions:
           - 104
           - 191
@@ -284,7 +286,7 @@ schedule:
         endTime: "5:25 PM"
         title: "Performance modeling & LLMs"
         type: presentation
-        chair:
+        chair: "Ignacio Laguna"
         submissions:
           - 96
           - 308
@@ -308,13 +310,14 @@ schedule:
         endTime: "10:00 AM"
         title: Keynote 3
         speaker: TBA
+        chair: "Gabriele Mencagli"
         type: keynote
 
       - startTime: "10:00 AM"
         endTime: "11:15 AM"
-        title: "Accelerators & Scientific applications "
+        title: "Accelerators & Scientific applications"
         type: presentation
-        chair:
+        chair: "Raffaele Montela"
         submissions:
           - 272
           - 506
@@ -329,7 +332,7 @@ schedule:
         endTime: "1:00 PM"
         title: "Resource Management"
         type: presentation
-        chair:
+        chair: "Kento Sato"
         submissions:
           - 303
           - 77
@@ -344,7 +347,7 @@ schedule:
         endTime: "3:40 PM"
         title: "Communication & Storage"
         type: presentation
-        chair:
+        chair: "Bogdan Nicolae"
         submissions:
           - 516
           - 71
