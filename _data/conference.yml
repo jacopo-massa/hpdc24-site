@@ -113,6 +113,7 @@ sponsors:
         logo: ./assets/images/sponsors/vastdata-logo.png
       - name: Cornelis Networks
         logo: ./assets/images/sponsors/cornelis-logo.png
+        shape: rectangle
   - name: silver
     display: "Silver Sponsors:"
     list:

@@ -9,8 +9,13 @@
     <p class="h6">{{ category.display }}</p>
     {% if category.list %}
     {% for sponsor in category.list %}
-    <img class="img-fluid mr-auto d-inline-block mb-2 mt-2 pr-3" src="{{ sponsor.logo }}" alt="{{ sponsor.name }}"
-        width="20%">
+    {% if sponsor.shape == "rectangle" %}
+    {% assign img_width = 35 %}
+    {% else %}
+    {% assign img_width = 20 %}
+    {% endif %}
+    <img class="mr-auto d-inline-block mb-2 mt-2 pr-3" src="{{ sponsor.logo }}" alt="{{ sponsor.name }}"
+        width="{{ img_width }}%" height="auto">
     {% endfor %}
     {% else %}
     {% include tba.html %}
