@@ -59,21 +59,21 @@
 - title: Poster Chairs
   column: 1
   members:
-    - name: Huaicheng Li
-      org: Virginia Tech, USA
-      homepage: "https://www.cs.vt.edu/people/faculty/huaicheng-li.html"
     - name: Janki Bhimani
       org: Florida International University, USA
       homepage: "https://www.cis.fiu.edu/faculty-staff/bhimani-janki/"
     - name: Massimo Coppola
       org: National Research Council of Italy (CNR)
       homepage: "https://www.isti.cnr.it/it/chi-siamo/people-detail/71/Massimo_Coppola"
-    - name: Sarah Neuwirth
-      org: Johannes Gutenberg University Mainz, Germany
-      homepage: "https://researchprofiles.uni-mainz.de/19180-sarah-neuwirth"
-    - name: Tiziano De Matteis
-      org: Vrije Universiteit Amsterdam, Netherlands
-      homepage: "https://tizianodematteis.github.io"
+    # - name: Huaicheng Li
+    #   org: Virginia Tech, USA
+    #   homepage: "https://www.cs.vt.edu/people/faculty/huaicheng-li.html"
+    # - name: Sarah Neuwirth
+    #   org: Johannes Gutenberg University Mainz, Germany
+    #   homepage: "https://researchprofiles.uni-mainz.de/19180-sarah-neuwirth"
+    # - name: Tiziano De Matteis
+    #   org: Vrije Universiteit Amsterdam, Netherlands
+    #   homepage: "https://tizianodematteis.github.io"
 
 - title: Publication Chairs
   column: 1
