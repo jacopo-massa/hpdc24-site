@@ -107,6 +107,8 @@ sponsors:
   - name: gold
     display: "Gold Sponsors:"
     list:
+      - name: E4
+        logo: ./assets/images/sponsors/e4-logo.svg
       - name: Vast Data
         logo: ./assets/images/sponsors/vastdata-logo.png
       - name: Cornelis Networks
