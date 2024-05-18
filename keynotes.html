@@ -7,7 +7,7 @@ slide_id: 9
 <div class="row mt-xs-0 mt-sm-0 mt-md-1 mt-lg-2 mt-xl-3 mb-xs-2 mb-sm-2">
     <div class="col text-justify conference">
         <div>
-            <h2>Keynote Speakers</h3>
+            <h2>Keynotes</h3>
                 {% if site.data.keynotes.keynotes %}
                 <br>
                 {% for keynote in site.data.keynotes.keynotes %}
@@ -32,6 +32,7 @@ slide_id: 9
                         <p><strong>Bio:</strong><br> {{ keynote.bio }}</p>
                     </div>
                 </div>
+                <hr>
 
                 {% endfor %}
                 {% else %}

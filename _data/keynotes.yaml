@@ -14,13 +14,17 @@ keynotes:
       "Professor Laxmikant Kale is the director of the Parallel Programming Laboratory and Research Professor, as well as the Paul and Cynthia Saylor Professor Emeritus of Computer Science at the University of Illinois at Urbana-Champaign.Prof. Kale has been working on various aspects of parallel computing, with a focus on enhancing performance and productivity via adaptive runtime systems, and with the belief that only interdisciplinary research involving multiple CSE and other applications can bring back well-honed abstractions into Computer Science that will have a long-term impact on the state-of-art.
       His collaborations include the widely used Gordon-Bell award winning (SC 2002) biomolecular simulation program NAMD, and other collaborations on computational cosmology, quantum chemistry, rocket simulation, space-time meshes, and other unstructured mesh applications. He takes pride in his group's success in distributing and supporting software embodying his research ideas, including Charm++, Adaptive MPI and Charm4Py. He and his team won the HPC Challenge award at Supercomputing 2011, for their entry based on Charm++. Prof. Kale is a fellow of the ACM and IEEE, and a winner of the 2012 IEEE Sidney Fernbach award."
 
-  - title: "Keynote 2"
-    speaker: TBA
-    abstract: "TBA"
-    bio: "TBA"
+  - title: "The Future of Parallel Code Development: Will AI Lead the Way?"
+    speaker: "Abhinav Bhatele"
+    role: "Associate Professor"
+    affiliation: "Parallel Software and Systems Group, University of Maryland, College Park"
     date: "2024-06-06"
     time: "9:00 AM"
-    image:
+    image: "./assets/images/keynotes/bhatele.jpg"
+    abstract: |
+      "Artificial intelligence (AI) and large language models (LLMs) specifically, have recently been used to model source code, which has proven to be effective for a variety of software development tasks such as code completion, summarization, translation, and debugging, among others. While the programming languages and software engineering (PL/SE) communities are abuzz with AI-based tools for code development (AIforDev), the application of AIforDev to parallel code has been largely unexplored. Writing, debugging and optimizing parallel code is hard, and the question before the HPC community is -- do AI and LLMs hold the potential for revolutionizing parallel software development. In this talk, I will address the shortcomings of current LLMs when used for parallel code development and how we can close the gap toward building HPC-capable LLMs.  I will further highlight emerging areas of research such as improving code modeling capabilities to facilitate various aspects of parallel code development, such as generating correct and efficient parallel code, reasoning about parallel performance, and much more."
+    bio: |
+      "Abhinav Bhatele is an associate professor in the department of computer science, and director of the Parallel Software and Systems Group at the University of Maryland, College Park. His research interests are broadly in systems and AI, with a focus on parallel computing and distributed AI. He has published research in parallel programming models and runtimes, network design and simulation, applications of machine learning to parallel systems, parallel deep learning, and on analyzing/visualizing, modeling and optimizing the performance of parallel software and systems. Abhinav has received best paper awards at Euro-Par 2009, IPDPS 2013, IPDPS 2016, and PDP 2024, and a best poster award at SC 2023. He was selected as a recipient of the IEEE TCSC Award for Excellence in Scalable Computing (Early Career) in 2014, the LLNL Early and Mid-Career Recognition award in 2018, the NSF CAREER award in 2021, the IEEE TCSC Award for Excellence in Scalable Computing (Middle Career) in 2023, and the UIUC CS Early Career Academic Achievement Alumni Award in 2024."
 
   - title: "Keynote 3"
     speaker: TBA
