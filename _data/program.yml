@@ -250,7 +250,7 @@ schedule:
 
       - startTime: "2:00 PM"
         endTime: "3:40 PM"
-        title: "PhD Symposium"
+        title: "PhD Symposium & EU Track"
 
       - startTime: "3:40 PM"
         endTime: "4:10 PM"
