@@ -153,9 +153,9 @@ schedule:
 
       - startTime: "9:50 AM"
         endTime: "10:50 AM"
-        title: Keynote 1
+        title: "Migratable Objects: The evolution and journey of an idea"
         chair: "Rosa M. Badia"
-        speaker: TBA
+        speaker: Laxmikant (Sanjay) Kale
         type: keynote
 
       - startTime: "10:50 AM"
@@ -213,8 +213,8 @@ schedule:
 
       - startTime: "9:00 AM"
         endTime: "10:00 AM"
-        title: Keynote 2
-        speaker: TBA
+        title: "The Future of Parallel Code Development: Will AI Lead the Way?"
+        speaker: Abhinav Bhatele
         chair: Patrizio Dazzi
         type: keynote
 
