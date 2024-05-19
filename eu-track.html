@@ -1,0 +1,39 @@
+---
+title: EU-Track
+layout: page
+slide_id: 4
+---
+
+<br>
+<div class="row mt-xs-0 mt-sm-0 my-2">
+    <div>
+        <h4 class="conference">EU Track schedule</h4>
+        <p> The EU track is scheduled for <b>June 6, 14:00-15:40</b>, in parallel with the PhD session.
+            The schedule of the presentations is the following:
+        </p>
+        <br>
+        <div class="conference-text text-muted">
+            <table class="table table-bordered table-striped table-hover table-sm">
+                <tr>
+                    <th>Title</th>
+                </tr>
+                {% for eu in site.data.submissions.eu_track %}
+                <tr>
+                    <td>
+                        <p class="mb-2">
+                            <b>(#{{eu.id}}) {{eu.title}}</b>
+                            {% if eu.authors %}
+
+                            {% for author in eu.authors %}
+                            {% if forloop.first %}
+                            <br>
+                            <i><b>Authors:</b></i> {% else %}, {% endif %}
+                            <i>{{author.name}}</a>
+                                {% endfor %}
+                                {% endif %}
+                        </p>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+    </div>

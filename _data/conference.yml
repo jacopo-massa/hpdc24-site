@@ -80,6 +80,9 @@ navbar:
       - name: Schedule
         url: "./program.html"
         visible: True
+      - name: EU Track
+        url: "./eu-track.html"
+        visible: True
       - name: Keynotes
         url: "./keynotes.html"
         visible: True

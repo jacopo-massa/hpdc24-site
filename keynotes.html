@@ -7,37 +7,37 @@ slide_id: 9
 <div class="row mt-xs-0 mt-sm-0 mt-md-1 mt-lg-2 mt-xl-3 mb-xs-2 mb-sm-2">
     <div class="col text-justify conference">
         <div>
-            <h2>Keynotes</h3>
-                {% if site.data.keynotes.keynotes %}
-                <br>
-                {% for keynote in site.data.keynotes.keynotes %}
-                <div class="row">
-                    {% if keynote.image %}
-                    <div class="col-3 mx-auto d-flex align-items-start justify-content-center">
-                        <img src=" {{ keynote.image }}" alt="{{ keynote.title }}" width="60%"
-                            class="border border-dark rounded">
-                    </div>
-                    {% endif %}
-                    <div class="col-9">
-                        <h3>{{ keynote.title }}</h3>
-                        <p class="mb-2"><strong>Speaker:</strong> {{ keynote.speaker }}</p>
-                        {% if keynote.role %}
-                        <p class="mb-2"><strong>Role:</strong> {{ keynote.role }}</p>
-                        {% endif %}
-                        {% if keynote.affiliation %}
-                        <p class="mb-2"><strong>Affiliation:</strong> {{ keynote.affiliation }}</p>
-                        {% endif %}
-                        <p><strong>Date:</strong> {{ keynote.date }} | <strong>Time:</strong> {{ keynote.time }}</p>
-                        <p><strong>Abstract:</strong><br> {{ keynote.abstract }}</p>
-                        <p><strong>Bio:</strong><br> {{ keynote.bio }}</p>
-                    </div>
+            <h2>Keynotes</h2>
+            {% if site.data.keynotes.keynotes %}
+            <br>
+            {% for keynote in site.data.keynotes.keynotes %}
+            <div class="row">
+                {% if keynote.image %}
+                <div class="col-3 mx-auto d-flex align-items-start justify-content-center">
+                    <img src=" {{ keynote.image }}" alt="{{ keynote.title }}" width="60%"
+                        class="border border-dark rounded">
                 </div>
-                <hr>
-
-                {% endfor %}
-                {% else %}
-                {% include tba.html %}
                 {% endif %}
+                <div class="col-9">
+                    <h3>{{ keynote.title }}</h3>
+                    <p class="mb-2"><strong>Speaker:</strong> {{ keynote.speaker }}</p>
+                    {% if keynote.role %}
+                    <p class="mb-2"><strong>Role:</strong> {{ keynote.role }}</p>
+                    {% endif %}
+                    {% if keynote.affiliation %}
+                    <p class="mb-2"><strong>Affiliation:</strong> {{ keynote.affiliation }}</p>
+                    {% endif %}
+                    <p><strong>Date:</strong> {{ keynote.date }} | <strong>Time:</strong> {{ keynote.time }}</p>
+                    <p><strong>Abstract:</strong><br> {{ keynote.abstract }}</p>
+                    <p><strong>Bio:</strong><br> {{ keynote.bio }}</p>
+                </div>
+            </div>
+            <hr>
+
+            {% endfor %}
+            {% else %}
+            {% include tba.html %}
+            {% endif %}
         </div>
     </div>
 </div>

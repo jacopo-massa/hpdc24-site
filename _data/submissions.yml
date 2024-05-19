@@ -487,3 +487,66 @@ all:
       - name: "Torsten Hoefler"
         email: "htor@inf.ethz.ch"
         affiliation: "ETH Zurich"
+
+eu_track:
+  - title: "Seamless HW-accelerated AI serving in heterogeneous MEC Systems with AI@EDGE"
+    id: 4
+    authors:
+      - name: "A. Tzenetopoulos"
+      - name: "G. Lentaris"
+      - name: "A. Leftheriotis"
+      - name: "P. Chrysomeris"
+      - name: "J. Palomares"
+      - name: "E. Coronado"
+      - name: "R. Kazhamiakin"
+      - name: "D. Soudris"
+  - title: "TEACHING Platform for Human-Centric Autonomous Applications: Design and Overview"
+    id: 11
+    authors:
+      - name: "V. De Caro"
+      - name: "C. Chronis"
+      - name: "M. Coppola"
+      - name: "V. Lomonaco"
+      - name: "C. Gallicchio"
+      - name: "K. Tserpes"
+      - name: "D. Bacciu"
+  - title: "EMPYREAN: Trustworthy, Cognitive and AI-driven Collaborative Associations of IoT Devices and Edge Resources for Data Processing"
+    id: 14
+    authors:
+      - name: "A. Kretsis"
+      - name: "P. Kokkinos"
+      - name: "E. Varvarigos"
+      - name: "D. Syrivelis"
+      - name: "P. Bakopoulos"
+      - name: "M. Sipos"
+      - name: "M. Fehér"
+      - name: "D. Lucani"
+      - name: "J. Bernabe"
+      - name: "A. Skarmeta"
+      - name: "I. Paez"
+      - name: "L. Cominardi"
+      - name: "M. Mercier"
+      - name: "P. Velho"
+      - name: "Y. Georgiou"
+      - name: "C. Mainas"
+      - name: "A. Nanos"
+      - name: "J. Martin"
+      - name: "A. Gomez"
+      - name: "R. Gonzalez"
+      - name: "P. Ilias"
+      - name: "T. Chalazas"
+      - name: "K. Chintamani"
+  - title: "Fast, Accurate and Distributed Simulation of novel HPC systems incorporating ARM and RISC-V CPUs"
+    id: 46
+    authors:
+      - name: "N. Tampouratzis"
+      - name: "I. Papaefstathiou"
+  - title: "EDGELESS: A Software Architecture for Stateful FaaS at the Edge"
+    id: 56
+    authors:
+      - name: "C. Cicconetti"
+      - name: "E. Carlini"
+      - name: "R. Hetzel"
+      - name: "R. Mortier"
+      - name: "A. Paradell"
+      - name: "M. Sauer"
