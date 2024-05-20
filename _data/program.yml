@@ -283,8 +283,8 @@ schedule:
 
       - startTime: "9:00 AM"
         endTime: "10:00 AM"
-        title: Keynote 3
-        speaker: TBA
+        title: "Resource Consumption & Service Demand Forecasting"
+        speaker: "Theodora Varvarigou"
         chair: "Gabriele Mencagli"
         type: keynote
 
