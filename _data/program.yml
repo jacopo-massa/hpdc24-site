@@ -213,8 +213,8 @@ schedule:
 
       - startTime: "9:00 AM"
         endTime: "10:00 AM"
-        title: "The Future of Parallel Code Development: Will AI Lead the Way?"
-        speaker: Abhinav Bhatele
+        title: "Resource Consumption & Service Demand Forecasting"
+        speaker: "Theodora Varvarigou"
         chair: Patrizio Dazzi
         type: keynote
 
@@ -267,7 +267,7 @@ schedule:
           - 308
           - 296
 
-      - startTime: "8:30 PM"
+      - startTime: "8:00 PM"
         endTime: "11.30 PM"
         title: "Conference Dinner (Chiostro S.M. del Carmine)"
         type: social
@@ -283,8 +283,8 @@ schedule:
 
       - startTime: "9:00 AM"
         endTime: "10:00 AM"
-        title: "Resource Consumption & Service Demand Forecasting"
-        speaker: "Theodora Varvarigou"
+        title: "The Future of Parallel Code Development: Will AI Lead the Way?"
+        speaker: Abhinav Bhatele
         chair: "Gabriele Mencagli"
         type: keynote
 

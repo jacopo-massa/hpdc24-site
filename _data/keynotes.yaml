@@ -16,18 +16,6 @@ keynotes:
 
       He was awarded the “HPDC Achievement Award” for 2024.
 
-  - title: "The Future of Parallel Code Development: Will AI Lead the Way?"
-    speaker: "Abhinav Bhatele"
-    role: "Associate Professor"
-    affiliation: "Parallel Software and Systems Group, University of Maryland, College Park"
-    date: "2024-06-06"
-    time: "9:00 AM"
-    image: "./assets/images/keynotes/bhatele.jpg"
-    abstract: |
-      Artificial intelligence (AI) and large language models (LLMs) specifically, have recently been used to model source code, which has proven to be effective for a variety of software development tasks such as code completion, summarization, translation, and debugging, among others. While the programming languages and software engineering (PL/SE) communities are abuzz with AI-based tools for code development (AIforDev), the application of AIforDev to parallel code has been largely unexplored. Writing, debugging and optimizing parallel code is hard, and the question before the HPC community is -- do AI and LLMs hold the potential for revolutionizing parallel software development. In this talk, I will address the shortcomings of current LLMs when used for parallel code development and how we can close the gap toward building HPC-capable LLMs.  I will further highlight emerging areas of research such as improving code modeling capabilities to facilitate various aspects of parallel code development, such as generating correct and efficient parallel code, reasoning about parallel performance, and much more.
-    bio: |
-      Abhinav Bhatele is an associate professor in the department of computer science, and director of the Parallel Software and Systems Group at the University of Maryland, College Park. His research interests are broadly in systems and AI, with a focus on parallel computing and distributed AI. He has published research in parallel programming models and runtimes, network design and simulation, applications of machine learning to parallel systems, parallel deep learning, and on analyzing/visualizing, modeling and optimizing the performance of parallel software and systems. Abhinav has received best paper awards at Euro-Par 2009, IPDPS 2013, IPDPS 2016, and PDP 2024, and a best poster award at SC 2023. He was selected as a recipient of the IEEE TCSC Award for Excellence in Scalable Computing (Early Career) in 2014, the LLNL Early and Mid-Career Recognition award in 2018, the NSF CAREER award in 2021, the IEEE TCSC Award for Excellence in Scalable Computing (Middle Career) in 2023, and the UIUC CS Early Career Academic Achievement Alumni Award in 2024.
-
   - title: "Resource Consumption & Service Demand Forecasting"
     speaker: "Theodora Varvarigou"
     role: "Professor"
@@ -39,6 +27,18 @@ keynotes:
       Professor Varvarigou graduated from the Electrical Engineering department of the NTUA in 1988 and got her MS degrees in Electrical Engineering (1989) and in Computer Science (1991) from Stanford University. She also received her Ph.D. degree from Stanford University in 1991. 
 
       Her research is making an impact on cutting-edge technologies, such as data analytics, artificial intelligence, machine learning, Cloud computing, big data technologies, IoT technologies, semantic web, social networking technologies etc. She has published more than 500 papers in leading international journals, conferences and books. She has also participated and co-ordinated more than 60 EC projects. Since 2012-2020 she has been a member of the European Commission’s Expert Group on Cloud Computing, an evaluator of the European Commission’s Research Proposals and she recently acquired a “Making Corporate Boards More Effective” program certificate by the Harvard Business School Executive Education. She began her career in the States, being a principal investigator at AT&T Bell Labs during the period 1991-1994. From 2008-2012, she held the Chair of the postgraduate program “Engineering Economic Systems” of NTUA and during the period 2010-2020 she was a member of the Office of Quality Assurance Unit in NTUA (MODIP NTUA).
-    date: "2024-06-07"
+    date: "2024-06-06"
     time: "9:00 AM"
     image: "./assets/images/keynotes/varvarigou.jpg"
+
+  - title: "The Future of Parallel Code Development: Will AI Lead the Way?"
+    speaker: "Abhinav Bhatele"
+    role: "Associate Professor"
+    affiliation: "Parallel Software and Systems Group, University of Maryland, College Park"
+    date: "2024-06-07"
+    time: "9:00 AM"
+    image: "./assets/images/keynotes/bhatele.jpg"
+    abstract: |
+      Artificial intelligence (AI) and large language models (LLMs) specifically, have recently been used to model source code, which has proven to be effective for a variety of software development tasks such as code completion, summarization, translation, and debugging, among others. While the programming languages and software engineering (PL/SE) communities are abuzz with AI-based tools for code development (AIforDev), the application of AIforDev to parallel code has been largely unexplored. Writing, debugging and optimizing parallel code is hard, and the question before the HPC community is -- do AI and LLMs hold the potential for revolutionizing parallel software development. In this talk, I will address the shortcomings of current LLMs when used for parallel code development and how we can close the gap toward building HPC-capable LLMs.  I will further highlight emerging areas of research such as improving code modeling capabilities to facilitate various aspects of parallel code development, such as generating correct and efficient parallel code, reasoning about parallel performance, and much more.
+    bio: |
+      Abhinav Bhatele is an associate professor in the department of computer science, and director of the Parallel Software and Systems Group at the University of Maryland, College Park. His research interests are broadly in systems and AI, with a focus on parallel computing and distributed AI. He has published research in parallel programming models and runtimes, network design and simulation, applications of machine learning to parallel systems, parallel deep learning, and on analyzing/visualizing, modeling and optimizing the performance of parallel software and systems. Abhinav has received best paper awards at Euro-Par 2009, IPDPS 2013, IPDPS 2016, and PDP 2024, and a best poster award at SC 2023. He was selected as a recipient of the IEEE TCSC Award for Excellence in Scalable Computing (Early Career) in 2014, the LLNL Early and Mid-Career Recognition award in 2018, the NSF CAREER award in 2021, the IEEE TCSC Award for Excellence in Scalable Computing (Middle Career) in 2023, and the UIUC CS Early Career Academic Achievement Alumni Award in 2024.
