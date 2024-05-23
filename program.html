@@ -139,7 +139,7 @@ slide_id: 4
                         </th>
                         {% elsif timeslot.type == "parallel" %}
                         {% for event in timeslot.events %}
-                        <th width="50%" class="w-25 table-{% cycle 'info', 'success' %} text-center align-middle">
+                        <th class="table-{% cycle 'info', 'success' %} text-center align-middle">
                             <h6 class="text-center mb-1 mt-1">{{event.name}}</h6>
                             <i style="font-weight: normal !important">
                                 {{event.location}}
