@@ -252,8 +252,11 @@ schedule:
         endTime: "3:40 PM"
         type: parallel
         events:
-          - PhD Symposium
-          - EU Track
+          - name: PhD Symposium
+            location: Conference Room
+
+          - name: EU Track
+            location: Aula H1 (1st floor)
 
       - startTime: "3:40 PM"
         endTime: "4:10 PM"
