@@ -197,7 +197,7 @@ schedule:
         endTime: "5:00 PM"
         title: "Industrial Panel"
 
-      - startTime: "6:30 PM"
+      - startTime: "6:15 PM"
         endTime: ""
         title: 'Guided Tour to <i>"Piazza Dei Miracoli"</i>'
         type: social
@@ -250,7 +250,10 @@ schedule:
 
       - startTime: "2:00 PM"
         endTime: "3:40 PM"
-        title: "PhD Symposium & EU Track"
+        type: parallel
+        events:
+          - PhD Symposium
+          - EU Track
 
       - startTime: "3:40 PM"
         endTime: "4:10 PM"

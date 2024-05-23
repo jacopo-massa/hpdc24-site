@@ -114,15 +114,15 @@ slide_id: 4
                 {% for timeslot in day.timeslots %}
                 <thead>
                     <tr>
-                        <th class="bg-light text-center h6 align-middle">
+                        <th class="w-25 bg-light text-center h6 align-middle">
                             <div>{{timeslot.startTime}} - {{timeslot.endTime}}</div>
                         </th>
                         {% if timeslot.type == "service" %}
-                        <th class="table-warning text-center align-middle">
+                        <th colspan="2" class="table-warning text-center align-middle">
                             <h6 class="text-center mt-1 mb-1">{{timeslot.title}}</h6>
                         </th>
                         {% elsif timeslot.type == "keynote" %}
-                        <th class="table-success text-center align-middle">
+                        <th colspan="2" class="table-success text-center align-middle">
                             <h5 class="text-center">Keynote: <i>{{timeslot.title}}</i></h5>
                             <p>
                                 {% if timeslot.speaker %}
@@ -134,11 +134,17 @@ slide_id: 4
                             </p>
                         </th>
                         {% elsif timeslot.type == "social" %}
-                        <th class="table-dark text-center align-middle">
+                        <th colspan="2" class="table-dark text-center align-middle">
                             <h6 class="text-light mb-1 mt-1">{{timeslot.title}}</h6>
                         </th>
+                        {% elsif timeslot.type == "parallel" %}
+                        {% for event in timeslot.events %}
+                        <th width="50%" class="w-25 table-{% cycle 'info', 'success' %} text-center align-middle">
+                            <h6 class="text-center mb-1 mt-1">{{event}}</h6>
+                        </th>
+                        {% endfor %}
                         {% else %}
-                        <th class="table-info text-center align-middle">
+                        <th colspan="2" class="table-info text-center align-middle">
                             <h5 class="text-center mb-1 mt-1">{{timeslot.title}}</h5>
                             {% if timeslot.chair %}
                             <p>Session chair: <i>{{timeslot.chair}}</i></p>
@@ -154,7 +160,7 @@ slide_id: 4
                     <tr>
                         <td width="20%" style="border: none">
                         </td>
-                        <td>
+                        <td colspan="2">
                             <p><b>(#{{submission.id}}) {{submission.title}}</b></p>
                             {% if submission.authors %}
                             <p>
@@ -165,8 +171,8 @@ slide_id: 4
                                     {% endfor %}
                             </p>
                             {% endif %}
-
                         </td>
+
                     </tr>
                     {% endfor %}
                 </tbody>
