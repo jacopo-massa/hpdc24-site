@@ -68,10 +68,6 @@ navbar:
       - name: Award Nominations
         url: "./calls-awards.html"
         visible: True
-  - id: 3
-    label: Workshops and Tutorials
-    path: /workshops.html
-    visible: True
   - id: 4
     label: Program
     path:
@@ -86,15 +82,22 @@ navbar:
       - name: Keynotes
         url: "./keynotes.html"
         visible: True
+      - name: Workshops and Tutorials
+        url: "./workshops.html"
+        visible: True
   - id: 5
+    label: HPDC Award
+    path: /award.html
+    visible: True
+  - id: 6
     label: Registration
     path: /registration.html
     visible: True
-  - id: 6
+  - id: 7
     label: Travel Grant
     path: /travel-grant.html
     visible: True
-  - id: 7
+  - id: 8
     label: Venue
     path: /venue.html
     visible: True
