@@ -8,13 +8,16 @@ slide_id: 6
     <div class="col text-justify conference">
         <div>
             <h4>Registration</h4>
+            {% if site.data.registration.closed %}
+            <div class="alert alert-danger rounded text-center mx-3 my-3">
+                <b class="h5">Registrations are closed.</b>
+            </div>
+            {% else %}
             {% if site.data.registration.about %}
             <p>
                 {{site.data.registration.about}}
             </p>
             {% endif %}
-            {% if site.data.registration.url %}
-
             {% endif %}
 
             <h4>What's included</h4>
@@ -119,6 +122,11 @@ slide_id: 6
             </p>
             <br>
             <h4>Registration site</h4>
+            {% if site.data.registration.closed %}
+            <div class="alert alert-danger rounded text-center mx-3 my-5">
+                <b class="h5">Registrations are closed.</b>
+            </div>
+            {% else %}
             Please click the button below to start the registration process:
             <p>
                 <center>
@@ -126,6 +134,7 @@ slide_id: 6
                         onclick="parent.open('{{site.data.registration.url}}')">HPDC Registration Site</button>
                 </center>
             </p>
+            {% endif %}
         </div>
     </div>
 </div>

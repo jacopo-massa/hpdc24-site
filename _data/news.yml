@@ -1,5 +1,8 @@
+- date: 2024-05-27
+  text: <b>Registration site closed</b>
+  visible: True
 - date: 2024-04-16
-  text: <b>Registration site opened</b>
+  text: Registration site opened
   visible: True
 - date: 2024-03-06
   text: 'Call for Nomination: "HPDC 2024 Achievement Award" has been published'
