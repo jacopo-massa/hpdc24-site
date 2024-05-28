@@ -222,7 +222,7 @@ schedule:
         endTime: "11:15 AM"
         title: "Serverless Computing"
         type: presentation
-        chair: "En Shao"
+        chair: "Lixian Ma"
         submissions:
           - 115
           - 273
