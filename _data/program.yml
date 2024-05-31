@@ -194,7 +194,7 @@ schedule:
         type: service
 
       - startTime: "3:45 PM"
-        endTime: "5:00 PM"
+        endTime: "5:15 PM"
         title: "Industrial Panel"
 
       - startTime: "6:15 PM"
