@@ -550,3 +550,28 @@ eu_track:
       - name: "R. Mortier"
       - name: "A. Paradell"
       - name: "M. Sauer"
+
+phd:
+  - id: 14
+    title: Towards a Comprehensive Approach to Resource and Conflict Management in Cloud-Edge Settings
+    authors: Jacopo Massa
+
+  - id: 73
+    title: A Runtime Infrastructure for the Continuum of Computing
+    authors: Edoardo Tinto, Tullio Vardanega
+
+  - id: 99
+    title: Trade-off Analysis between Knowledge Distillation and Federated Learning in Distributed Edge Systems
+    authors: Molo Mbasa Joaquim
+
+  - id: 59
+    title: Full-Stack Revision of Memory and Data Management in PDES on Multi-Core Machines
+    authors: Federica Montesano
+
+  - id: 91
+    title: "Efficient Stream Join Processing: Novel Approaches and Challenges"
+    authors: Adeel Aslam, Giovanni Simonini
+
+  - id: 37
+    title: Semantic-Aware Log Understanding and Analysis
+    authors: Shaohan Huang, Zhongzhi Luan

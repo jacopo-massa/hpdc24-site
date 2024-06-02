@@ -79,6 +79,9 @@ navbar:
       - name: EU Track
         url: "./eu-track.html"
         visible: True
+      - name: PhD Symposium
+        url: "./phd-symposium.html"
+        visible: True
       - name: Keynotes
         url: "./keynotes.html"
         visible: True
