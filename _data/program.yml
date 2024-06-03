@@ -112,8 +112,8 @@ schedule:
 
         rooms:
           gerace: FRAME
-          riunioni_est: Tutorial 1 <br>(Mastroianni, Vinci)
-          riunioni_ovest: Tutorial 4 <br>(Talia, Trunfio)
+          riunioni_est: Tutorial 4 <br>(Talia, Trunfio)
+          riunioni_ovest: Tutorial 1 <br>(Mastroianni, Vinci)
           seminari_est: SNTA
           seminari_ovest: ---
 
@@ -127,8 +127,8 @@ schedule:
 
         rooms:
           gerace: FRAME
-          riunioni_est: Tutorial 1 <br>(Mastroianni, Vinci)
-          riunioni_ovest: Tutorial 4 <br>(Talia, Trunfio)
+          riunioni_est: Tutorial 4 <br>(Talia, Trunfio)
+          riunioni_ovest: Tutorial 1 <br>(Mastroianni, Vinci)
           seminari_est: SNTA
           seminari_ovest: ---
 
