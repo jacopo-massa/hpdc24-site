@@ -21,14 +21,8 @@ layout: page
         <p>
             {{site.data.conference.description}}
             <br>
-            <!-- <center>
-                <button name="button" class="btn btn-success btn-lg shadowedbutton"
-                    onclick="parent.open('{{site.data.registration.url}}')">HPDC Registration Site</button>
-            </center>
-            <br> <br> -->
-
-
             {% include conference_venue.html %}
+            {% include bid.html %}
             {% include sponsors.html %}
         </p>
     </div>
